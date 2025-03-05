@@ -4,7 +4,7 @@ setlocal
 :: Guardar el tiempo de inicio
 set START_TIME=%TIME%
 
-python c:\py_rafa\fitxers_py\descarrega_ftp.py
+python c:\soft_proj\ot4_proj\descarrega_ftp.py
 
 if exist c:\users\onlin\downloads\informe-maes*.csv (
 	del /f c:\users\onlin\downloads\informe-maes*.csv
@@ -54,11 +54,11 @@ if exist "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\HOKA ss25 Especialista.xlsx" (
 	del /F "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\HOKA ss25 Especialista.xlsx"
 )
 
-python C:\py_rafa\fitxers_py\descarrega_season_act_hoka.py
-python c:\py_rafa\fitxers_py\descarregaSPIUK.py
-python c:\py_rafa\fitxers_py\exportaHBcsv.py
-python c:\py_rafa\fitxers_py\descarrega_orca.py
-python c:\py_rafa\fitxers_py\descarregaSF_BL.py
+python C:\soft_proj\ot4_proj\descarrega_season_act_hoka.py
+python c:\soft_proj\ot4_proj\descarregaSPIUK.py
+python c:\soft_proj\ot4_proj\exportaHBcsv.py
+python c:\soft_proj\ot4_proj\descarrega_orca.py
+python c:\soft_proj\ot4_proj\descarregaSF_BL.py
 
 move /Y c:\users\onlin\downloads\informe-maesarti.csv c:\TFF\DOCS\ONLINE\STOCKS_EXTERNS
 move /Y c:\users\onlin\downloads\stocks-spiuk.csv c:\TFF\DOCS\ONLINE\STOCKS_EXTERNS
@@ -67,8 +67,8 @@ move /Y c:\users\onlin\downloads\extract_produits_tailles.csv c:\TFF\DOCS\ONLINE
 move /Y c:\users\onlin\downloads\custom.csv c:\TFF\DOCS\ONLINE\STOCKS_EXTERNS
 move /Y c:\users\onlin\downloads\list.csv C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\STOCK_ORCA.CSV
 
-python c:\py_rafa\fitxers_py\mover_ficheros.py
-python c:\py_rafa\fitxers_py\actua_stock_hoka_2_seasons_con_fechas.py
+python c:\soft_proj\ot4_proj\mover_ficheros.py
+python c:\soft_proj\ot4_proj\actua_stock_hoka_2_seasons_con_fechas.py
 
 :: Calcular el tiempo transcurrido
 set END_TIME=%TIME%
