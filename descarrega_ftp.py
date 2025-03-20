@@ -24,7 +24,7 @@ def run_winscp_script(script_fn, log_fn):
 
 # Ejecutar scripts
 run_winscp_script(SCRIPT_FN1, LOG_FN)
-run_winscp_script(SCRIPT_FN2, LOG_FN)
+# run_winscp_script(SCRIPT_FN2, LOG_FN) aquest era per baixar el stock de cdc peroò ja no ho fem servir
 
 # Verificar y eliminar archivo si existe
 if not os.path.exists(FICH1_PATH):
