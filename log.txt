@@ -6,7 +6,7 @@
 . 2025-03-13 20:26:10.654 Working directory: C:\soft_proj\ot4_proj
 . 2025-03-13 20:26:10.654 Process ID: 17264
 . 2025-03-13 20:26:10.670 Ancestor processes: WinSCP, cmd, python, cmd, explorer, ...
-. 2025-03-13 20:26:10.670 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=6.3.6 /consoleinstance=_15792_134 "/script=C:/Program Files (x86)/WinSCP/prova1ot4.txt" "/log=log.txt" "/ini=nul" 
+. 2025-03-13 20:26:10.670 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=6.3.6 /consoleinstance=_15792_134 "/script=C:/Program Files (x86)/WinSCP/prova1ot4.txt" "/log=log.txt" "/ini=nul"
 . 2025-03-13 20:26:10.670 Time zone: Current: GMT+1, Standard: GMT+1 (Hora estándar romance), DST: GMT+2 (Hora de verano romance), DST Start: 30/03/2025, DST End: 26/10/2025
 . 2025-03-13 20:26:10.670 Login time: jueves, 13 de marzo de 2025 20:26:10
 . 2025-03-13 20:26:10.670 --------------------------------------------------------------------------
@@ -26,7 +26,7 @@
 . 2025-03-13 20:26:10.670 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
 . 2025-03-13 20:26:10.670 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
 . 2025-03-13 20:26:10.670 Cache directory changes: Yes, Permanent: Yes
-. 2025-03-13 20:26:10.670 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2025-03-13 20:26:10.670 Recycle bin: Delete to: No, Overwritten to: No, Bin path:
 . 2025-03-13 20:26:10.670 Timezone offset: 0h 0m
 . 2025-03-13 20:26:10.670 --------------------------------------------------------------------------
 < 2025-03-13 20:26:10.701 Script: Conectando con ftp.opentiendas.com...
@@ -83,7 +83,7 @@
 > 2025-03-13 20:26:11.029 PWD
 < 2025-03-13 20:26:11.045 257 "/" is your current location
 < 2025-03-13 20:26:11.045 Script: /
-> 2025-03-13 20:26:11.045 Script: get /STOCKSSD.CSV "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV"  
+> 2025-03-13 20:26:11.045 Script: get /STOCKSSD.CSV "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV"
 . 2025-03-13 20:26:11.045 Listing file "/STOCKSSD.CSV".
 . 2025-03-13 20:26:11.045 Obteniendo información del archivo...
 > 2025-03-13 20:26:11.045 MLST /STOCKSSD.CSV
@@ -196,7 +196,7 @@
 . 2025-03-15 20:15:19.426 Working directory: C:\soft_proj\ot4_proj
 . 2025-03-15 20:15:19.426 Process ID: 3212
 . 2025-03-15 20:15:19.457 Ancestor processes: WinSCP, cmd, python, cmd, explorer, ...
-. 2025-03-15 20:15:19.457 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=6.3.6 /consoleinstance=_9592_695 "/script=C:/Program Files (x86)/WinSCP/prova1ot4.txt" "/log=log.txt" "/ini=nul" 
+. 2025-03-15 20:15:19.457 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=6.3.6 /consoleinstance=_9592_695 "/script=C:/Program Files (x86)/WinSCP/prova1ot4.txt" "/log=log.txt" "/ini=nul"
 . 2025-03-15 20:15:19.457 Time zone: Current: GMT+1, Standard: GMT+1 (Hora estándar romance), DST: GMT+2 (Hora de verano romance), DST Start: 30/03/2025, DST End: 26/10/2025
 . 2025-03-15 20:15:19.457 Login time: sábado, 15 de marzo de 2025 20:15:19
 . 2025-03-15 20:15:19.457 --------------------------------------------------------------------------
@@ -216,7 +216,7 @@
 . 2025-03-15 20:15:19.457 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
 . 2025-03-15 20:15:19.457 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
 . 2025-03-15 20:15:19.457 Cache directory changes: Yes, Permanent: Yes
-. 2025-03-15 20:15:19.457 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2025-03-15 20:15:19.457 Recycle bin: Delete to: No, Overwritten to: No, Bin path:
 . 2025-03-15 20:15:19.457 Timezone offset: 0h 0m
 . 2025-03-15 20:15:19.457 --------------------------------------------------------------------------
 < 2025-03-15 20:15:19.473 Script: Conectando con ftp.opentiendas.com...
@@ -273,7 +273,7 @@
 > 2025-03-15 20:15:19.812 PWD
 < 2025-03-15 20:15:19.828 257 "/" is your current location
 < 2025-03-15 20:15:19.828 Script: /
-> 2025-03-15 20:15:19.828 Script: get /STOCKSSD.CSV "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV"  
+> 2025-03-15 20:15:19.828 Script: get /STOCKSSD.CSV "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV"
 . 2025-03-15 20:15:19.828 Listing file "/STOCKSSD.CSV".
 . 2025-03-15 20:15:19.828 Obteniendo información del archivo...
 > 2025-03-15 20:15:19.828 MLST /STOCKSSD.CSV
@@ -386,7 +386,7 @@
 . 2025-03-20 17:25:30.923 Working directory: C:\soft_proj\ot4_proj
 . 2025-03-20 17:25:30.923 Process ID: 17932
 . 2025-03-20 17:25:31.001 Ancestor processes: WinSCP, cmd, python, python, powershell, Code, Code, explorer, ...
-. 2025-03-20 17:25:31.001 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=6.3.6 /consoleinstance=_17496_776 "/script=C:/Program Files (x86)/WinSCP/prova1ot4.txt" "/log=log.txt" "/ini=nul" 
+. 2025-03-20 17:25:31.001 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=6.3.6 /consoleinstance=_17496_776 "/script=C:/Program Files (x86)/WinSCP/prova1ot4.txt" "/log=log.txt" "/ini=nul"
 . 2025-03-20 17:25:31.002 Time zone: Current: GMT+1, Standard: GMT+1 (Hora estándar romance), DST: GMT+2 (Hora de verano romance), DST Start: 30/03/2025, DST End: 26/10/2025
 . 2025-03-20 17:25:31.002 Login time: jueves, 20 de marzo de 2025 17:25:31
 . 2025-03-20 17:25:31.002 --------------------------------------------------------------------------
@@ -406,7 +406,7 @@
 . 2025-03-20 17:25:31.002 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
 . 2025-03-20 17:25:31.002 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
 . 2025-03-20 17:25:31.002 Cache directory changes: Yes, Permanent: Yes
-. 2025-03-20 17:25:31.003 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2025-03-20 17:25:31.003 Recycle bin: Delete to: No, Overwritten to: No, Bin path:
 . 2025-03-20 17:25:31.003 Timezone offset: 0h 0m
 . 2025-03-20 17:25:31.003 --------------------------------------------------------------------------
 < 2025-03-20 17:25:31.056 Script: Conectando con ftp.opentiendas.com...
@@ -463,7 +463,7 @@
 > 2025-03-20 17:25:31.350 PWD
 < 2025-03-20 17:25:31.373 257 "/" is your current location
 < 2025-03-20 17:25:31.373 Script: /
-> 2025-03-20 17:25:31.373 Script: get /STOCKSSD.CSV "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV"  
+> 2025-03-20 17:25:31.373 Script: get /STOCKSSD.CSV "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV"
 . 2025-03-20 17:25:31.373 Listing file "/STOCKSSD.CSV".
 . 2025-03-20 17:25:31.373 Obteniendo información del archivo...
 > 2025-03-20 17:25:31.373 MLST /STOCKSSD.CSV
@@ -496,7 +496,7 @@
 . 2025-03-20 17:25:32.727 Descarga completada
 . 2025-03-20 17:25:32.727 Transfer done: '/STOCKSSD.CSV' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV' [7685308]
 . 2025-03-20 17:25:32.727 Copying finished: Transferred: 7.685.308, Elapsed: 0:00:01, CPS: 5.817.795/s
-> 2025-03-20 17:25:32.727 Script: get /ot4_tots_els_productescatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV"  
+> 2025-03-20 17:25:32.727 Script: get /ot4_tots_els_productescatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV"
 . 2025-03-20 17:25:32.727 Listing file "/ot4_tots_els_productescatalogo.csv".
 . 2025-03-20 17:25:32.727 Obteniendo información del archivo...
 > 2025-03-20 17:25:32.727 MLST /ot4_tots_els_productescatalogo.csv
@@ -536,7 +536,8 @@
 < 2025-03-20 17:25:33.420 550 Can't check for file existence
 . 2025-03-20 17:25:33.420 No se pudo obtener información del archivo
 < 2025-03-20 17:25:33.424 Script: No se pudo obtener los atributos del archivo «/productos/productes_catalogo.csv».
-< 2025-03-20 17:25:33.424 No se pudo obtener información del archivo
+< 2025-03-20 17:25:33.424 No se pudo obtener información del archivo
+
 < 2025-03-20 17:25:33.424 Can't check for file existence
 . 2025-03-20 17:25:33.426 Script: Failed
 . 2025-03-20 17:25:33.426 Script: Exit code: 1
@@ -549,7 +550,7 @@
 . 2025-03-20 17:27:39.673 Working directory: C:\soft_proj\ot4_proj
 . 2025-03-20 17:27:39.673 Process ID: 15248
 . 2025-03-20 17:27:39.711 Ancestor processes: WinSCP, cmd, python, python, powershell, Code, Code, explorer, ...
-. 2025-03-20 17:27:39.712 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=6.3.6 /consoleinstance=_9804_423 "/script=C:/Program Files (x86)/WinSCP/prova1ot4.txt" "/log=log.txt" "/ini=nul" 
+. 2025-03-20 17:27:39.712 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=6.3.6 /consoleinstance=_9804_423 "/script=C:/Program Files (x86)/WinSCP/prova1ot4.txt" "/log=log.txt" "/ini=nul"
 . 2025-03-20 17:27:39.712 Time zone: Current: GMT+1, Standard: GMT+1 (Hora estándar romance), DST: GMT+2 (Hora de verano romance), DST Start: 30/03/2025, DST End: 26/10/2025
 . 2025-03-20 17:27:39.712 Login time: jueves, 20 de marzo de 2025 17:27:39
 . 2025-03-20 17:27:39.712 --------------------------------------------------------------------------
@@ -569,7 +570,7 @@
 . 2025-03-20 17:27:39.712 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
 . 2025-03-20 17:27:39.712 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
 . 2025-03-20 17:27:39.712 Cache directory changes: Yes, Permanent: Yes
-. 2025-03-20 17:27:39.712 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2025-03-20 17:27:39.712 Recycle bin: Delete to: No, Overwritten to: No, Bin path:
 . 2025-03-20 17:27:39.712 Timezone offset: 0h 0m
 . 2025-03-20 17:27:39.712 --------------------------------------------------------------------------
 < 2025-03-20 17:27:39.740 Script: Conectando con ftp.opentiendas.com...
@@ -626,7 +627,7 @@
 > 2025-03-20 17:27:40.079 PWD
 < 2025-03-20 17:27:40.110 257 "/" is your current location
 < 2025-03-20 17:27:40.110 Script: /
-> 2025-03-20 17:27:40.111 Script: get /STOCKSSD.CSV "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV"  
+> 2025-03-20 17:27:40.111 Script: get /STOCKSSD.CSV "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV"
 . 2025-03-20 17:27:40.111 Listing file "/STOCKSSD.CSV".
 . 2025-03-20 17:27:40.111 Obteniendo información del archivo...
 > 2025-03-20 17:27:40.111 MLST /STOCKSSD.CSV
@@ -659,7 +660,7 @@
 . 2025-03-20 17:27:41.016 Descarga completada
 . 2025-03-20 17:27:41.016 Transfer done: '/STOCKSSD.CSV' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV' [7685308]
 . 2025-03-20 17:27:41.016 Copying finished: Transferred: 7.685.308, Elapsed: 0:00:00, CPS: 8.733.304/s
-> 2025-03-20 17:27:41.017 Script: get /ot4_tots_els_productescatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV"  
+> 2025-03-20 17:27:41.017 Script: get /ot4_tots_els_productescatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV"
 . 2025-03-20 17:27:41.017 Listing file "/ot4_tots_els_productescatalogo.csv".
 . 2025-03-20 17:27:41.017 Obteniendo información del archivo...
 > 2025-03-20 17:27:41.017 MLST /ot4_tots_els_productescatalogo.csv
@@ -739,7 +740,7 @@
 . 2025-03-20 17:30:06.170 Working directory: C:\soft_proj\ot4_proj
 . 2025-03-20 17:30:06.170 Process ID: 17672
 . 2025-03-20 17:30:06.240 Ancestor processes: WinSCP, cmd, python, python, powershell, Code, Code, explorer, ...
-. 2025-03-20 17:30:06.240 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=6.3.6 /consoleinstance=_5164_288 "/script=C:/Program Files (x86)/WinSCP/prova1ot4.txt" "/log=log.txt" "/ini=nul" 
+. 2025-03-20 17:30:06.240 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=6.3.6 /consoleinstance=_5164_288 "/script=C:/Program Files (x86)/WinSCP/prova1ot4.txt" "/log=log.txt" "/ini=nul"
 . 2025-03-20 17:30:06.240 Time zone: Current: GMT+1, Standard: GMT+1 (Hora estándar romance), DST: GMT+2 (Hora de verano romance), DST Start: 30/03/2025, DST End: 26/10/2025
 . 2025-03-20 17:30:06.240 Login time: jueves, 20 de marzo de 2025 17:30:06
 . 2025-03-20 17:30:06.241 --------------------------------------------------------------------------
@@ -759,7 +760,7 @@
 . 2025-03-20 17:30:06.241 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
 . 2025-03-20 17:30:06.241 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
 . 2025-03-20 17:30:06.241 Cache directory changes: Yes, Permanent: Yes
-. 2025-03-20 17:30:06.241 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2025-03-20 17:30:06.241 Recycle bin: Delete to: No, Overwritten to: No, Bin path:
 . 2025-03-20 17:30:06.241 Timezone offset: 0h 0m
 . 2025-03-20 17:30:06.241 --------------------------------------------------------------------------
 < 2025-03-20 17:30:06.257 Script: Conectando con ftp.opentiendas.com...
@@ -816,7 +817,7 @@
 > 2025-03-20 17:30:06.558 PWD
 < 2025-03-20 17:30:06.592 257 "/" is your current location
 < 2025-03-20 17:30:06.592 Script: /
-> 2025-03-20 17:30:06.592 Script: get /STOCKSSD.CSV "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV"  
+> 2025-03-20 17:30:06.592 Script: get /STOCKSSD.CSV "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV"
 . 2025-03-20 17:30:06.592 Listing file "/STOCKSSD.CSV".
 . 2025-03-20 17:30:06.592 Obteniendo información del archivo...
 > 2025-03-20 17:30:06.592 MLST /STOCKSSD.CSV
@@ -849,7 +850,7 @@
 . 2025-03-20 17:30:07.566 Descarga completada
 . 2025-03-20 17:30:07.566 Transfer done: '/STOCKSSD.CSV' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV' [7685308]
 . 2025-03-20 17:30:07.566 Copying finished: Transferred: 7.685.308, Elapsed: 0:00:00, CPS: 8.081.291/s
-> 2025-03-20 17:30:07.566 Script: get /ot4_tots_els_productescatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV"  
+> 2025-03-20 17:30:07.566 Script: get /ot4_tots_els_productescatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV"
 . 2025-03-20 17:30:07.566 Listing file "/ot4_tots_els_productescatalogo.csv".
 . 2025-03-20 17:30:07.566 Obteniendo información del archivo...
 > 2025-03-20 17:30:07.566 MLST /ot4_tots_els_productescatalogo.csv
@@ -962,7 +963,7 @@
 . 2025-03-20 17:32:40.273 Working directory: C:\soft_proj\ot4_proj
 . 2025-03-20 17:32:40.273 Process ID: 16116
 . 2025-03-20 17:32:40.351 Ancestor processes: WinSCP, cmd, python, python, powershell, Code, Code, explorer, ...
-. 2025-03-20 17:32:40.351 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=6.3.6 /consoleinstance=_16372_646 "/script=C:/Program Files (x86)/WinSCP/prova1ot4.txt" "/log=log.txt" "/ini=nul" 
+. 2025-03-20 17:32:40.351 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=6.3.6 /consoleinstance=_16372_646 "/script=C:/Program Files (x86)/WinSCP/prova1ot4.txt" "/log=log.txt" "/ini=nul"
 . 2025-03-20 17:32:40.351 Time zone: Current: GMT+1, Standard: GMT+1 (Hora estándar romance), DST: GMT+2 (Hora de verano romance), DST Start: 30/03/2025, DST End: 26/10/2025
 . 2025-03-20 17:32:40.351 Login time: jueves, 20 de marzo de 2025 17:32:40
 . 2025-03-20 17:32:40.351 --------------------------------------------------------------------------
@@ -982,7 +983,7 @@
 . 2025-03-20 17:32:40.352 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
 . 2025-03-20 17:32:40.352 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
 . 2025-03-20 17:32:40.352 Cache directory changes: Yes, Permanent: Yes
-. 2025-03-20 17:32:40.352 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2025-03-20 17:32:40.352 Recycle bin: Delete to: No, Overwritten to: No, Bin path:
 . 2025-03-20 17:32:40.352 Timezone offset: 0h 0m
 . 2025-03-20 17:32:40.352 --------------------------------------------------------------------------
 < 2025-03-20 17:32:40.377 Script: Conectando con ftp.opentiendas.com...
@@ -1039,7 +1040,7 @@
 > 2025-03-20 17:32:40.681 PWD
 < 2025-03-20 17:32:40.696 257 "/" is your current location
 < 2025-03-20 17:32:40.696 Script: /
-> 2025-03-20 17:32:40.696 Script: get /STOCKSSD.CSV "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV"  
+> 2025-03-20 17:32:40.696 Script: get /STOCKSSD.CSV "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV"
 . 2025-03-20 17:32:40.696 Listing file "/STOCKSSD.CSV".
 . 2025-03-20 17:32:40.696 Obteniendo información del archivo...
 > 2025-03-20 17:32:40.696 MLST /STOCKSSD.CSV
@@ -1072,7 +1073,7 @@
 . 2025-03-20 17:32:42.016 Descarga completada
 . 2025-03-20 17:32:42.016 Transfer done: '/STOCKSSD.CSV' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV' [7685308]
 . 2025-03-20 17:32:42.016 Copying finished: Transferred: 7.685.308, Elapsed: 0:00:01, CPS: 5.976.133/s
-> 2025-03-20 17:32:42.016 Script: get /ot4_tots_els_productescatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV"  
+> 2025-03-20 17:32:42.016 Script: get /ot4_tots_els_productescatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV"
 . 2025-03-20 17:32:42.016 Listing file "/ot4_tots_els_productescatalogo.csv".
 . 2025-03-20 17:32:42.016 Obteniendo información del archivo...
 > 2025-03-20 17:32:42.016 MLST /ot4_tots_els_productescatalogo.csv
@@ -1185,7 +1186,7 @@
 . 2025-03-22 20:13:00.276 Working directory: C:\soft_proj\ot4_proj
 . 2025-03-22 20:13:00.276 Process ID: 2488
 . 2025-03-22 20:13:00.301 Ancestor processes: WinSCP, cmd, python, cmd, explorer, ...
-. 2025-03-22 20:13:00.301 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=6.3.6 /consoleinstance=_7592_840 "/script=C:/Program Files (x86)/WinSCP/prova1ot4.txt" "/log=log.txt" "/ini=nul" 
+. 2025-03-22 20:13:00.301 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=6.3.6 /consoleinstance=_7592_840 "/script=C:/Program Files (x86)/WinSCP/prova1ot4.txt" "/log=log.txt" "/ini=nul"
 . 2025-03-22 20:13:00.301 Time zone: Current: GMT+1, Standard: GMT+1 (Hora estándar romance), DST: GMT+2 (Hora de verano romance), DST Start: 30/03/2025, DST End: 26/10/2025
 . 2025-03-22 20:13:00.302 Login time: sábado, 22 de marzo de 2025 20:13:00
 . 2025-03-22 20:13:00.302 --------------------------------------------------------------------------
@@ -1205,7 +1206,7 @@
 . 2025-03-22 20:13:00.302 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
 . 2025-03-22 20:13:00.302 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
 . 2025-03-22 20:13:00.302 Cache directory changes: Yes, Permanent: Yes
-. 2025-03-22 20:13:00.302 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2025-03-22 20:13:00.302 Recycle bin: Delete to: No, Overwritten to: No, Bin path:
 . 2025-03-22 20:13:00.302 Timezone offset: 0h 0m
 . 2025-03-22 20:13:00.302 --------------------------------------------------------------------------
 < 2025-03-22 20:13:00.333 Script: Conectando con ftp.opentiendas.com...
@@ -1262,7 +1263,7 @@
 > 2025-03-22 20:13:00.705 PWD
 < 2025-03-22 20:13:00.731 257 "/" is your current location
 < 2025-03-22 20:13:00.731 Script: /
-> 2025-03-22 20:13:00.734 Script: get /STOCKSSD.CSV "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV"  
+> 2025-03-22 20:13:00.734 Script: get /STOCKSSD.CSV "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV"
 . 2025-03-22 20:13:00.734 Listing file "/STOCKSSD.CSV".
 . 2025-03-22 20:13:00.735 Obteniendo información del archivo...
 > 2025-03-22 20:13:00.735 MLST /STOCKSSD.CSV
@@ -1295,7 +1296,7 @@
 . 2025-03-22 20:13:01.625 Descarga completada
 . 2025-03-22 20:13:01.625 Transfer done: '/STOCKSSD.CSV' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV' [7678201]
 . 2025-03-22 20:13:01.625 Copying finished: Transferred: 7.678.201, Elapsed: 0:00:00, CPS: 9.001.407/s
-> 2025-03-22 20:13:01.625 Script: get /ot4_tots_els_productescatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV"  
+> 2025-03-22 20:13:01.625 Script: get /ot4_tots_els_productescatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV"
 . 2025-03-22 20:13:01.625 Listing file "/ot4_tots_els_productescatalogo.csv".
 . 2025-03-22 20:13:01.625 Obteniendo información del archivo...
 > 2025-03-22 20:13:01.625 MLST /ot4_tots_els_productescatalogo.csv
