@@ -1401,3 +1401,2010 @@
 . 2025-03-22 20:13:02.988 Copying finished: Transferred: 1.212.195, Elapsed: 0:00:00, CPS: 3.321.082/s
 > 2025-03-22 20:13:02.988 Script: close
 . 2025-03-22 20:13:02.990 Desconectado del servidor
+. 2025-03-25 11:04:17.391 --------------------------------------------------------------------------
+. 2025-03-25 11:04:17.392 WinSCP Versión 6.3.6 (Compilación 15073 2024-11-25) (OS 10.0.19045 – Windows 10 Enterprise)
+. 2025-03-25 11:04:17.392 Configuration: nul
+. 2025-03-25 11:04:17.392 Log level: Normal
+. 2025-03-25 11:04:17.392 Local account: DELL-2022\onlin
+. 2025-03-25 11:04:17.392 Working directory: C:\soft_proj\ot4_proj
+. 2025-03-25 11:04:17.392 Process ID: 13188
+. 2025-03-25 11:04:17.417 Ancestor processes: WinSCP, cmd, python, cmd, explorer, ...
+. 2025-03-25 11:04:17.418 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=6.3.6 /consoleinstance=_1088_925 "/script=C:/Program Files (x86)/WinSCP/prova1ot4.txt" "/log=log.txt" "/ini=nul" 
+. 2025-03-25 11:04:17.419 Time zone: Current: GMT+1, Standard: GMT+1 (Hora estándar romance), DST: GMT+2 (Hora de verano romance), DST Start: 30/03/2025, DST End: 26/10/2025
+. 2025-03-25 11:04:17.419 Login time: martes, 25 de marzo de 2025 11:04:17
+. 2025-03-25 11:04:17.419 --------------------------------------------------------------------------
+. 2025-03-25 11:04:17.419 Script: Retrospectively logging previous script records:
+> 2025-03-25 11:04:17.419 Script: open ftp://ftpguellji-TriForFun:***@ftp.opentiendas.com/
+. 2025-03-25 11:04:17.419 --------------------------------------------------------------------------
+. 2025-03-25 11:04:17.419 Session name: ftpguellji-TriForFun@ftp.opentiendas.com (Ad-Hoc site)
+. 2025-03-25 11:04:17.419 Host name: ftp.opentiendas.com (Port: 21)
+. 2025-03-25 11:04:17.419 User name: ftpguellji-TriForFun (Password: Yes, Key file: No, Passphrase: No)
+. 2025-03-25 11:04:17.419 Transfer Protocol: FTP
+. 2025-03-25 11:04:17.419 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2025-03-25 11:04:17.419 Disable Nagle: No
+. 2025-03-25 11:04:17.419 Proxy: None
+. 2025-03-25 11:04:17.419 Send buffer: 262144
+. 2025-03-25 11:04:17.419 UTF: Auto
+. 2025-03-25 11:04:17.419 FTPS: None [Client certificate: No]
+. 2025-03-25 11:04:17.419 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2025-03-25 11:04:17.419 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2025-03-25 11:04:17.419 Cache directory changes: Yes, Permanent: Yes
+. 2025-03-25 11:04:17.419 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2025-03-25 11:04:17.419 Timezone offset: 0h 0m
+. 2025-03-25 11:04:17.419 --------------------------------------------------------------------------
+< 2025-03-25 11:04:17.447 Script: Conectando con ftp.opentiendas.com...
+. 2025-03-25 11:04:17.447 Conectando con ftp.opentiendas.com...
+. 2025-03-25 11:04:17.559 Conectado con ftp.opentiendas.com. Esperando bienvenida...
+< 2025-03-25 11:04:17.590 220-  ~~~ Welcome to OVH ~~~
+< 2025-03-25 11:04:17.590 220 This is a private system - No anonymous login
+> 2025-03-25 11:04:17.590 USER ftpguellji-TriForFun
+< 2025-03-25 11:04:17.621 331 User ftpguellji-TriForFun OK. Password required
+> 2025-03-25 11:04:17.621 PASS **********
+< 2025-03-25 11:04:17.702 230 OK. Current restricted directory is /
+> 2025-03-25 11:04:17.702 SYST
+< 2025-03-25 11:04:17.733 215 UNIX Type: L8
+> 2025-03-25 11:04:17.733 FEAT
+< 2025-03-25 11:04:17.765 211-Extensions supported:
+< 2025-03-25 11:04:17.765  EPRT
+< 2025-03-25 11:04:17.765  IDLE
+< 2025-03-25 11:04:17.765  MDTM
+< 2025-03-25 11:04:17.765  SIZE
+< 2025-03-25 11:04:17.765  MFMT
+< 2025-03-25 11:04:17.765  REST STREAM
+< 2025-03-25 11:04:17.765  MLST type*;size*;sizd*;modify*;UNIX.mode*;UNIX.uid*;UNIX.gid*;unique*;
+< 2025-03-25 11:04:17.765  MLSD
+< 2025-03-25 11:04:17.765  AUTH TLS
+< 2025-03-25 11:04:17.765  PBSZ
+< 2025-03-25 11:04:17.783  PROT
+< 2025-03-25 11:04:17.783  UTF8
+< 2025-03-25 11:04:17.783  TVFS
+< 2025-03-25 11:04:17.783  ESTA
+< 2025-03-25 11:04:17.783  PASV
+< 2025-03-25 11:04:17.783  EPSV
+< 2025-03-25 11:04:17.783  SPSV
+< 2025-03-25 11:04:17.783  ESTP
+< 2025-03-25 11:04:17.784 211 End.
+> 2025-03-25 11:04:17.784 OPTS UTF8 ON
+< 2025-03-25 11:04:17.814 200 OK, UTF-8 enabled
+< 2025-03-25 11:04:17.814 Script: Conectado
+. 2025-03-25 11:04:17.814 Conectado
+. 2025-03-25 11:04:17.814 --------------------------------------------------------------------------
+. 2025-03-25 11:04:17.814 Using FTP protocol.
+. 2025-03-25 11:04:17.814 Doing startup conversation with host.
+< 2025-03-25 11:04:17.814 Script: Iniciando la sesión...
+> 2025-03-25 11:04:17.819 PWD
+< 2025-03-25 11:04:17.850 257 "/" is your current location
+. 2025-03-25 11:04:17.850 Getting current directory name.
+. 2025-03-25 11:04:17.850 Startup conversation with host finished.
+< 2025-03-25 11:04:17.850 Script: Sesión iniciada.
+< 2025-03-25 11:04:17.850 Script: Sesión activa: [1] ftpguellji-TriForFun@ftp.opentiendas.com
+> 2025-03-25 11:04:17.852 Script: cd /
+. 2025-03-25 11:04:17.852 Changing directory to "/".
+> 2025-03-25 11:04:17.853 CWD /
+< 2025-03-25 11:04:17.885 250 OK. Current directory is /
+. 2025-03-25 11:04:17.885 Getting current directory name.
+> 2025-03-25 11:04:17.885 PWD
+< 2025-03-25 11:04:17.916 257 "/" is your current location
+< 2025-03-25 11:04:17.916 Script: /
+> 2025-03-25 11:04:17.918 Script: get /STOCKSSD.CSV "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV"  
+. 2025-03-25 11:04:17.918 Listing file "/STOCKSSD.CSV".
+. 2025-03-25 11:04:17.918 Obteniendo información del archivo...
+> 2025-03-25 11:04:17.918 MLST /STOCKSSD.CSV
+< 2025-03-25 11:04:17.949 250-Begin
+< 2025-03-25 11:04:17.949  type=file;size=7678186;modify=20250325060437;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g41bcbcb; /STOCKSSD.CSV
+< 2025-03-25 11:04:17.950 250 End.
+. 2025-03-25 11:04:17.955  type=file;size=7678186;modify=20250325060437;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g41bcbcb; /STOCKSSD.CSV
+. 2025-03-25 11:04:17.955 Información del archivo descargada
+. 2025-03-25 11:04:17.958 STOCKSSD.CSV;-;7678186;2025-03-25T06:04:37.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-03-25 11:04:17.960 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\" - total size: 7.678.186
+. 2025-03-25 11:04:17.961   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: STOCKSSD.CSV
+. 2025-03-25 11:04:17.961   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-03-25 11:04:17.961   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-03-25 11:04:17.962 File: '/STOCKSSD.CSV' [2025-03-25T06:04:37.000Z] [7678186]
+. 2025-03-25 11:04:17.962 Copying "/STOCKSSD.CSV" to local directory started.
+. 2025-03-25 11:04:17.963 Binary transfer mode selected.
+. 2025-03-25 11:04:17.964 Iniciando descarga de /STOCKSSD.CSV
+> 2025-03-25 11:04:17.964 TYPE I
+< 2025-03-25 11:04:17.996 200 TYPE is now 8-bit binary
+> 2025-03-25 11:04:17.996 PASV
+< 2025-03-25 11:04:18.027 227 Entering Passive Mode (91,134,248,208,66,211)
+> 2025-03-25 11:04:18.027 RETR STOCKSSD.CSV
+. 2025-03-25 11:04:18.027 Conectando con 91.134.248.208:17107...
+< 2025-03-25 11:04:18.089 150-Accepted data connection
+< 2025-03-25 11:04:18.089 150 7498.2 kbytes to download
+< 2025-03-25 11:04:18.755 226-File successfully transferred
+< 2025-03-25 11:04:18.755 226 0.622 seconds (measured here), 11.77 Mbytes per second
+. 2025-03-25 11:04:18.852 Data connection closed
+. 2025-03-25 11:04:18.852 Preserving timestamp [2025-03-25T06:04:37.000Z]
+. 2025-03-25 11:04:18.853 Descarga completada
+. 2025-03-25 11:04:18.854 Transfer done: '/STOCKSSD.CSV' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV' [7678186]
+. 2025-03-25 11:04:18.854 Copying finished: Transferred: 7.678.186, Elapsed: 0:00:00, CPS: 8.588.574/s
+> 2025-03-25 11:04:18.855 Script: get /ot4_tots_els_productescatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV"  
+. 2025-03-25 11:04:18.855 Listing file "/ot4_tots_els_productescatalogo.csv".
+. 2025-03-25 11:04:18.856 Obteniendo información del archivo...
+> 2025-03-25 11:04:18.856 MLST /ot4_tots_els_productescatalogo.csv
+< 2025-03-25 11:04:18.887 250-Begin
+< 2025-03-25 11:04:18.887  type=file;size=5355788;modify=20250325093454;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g81f53e5; /ot4_tots_els_productescatalogo.csv
+< 2025-03-25 11:04:18.887 250 End.
+. 2025-03-25 11:04:18.887  type=file;size=5355788;modify=20250325093454;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g81f53e5; /ot4_tots_els_productescatalogo.csv
+. 2025-03-25 11:04:18.887 Información del archivo descargada
+. 2025-03-25 11:04:18.887 ot4_tots_els_productescatalogo.csv;-;5355788;2025-03-25T09:34:54.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-03-25 11:04:18.887 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\" - total size: 5.355.788
+. 2025-03-25 11:04:18.887   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: OT4_TOTS_ELS_PRODUCTES.CSV
+. 2025-03-25 11:04:18.887   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-03-25 11:04:18.887   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-03-25 11:04:18.887 File: '/ot4_tots_els_productescatalogo.csv' [2025-03-25T09:34:54.000Z] [5355788]
+. 2025-03-25 11:04:18.888 Copying "/ot4_tots_els_productescatalogo.csv" to local directory started.
+. 2025-03-25 11:04:18.888 Binary transfer mode selected.
+. 2025-03-25 11:04:18.889 Iniciando descarga de /ot4_tots_els_productescatalogo.csv
+> 2025-03-25 11:04:18.889 TYPE I
+< 2025-03-25 11:04:18.920 200 TYPE is now 8-bit binary
+> 2025-03-25 11:04:18.920 PASV
+< 2025-03-25 11:04:18.951 227 Entering Passive Mode (91,134,248,208,73,144)
+> 2025-03-25 11:04:18.951 RETR ot4_tots_els_productescatalogo.csv
+. 2025-03-25 11:04:18.951 Conectando con 91.134.248.208:18832...
+< 2025-03-25 11:04:19.001 150-Accepted data connection
+< 2025-03-25 11:04:19.001 150 5230.3 kbytes to download
+< 2025-03-25 11:04:19.434 226-File successfully transferred
+< 2025-03-25 11:04:19.434 226 0.364 seconds (measured here), 14.02 Mbytes per second
+. 2025-03-25 11:04:19.558 Data connection closed
+. 2025-03-25 11:04:19.560 Preserving timestamp [2025-03-25T09:34:54.000Z]
+. 2025-03-25 11:04:19.560 Descarga completada
+. 2025-03-25 11:04:19.560 Transfer done: '/ot4_tots_els_productescatalogo.csv' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV' [5355788]
+. 2025-03-25 11:04:19.560 Copying finished: Transferred: 5.355.788, Elapsed: 0:00:00, CPS: 7.958.080/s
+> 2025-03-25 11:04:19.560 Script: get /productes_orcacatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\productes_orcacatalogo.CSV"
+. 2025-03-25 11:04:19.561 Listing file "/productes_orcacatalogo.csv".
+. 2025-03-25 11:04:19.561 Obteniendo información del archivo...
+> 2025-03-25 11:04:19.561 MLST /productes_orcacatalogo.csv
+< 2025-03-25 11:04:19.591 250-Begin
+< 2025-03-25 11:04:19.591  type=file;size=222216;modify=20250325094721;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g824ec9d; /productes_orcacatalogo.csv
+< 2025-03-25 11:04:19.591 250 End.
+. 2025-03-25 11:04:19.591  type=file;size=222216;modify=20250325094721;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g824ec9d; /productes_orcacatalogo.csv
+. 2025-03-25 11:04:19.605 Información del archivo descargada
+. 2025-03-25 11:04:19.605 productes_orcacatalogo.csv;-;222216;2025-03-25T09:47:21.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-03-25 11:04:19.605 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\" - total size: 222.216
+. 2025-03-25 11:04:19.605   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: productes_orcacatalogo.CSV
+. 2025-03-25 11:04:19.605   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-03-25 11:04:19.605   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-03-25 11:04:19.605 File: '/productes_orcacatalogo.csv' [2025-03-25T09:47:21.000Z] [222216]
+. 2025-03-25 11:04:19.606 Copying "/productes_orcacatalogo.csv" to local directory started.
+. 2025-03-25 11:04:19.606 Binary transfer mode selected.
+. 2025-03-25 11:04:19.606 Iniciando descarga de /productes_orcacatalogo.csv
+> 2025-03-25 11:04:19.606 TYPE I
+< 2025-03-25 11:04:19.637 200 TYPE is now 8-bit binary
+> 2025-03-25 11:04:19.637 PASV
+< 2025-03-25 11:04:19.668 227 Entering Passive Mode (91,134,248,208,95,118)
+> 2025-03-25 11:04:19.668 RETR productes_orcacatalogo.csv
+. 2025-03-25 11:04:19.668 Conectando con 91.134.248.208:24438...
+< 2025-03-25 11:04:19.729 150-Accepted data connection
+< 2025-03-25 11:04:19.729 150 217.0 kbytes to download
+< 2025-03-25 11:04:19.825 226-File successfully transferred
+< 2025-03-25 11:04:19.825 226 0.093 seconds (measured here), 2.28 Mbytes per second
+. 2025-03-25 11:04:19.852 Data connection closed
+. 2025-03-25 11:04:19.853 Preserving timestamp [2025-03-25T09:47:21.000Z]
+. 2025-03-25 11:04:19.853 Descarga completada
+. 2025-03-25 11:04:19.853 Transfer done: '/productes_orcacatalogo.csv' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\productes_orcacatalogo.CSV' [222216]
+. 2025-03-25 11:04:19.853 Copying finished: Transferred: 222.216, Elapsed: 0:00:00, CPS: 896.032/s
+> 2025-03-25 11:04:19.854 Script: get /productos/productes_hokacatalogo.csv  "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\productes_hokacatalogo.CSV"
+. 2025-03-25 11:04:19.854 Listing file "/productos/productes_hokacatalogo.csv".
+. 2025-03-25 11:04:19.854 Obteniendo información del archivo...
+> 2025-03-25 11:04:19.854 MLST /productos/productes_hokacatalogo.csv
+< 2025-03-25 11:04:19.885 250-Begin
+< 2025-03-25 11:04:19.885  type=file;size=1211900;modify=20250325085734;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g2bf158c; /productos/productes_hokacatalogo.csv
+< 2025-03-25 11:04:19.885 250 End.
+. 2025-03-25 11:04:19.885  type=file;size=1211900;modify=20250325085734;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g2bf158c; /productos/productes_hokacatalogo.csv
+. 2025-03-25 11:04:19.885 Información del archivo descargada
+. 2025-03-25 11:04:19.885 productes_hokacatalogo.csv;-;1211900;2025-03-25T08:57:34.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-03-25 11:04:19.885 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\" - total size: 1.211.900
+. 2025-03-25 11:04:19.885   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: productes_hokacatalogo.CSV
+. 2025-03-25 11:04:19.885   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-03-25 11:04:19.885   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-03-25 11:04:19.885 File: '/productos/productes_hokacatalogo.csv' [2025-03-25T08:57:34.000Z] [1211900]
+. 2025-03-25 11:04:19.886 Copying "/productos/productes_hokacatalogo.csv" to local directory started.
+. 2025-03-25 11:04:19.886 Binary transfer mode selected.
+. 2025-03-25 11:04:19.886 Iniciando descarga de /productos/productes_hokacatalogo.csv
+> 2025-03-25 11:04:19.886 CWD /productos
+< 2025-03-25 11:04:19.916 250 OK. Current directory is /productos
+> 2025-03-25 11:04:19.917 PWD
+< 2025-03-25 11:04:19.946 257 "/productos" is your current location
+> 2025-03-25 11:04:19.947 TYPE I
+< 2025-03-25 11:04:19.978 200 TYPE is now 8-bit binary
+> 2025-03-25 11:04:19.978 PASV
+< 2025-03-25 11:04:20.008 227 Entering Passive Mode (91,134,248,208,43,200)
+> 2025-03-25 11:04:20.008 RETR productes_hokacatalogo.csv
+. 2025-03-25 11:04:20.008 Conectando con 91.134.248.208:11208...
+< 2025-03-25 11:04:20.054 150-Accepted data connection
+< 2025-03-25 11:04:20.054 150 1183.5 kbytes to download
+< 2025-03-25 11:04:20.193 226-File successfully transferred
+< 2025-03-25 11:04:20.193 226 0.125 seconds (measured here), 9.25 Mbytes per second
+. 2025-03-25 11:04:20.233 Data connection closed
+. 2025-03-25 11:04:20.234 Preserving timestamp [2025-03-25T08:57:34.000Z]
+. 2025-03-25 11:04:20.234 Descarga completada
+. 2025-03-25 11:04:20.234 Transfer done: '/productos/productes_hokacatalogo.csv' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\productes_hokacatalogo.CSV' [1211900]
+. 2025-03-25 11:04:20.235 Copying finished: Transferred: 1.211.900, Elapsed: 0:00:00, CPS: 3.462.571/s
+> 2025-03-25 11:04:20.235 Script: close
+. 2025-03-25 11:04:20.238 Desconectado del servidor
+. 2025-03-25 20:07:49.689 --------------------------------------------------------------------------
+. 2025-03-25 20:07:49.689 WinSCP Versión 6.3.6 (Compilación 15073 2024-11-25) (OS 10.0.19045 – Windows 10 Enterprise)
+. 2025-03-25 20:07:49.689 Configuration: nul
+. 2025-03-25 20:07:49.689 Log level: Normal
+. 2025-03-25 20:07:49.689 Local account: DELL-2022\onlin
+. 2025-03-25 20:07:49.689 Working directory: C:\soft_proj\ot4_proj
+. 2025-03-25 20:07:49.689 Process ID: 20280
+. 2025-03-25 20:07:49.705 Ancestor processes: WinSCP, cmd, python, cmd, explorer, ...
+. 2025-03-25 20:07:49.705 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=6.3.6 /consoleinstance=_14048_927 "/script=C:/Program Files (x86)/WinSCP/prova1ot4.txt" "/log=log.txt" "/ini=nul" 
+. 2025-03-25 20:07:49.705 Time zone: Current: GMT+1, Standard: GMT+1 (Hora estándar romance), DST: GMT+2 (Hora de verano romance), DST Start: 30/03/2025, DST End: 26/10/2025
+. 2025-03-25 20:07:49.705 Login time: martes, 25 de marzo de 2025 20:07:49
+. 2025-03-25 20:07:49.705 --------------------------------------------------------------------------
+. 2025-03-25 20:07:49.705 Script: Retrospectively logging previous script records:
+> 2025-03-25 20:07:49.705 Script: open ftp://ftpguellji-TriForFun:***@ftp.opentiendas.com/
+. 2025-03-25 20:07:49.705 --------------------------------------------------------------------------
+. 2025-03-25 20:07:49.705 Session name: ftpguellji-TriForFun@ftp.opentiendas.com (Ad-Hoc site)
+. 2025-03-25 20:07:49.705 Host name: ftp.opentiendas.com (Port: 21)
+. 2025-03-25 20:07:49.705 User name: ftpguellji-TriForFun (Password: Yes, Key file: No, Passphrase: No)
+. 2025-03-25 20:07:49.705 Transfer Protocol: FTP
+. 2025-03-25 20:07:49.705 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2025-03-25 20:07:49.705 Disable Nagle: No
+. 2025-03-25 20:07:49.705 Proxy: None
+. 2025-03-25 20:07:49.705 Send buffer: 262144
+. 2025-03-25 20:07:49.705 UTF: Auto
+. 2025-03-25 20:07:49.705 FTPS: None [Client certificate: No]
+. 2025-03-25 20:07:49.705 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2025-03-25 20:07:49.705 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2025-03-25 20:07:49.705 Cache directory changes: Yes, Permanent: Yes
+. 2025-03-25 20:07:49.705 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2025-03-25 20:07:49.705 Timezone offset: 0h 0m
+. 2025-03-25 20:07:49.705 --------------------------------------------------------------------------
+< 2025-03-25 20:07:49.736 Script: Conectando con ftp.opentiendas.com...
+. 2025-03-25 20:07:49.736 Conectando con ftp.opentiendas.com...
+. 2025-03-25 20:07:49.874 Conectado con ftp.opentiendas.com. Esperando bienvenida...
+< 2025-03-25 20:07:49.905 220-  ~~~ Welcome to OVH ~~~
+< 2025-03-25 20:07:49.905 220 This is a private system - No anonymous login
+> 2025-03-25 20:07:49.905 USER ftpguellji-TriForFun
+< 2025-03-25 20:07:49.921 331 User ftpguellji-TriForFun OK. Password required
+> 2025-03-25 20:07:49.936 PASS **********
+< 2025-03-25 20:07:50.006 230 OK. Current restricted directory is /
+> 2025-03-25 20:07:50.006 SYST
+< 2025-03-25 20:07:50.021 215 UNIX Type: L8
+> 2025-03-25 20:07:50.021 FEAT
+< 2025-03-25 20:07:50.052 211-Extensions supported:
+< 2025-03-25 20:07:50.052  EPRT
+< 2025-03-25 20:07:50.052  IDLE
+< 2025-03-25 20:07:50.052  MDTM
+< 2025-03-25 20:07:50.052  SIZE
+< 2025-03-25 20:07:50.052  MFMT
+< 2025-03-25 20:07:50.052  REST STREAM
+< 2025-03-25 20:07:50.052  MLST type*;size*;sizd*;modify*;UNIX.mode*;UNIX.uid*;UNIX.gid*;unique*;
+< 2025-03-25 20:07:50.052  MLSD
+< 2025-03-25 20:07:50.052  AUTH TLS
+< 2025-03-25 20:07:50.052  PBSZ
+< 2025-03-25 20:07:50.052  PROT
+< 2025-03-25 20:07:50.052  UTF8
+< 2025-03-25 20:07:50.052  TVFS
+< 2025-03-25 20:07:50.052  ESTA
+< 2025-03-25 20:07:50.052  PASV
+< 2025-03-25 20:07:50.052  EPSV
+< 2025-03-25 20:07:50.052  SPSV
+< 2025-03-25 20:07:50.052  ESTP
+< 2025-03-25 20:07:50.052 211 End.
+> 2025-03-25 20:07:50.052 OPTS UTF8 ON
+< 2025-03-25 20:07:50.075 200 OK, UTF-8 enabled
+< 2025-03-25 20:07:50.075 Script: Conectado
+. 2025-03-25 20:07:50.075 Conectado
+. 2025-03-25 20:07:50.075 --------------------------------------------------------------------------
+. 2025-03-25 20:07:50.075 Using FTP protocol.
+. 2025-03-25 20:07:50.075 Doing startup conversation with host.
+< 2025-03-25 20:07:50.075 Script: Iniciando la sesión...
+> 2025-03-25 20:07:50.075 PWD
+< 2025-03-25 20:07:50.106 257 "/" is your current location
+. 2025-03-25 20:07:50.106 Getting current directory name.
+. 2025-03-25 20:07:50.106 Startup conversation with host finished.
+< 2025-03-25 20:07:50.106 Script: Sesión iniciada.
+< 2025-03-25 20:07:50.106 Script: Sesión activa: [1] ftpguellji-TriForFun@ftp.opentiendas.com
+> 2025-03-25 20:07:50.106 Script: cd /
+. 2025-03-25 20:07:50.106 Changing directory to "/".
+> 2025-03-25 20:07:50.106 CWD /
+< 2025-03-25 20:07:50.137 250 OK. Current directory is /
+. 2025-03-25 20:07:50.137 Getting current directory name.
+> 2025-03-25 20:07:50.137 PWD
+< 2025-03-25 20:07:50.168 257 "/" is your current location
+< 2025-03-25 20:07:50.168 Script: /
+> 2025-03-25 20:07:50.168 Script: get /STOCKSSD.CSV "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV"  
+. 2025-03-25 20:07:50.168 Listing file "/STOCKSSD.CSV".
+. 2025-03-25 20:07:50.168 Obteniendo información del archivo...
+> 2025-03-25 20:07:50.168 MLST /STOCKSSD.CSV
+< 2025-03-25 20:07:50.191 250-Begin
+< 2025-03-25 20:07:50.191  type=file;size=7678670;modify=20250325130441;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g82711bf; /STOCKSSD.CSV
+< 2025-03-25 20:07:50.191 250 End.
+. 2025-03-25 20:07:50.191  type=file;size=7678670;modify=20250325130441;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g82711bf; /STOCKSSD.CSV
+. 2025-03-25 20:07:50.191 Información del archivo descargada
+. 2025-03-25 20:07:50.191 STOCKSSD.CSV;-;7678670;2025-03-25T13:04:41.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-03-25 20:07:50.191 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\" - total size: 7.678.670
+. 2025-03-25 20:07:50.191   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: STOCKSSD.CSV
+. 2025-03-25 20:07:50.191   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-03-25 20:07:50.191   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-03-25 20:07:50.191 File: '/STOCKSSD.CSV' [2025-03-25T13:04:41.000Z] [7678670]
+. 2025-03-25 20:07:50.191 Copying "/STOCKSSD.CSV" to local directory started.
+. 2025-03-25 20:07:50.191 Binary transfer mode selected.
+. 2025-03-25 20:07:50.191 Iniciando descarga de /STOCKSSD.CSV
+> 2025-03-25 20:07:50.191 TYPE I
+< 2025-03-25 20:07:50.222 200 TYPE is now 8-bit binary
+> 2025-03-25 20:07:50.222 PASV
+< 2025-03-25 20:07:50.253 227 Entering Passive Mode (91,134,248,208,59,204)
+> 2025-03-25 20:07:50.253 RETR STOCKSSD.CSV
+. 2025-03-25 20:07:50.253 Conectando con 91.134.248.208:15308...
+< 2025-03-25 20:07:50.291 150-Accepted data connection
+< 2025-03-25 20:07:50.322 150 7498.7 kbytes to download
+< 2025-03-25 20:07:50.924 226-File successfully transferred
+< 2025-03-25 20:07:50.924 226 0.589 seconds (measured here), 12.43 Mbytes per second
+. 2025-03-25 20:07:51.024 Data connection closed
+. 2025-03-25 20:07:51.024 Preserving timestamp [2025-03-25T13:04:41.000Z]
+. 2025-03-25 20:07:51.024 Descarga completada
+. 2025-03-25 20:07:51.024 Transfer done: '/STOCKSSD.CSV' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV' [7678670]
+. 2025-03-25 20:07:51.024 Copying finished: Transferred: 7.678.670, Elapsed: 0:00:00, CPS: 9.218.091/s
+> 2025-03-25 20:07:51.024 Script: get /ot4_tots_els_productescatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV"  
+. 2025-03-25 20:07:51.024 Listing file "/ot4_tots_els_productescatalogo.csv".
+. 2025-03-25 20:07:51.024 Obteniendo información del archivo...
+> 2025-03-25 20:07:51.024 MLST /ot4_tots_els_productescatalogo.csv
+< 2025-03-25 20:07:51.056 250-Begin
+< 2025-03-25 20:07:51.056  type=file;size=5357196;modify=20250325164134;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g42b7041; /ot4_tots_els_productescatalogo.csv
+< 2025-03-25 20:07:51.056 250 End.
+. 2025-03-25 20:07:51.056  type=file;size=5357196;modify=20250325164134;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g42b7041; /ot4_tots_els_productescatalogo.csv
+. 2025-03-25 20:07:51.056 Información del archivo descargada
+. 2025-03-25 20:07:51.056 ot4_tots_els_productescatalogo.csv;-;5357196;2025-03-25T16:41:34.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-03-25 20:07:51.056 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\" - total size: 5.357.196
+. 2025-03-25 20:07:51.056   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: OT4_TOTS_ELS_PRODUCTES.CSV
+. 2025-03-25 20:07:51.056   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-03-25 20:07:51.056   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-03-25 20:07:51.056 File: '/ot4_tots_els_productescatalogo.csv' [2025-03-25T16:41:34.000Z] [5357196]
+. 2025-03-25 20:07:51.056 Copying "/ot4_tots_els_productescatalogo.csv" to local directory started.
+. 2025-03-25 20:07:51.056 Binary transfer mode selected.
+. 2025-03-25 20:07:51.056 Iniciando descarga de /ot4_tots_els_productescatalogo.csv
+> 2025-03-25 20:07:51.056 TYPE I
+< 2025-03-25 20:07:51.093 200 TYPE is now 8-bit binary
+> 2025-03-25 20:07:51.093 PASV
+< 2025-03-25 20:07:51.109 227 Entering Passive Mode (91,134,248,208,71,228)
+> 2025-03-25 20:07:51.109 RETR ot4_tots_els_productescatalogo.csv
+. 2025-03-25 20:07:51.109 Conectando con 91.134.248.208:18404...
+< 2025-03-25 20:07:51.156 150-Accepted data connection
+< 2025-03-25 20:07:51.156 150 5231.6 kbytes to download
+< 2025-03-25 20:07:51.673 226-File successfully transferred
+< 2025-03-25 20:07:51.673 226 0.473 seconds (measured here), 10.80 Mbytes per second
+. 2025-03-25 20:07:51.711 Data connection closed
+. 2025-03-25 20:07:51.711 Preserving timestamp [2025-03-25T16:41:34.000Z]
+. 2025-03-25 20:07:51.711 Descarga completada
+. 2025-03-25 20:07:51.711 Transfer done: '/ot4_tots_els_productescatalogo.csv' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV' [5357196]
+. 2025-03-25 20:07:51.711 Copying finished: Transferred: 5.357.196, Elapsed: 0:00:00, CPS: 8.178.925/s
+> 2025-03-25 20:07:51.711 Script: get /productes_orcacatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\productes_orcacatalogo.CSV"
+. 2025-03-25 20:07:51.711 Listing file "/productes_orcacatalogo.csv".
+. 2025-03-25 20:07:51.711 Obteniendo información del archivo...
+> 2025-03-25 20:07:51.711 MLST /productes_orcacatalogo.csv
+< 2025-03-25 20:07:51.742 250-Begin
+< 2025-03-25 20:07:51.742  type=file;size=222216;modify=20250325180934;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g4215a87; /productes_orcacatalogo.csv
+< 2025-03-25 20:07:51.742 250 End.
+. 2025-03-25 20:07:51.742  type=file;size=222216;modify=20250325180934;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g4215a87; /productes_orcacatalogo.csv
+. 2025-03-25 20:07:51.742 Información del archivo descargada
+. 2025-03-25 20:07:51.742 productes_orcacatalogo.csv;-;222216;2025-03-25T18:09:34.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-03-25 20:07:51.742 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\" - total size: 222.216
+. 2025-03-25 20:07:51.742   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: productes_orcacatalogo.CSV
+. 2025-03-25 20:07:51.742   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-03-25 20:07:51.742   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-03-25 20:07:51.742 File: '/productes_orcacatalogo.csv' [2025-03-25T18:09:34.000Z] [222216]
+. 2025-03-25 20:07:51.742 Copying "/productes_orcacatalogo.csv" to local directory started.
+. 2025-03-25 20:07:51.742 Binary transfer mode selected.
+. 2025-03-25 20:07:51.742 Iniciando descarga de /productes_orcacatalogo.csv
+> 2025-03-25 20:07:51.742 TYPE I
+< 2025-03-25 20:07:51.773 200 TYPE is now 8-bit binary
+> 2025-03-25 20:07:51.773 PASV
+< 2025-03-25 20:07:51.795 227 Entering Passive Mode (91,134,248,208,51,159)
+> 2025-03-25 20:07:51.795 RETR productes_orcacatalogo.csv
+. 2025-03-25 20:07:51.795 Conectando con 91.134.248.208:13215...
+< 2025-03-25 20:07:51.842 150-Accepted data connection
+< 2025-03-25 20:07:51.842 150 217.0 kbytes to download
+< 2025-03-25 20:07:51.942 226-File successfully transferred
+< 2025-03-25 20:07:51.942 226 0.094 seconds (measured here), 2.26 Mbytes per second
+. 2025-03-25 20:07:51.942 Data connection closed
+. 2025-03-25 20:07:51.942 Preserving timestamp [2025-03-25T18:09:34.000Z]
+. 2025-03-25 20:07:51.942 Descarga completada
+. 2025-03-25 20:07:51.942 Transfer done: '/productes_orcacatalogo.csv' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\productes_orcacatalogo.CSV' [222216]
+. 2025-03-25 20:07:51.942 Copying finished: Transferred: 222.216, Elapsed: 0:00:00, CPS: 1.111.080/s
+> 2025-03-25 20:07:51.942 Script: get /productos/productes_hokacatalogo.csv  "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\productes_hokacatalogo.CSV"
+. 2025-03-25 20:07:51.942 Listing file "/productos/productes_hokacatalogo.csv".
+. 2025-03-25 20:07:51.942 Obteniendo información del archivo...
+> 2025-03-25 20:07:51.942 MLST /productos/productes_hokacatalogo.csv
+< 2025-03-25 20:07:51.974 250-Begin
+< 2025-03-25 20:07:51.974  type=file;size=1211900;modify=20250325172035;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39ga1049a7; /productos/productes_hokacatalogo.csv
+< 2025-03-25 20:07:51.974 250 End.
+. 2025-03-25 20:07:51.974  type=file;size=1211900;modify=20250325172035;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39ga1049a7; /productos/productes_hokacatalogo.csv
+. 2025-03-25 20:07:51.974 Información del archivo descargada
+. 2025-03-25 20:07:51.974 productes_hokacatalogo.csv;-;1211900;2025-03-25T17:20:35.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-03-25 20:07:51.974 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\" - total size: 1.211.900
+. 2025-03-25 20:07:51.974   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: productes_hokacatalogo.CSV
+. 2025-03-25 20:07:51.974   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-03-25 20:07:51.974   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-03-25 20:07:51.974 File: '/productos/productes_hokacatalogo.csv' [2025-03-25T17:20:35.000Z] [1211900]
+. 2025-03-25 20:07:51.974 Copying "/productos/productes_hokacatalogo.csv" to local directory started.
+. 2025-03-25 20:07:51.974 Binary transfer mode selected.
+. 2025-03-25 20:07:51.974 Iniciando descarga de /productos/productes_hokacatalogo.csv
+> 2025-03-25 20:07:51.974 CWD /productos
+< 2025-03-25 20:07:51.996 250 OK. Current directory is /productos
+> 2025-03-25 20:07:51.996 PWD
+< 2025-03-25 20:07:52.027 257 "/productos" is your current location
+> 2025-03-25 20:07:52.027 TYPE I
+< 2025-03-25 20:07:52.043 200 TYPE is now 8-bit binary
+> 2025-03-25 20:07:52.043 PASV
+< 2025-03-25 20:07:52.080 227 Entering Passive Mode (91,134,248,208,49,176)
+> 2025-03-25 20:07:52.080 RETR productes_hokacatalogo.csv
+. 2025-03-25 20:07:52.080 Conectando con 91.134.248.208:12720...
+< 2025-03-25 20:07:52.127 150-Accepted data connection
+< 2025-03-25 20:07:52.127 150 1183.5 kbytes to download
+< 2025-03-25 20:07:52.454 226-File successfully transferred
+< 2025-03-25 20:07:52.454 226 0.329 seconds (measured here), 3.51 Mbytes per second
+. 2025-03-25 20:07:52.469 Data connection closed
+. 2025-03-25 20:07:52.469 Preserving timestamp [2025-03-25T17:20:35.000Z]
+. 2025-03-25 20:07:52.469 Descarga completada
+. 2025-03-25 20:07:52.469 Transfer done: '/productos/productes_hokacatalogo.csv' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\productes_hokacatalogo.CSV' [1211900]
+. 2025-03-25 20:07:52.469 Copying finished: Transferred: 1.211.900, Elapsed: 0:00:00, CPS: 2.448.282/s
+> 2025-03-25 20:07:52.469 Script: close
+. 2025-03-25 20:07:52.469 Desconectado del servidor
+. 2025-03-26 20:21:58.581 --------------------------------------------------------------------------
+. 2025-03-26 20:21:58.581 WinSCP Versión 6.3.6 (Compilación 15073 2024-11-25) (OS 10.0.19045 – Windows 10 Enterprise)
+. 2025-03-26 20:21:58.581 Configuration: nul
+. 2025-03-26 20:21:58.581 Log level: Normal
+. 2025-03-26 20:21:58.581 Local account: DELL-2022\onlin
+. 2025-03-26 20:21:58.581 Working directory: C:\soft_proj\ot4_proj
+. 2025-03-26 20:21:58.581 Process ID: 21944
+. 2025-03-26 20:21:58.609 Ancestor processes: WinSCP, cmd, python, cmd, explorer, ...
+. 2025-03-26 20:21:58.609 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=6.3.6 /consoleinstance=_22924_190 "/script=C:/Program Files (x86)/WinSCP/prova1ot4.txt" "/log=log.txt" "/ini=nul" 
+. 2025-03-26 20:21:58.609 Time zone: Current: GMT+1, Standard: GMT+1 (Hora estándar romance), DST: GMT+2 (Hora de verano romance), DST Start: 30/03/2025, DST End: 26/10/2025
+. 2025-03-26 20:21:58.610 Login time: miércoles, 26 de marzo de 2025 20:21:58
+. 2025-03-26 20:21:58.610 --------------------------------------------------------------------------
+. 2025-03-26 20:21:58.610 Script: Retrospectively logging previous script records:
+> 2025-03-26 20:21:58.610 Script: open ftp://ftpguellji-TriForFun:***@ftp.opentiendas.com/
+. 2025-03-26 20:21:58.610 --------------------------------------------------------------------------
+. 2025-03-26 20:21:58.610 Session name: ftpguellji-TriForFun@ftp.opentiendas.com (Ad-Hoc site)
+. 2025-03-26 20:21:58.610 Host name: ftp.opentiendas.com (Port: 21)
+. 2025-03-26 20:21:58.610 User name: ftpguellji-TriForFun (Password: Yes, Key file: No, Passphrase: No)
+. 2025-03-26 20:21:58.610 Transfer Protocol: FTP
+. 2025-03-26 20:21:58.610 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2025-03-26 20:21:58.610 Disable Nagle: No
+. 2025-03-26 20:21:58.610 Proxy: None
+. 2025-03-26 20:21:58.610 Send buffer: 262144
+. 2025-03-26 20:21:58.610 UTF: Auto
+. 2025-03-26 20:21:58.610 FTPS: None [Client certificate: No]
+. 2025-03-26 20:21:58.610 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2025-03-26 20:21:58.610 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2025-03-26 20:21:58.610 Cache directory changes: Yes, Permanent: Yes
+. 2025-03-26 20:21:58.610 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2025-03-26 20:21:58.610 Timezone offset: 0h 0m
+. 2025-03-26 20:21:58.610 --------------------------------------------------------------------------
+< 2025-03-26 20:21:58.631 Script: Conectando con ftp.opentiendas.com...
+. 2025-03-26 20:21:58.631 Conectando con ftp.opentiendas.com...
+. 2025-03-26 20:21:58.732 Conectado con ftp.opentiendas.com. Esperando bienvenida...
+< 2025-03-26 20:21:58.758 220-  ~~~ Welcome to OVH ~~~
+< 2025-03-26 20:21:58.758 220 This is a private system - No anonymous login
+> 2025-03-26 20:21:58.758 USER ftpguellji-TriForFun
+< 2025-03-26 20:21:58.785 331 User ftpguellji-TriForFun OK. Password required
+> 2025-03-26 20:21:58.785 PASS **********
+< 2025-03-26 20:21:58.855 230 OK. Current restricted directory is /
+> 2025-03-26 20:21:58.855 SYST
+< 2025-03-26 20:21:58.882 215 UNIX Type: L8
+> 2025-03-26 20:21:58.882 FEAT
+< 2025-03-26 20:21:58.908 211-Extensions supported:
+< 2025-03-26 20:21:58.908  EPRT
+< 2025-03-26 20:21:58.908  IDLE
+< 2025-03-26 20:21:58.908  MDTM
+< 2025-03-26 20:21:58.908  SIZE
+< 2025-03-26 20:21:58.908  MFMT
+< 2025-03-26 20:21:58.908  REST STREAM
+< 2025-03-26 20:21:58.908  MLST type*;size*;sizd*;modify*;UNIX.mode*;UNIX.uid*;UNIX.gid*;unique*;
+< 2025-03-26 20:21:58.908  MLSD
+< 2025-03-26 20:21:58.908  AUTH TLS
+< 2025-03-26 20:21:58.908  PBSZ
+< 2025-03-26 20:21:58.908  PROT
+< 2025-03-26 20:21:58.908  UTF8
+< 2025-03-26 20:21:58.908  TVFS
+< 2025-03-26 20:21:58.908  ESTA
+< 2025-03-26 20:21:58.908  PASV
+< 2025-03-26 20:21:58.908  EPSV
+< 2025-03-26 20:21:58.908  SPSV
+< 2025-03-26 20:21:58.908  ESTP
+< 2025-03-26 20:21:58.908 211 End.
+> 2025-03-26 20:21:58.908 OPTS UTF8 ON
+< 2025-03-26 20:21:58.935 200 OK, UTF-8 enabled
+< 2025-03-26 20:21:58.935 Script: Conectado
+. 2025-03-26 20:21:58.935 Conectado
+. 2025-03-26 20:21:58.935 --------------------------------------------------------------------------
+. 2025-03-26 20:21:58.935 Using FTP protocol.
+. 2025-03-26 20:21:58.935 Doing startup conversation with host.
+< 2025-03-26 20:21:58.935 Script: Iniciando la sesión...
+> 2025-03-26 20:21:58.937 PWD
+< 2025-03-26 20:21:58.981 257 "/" is your current location
+. 2025-03-26 20:21:58.981 Getting current directory name.
+. 2025-03-26 20:21:58.981 Startup conversation with host finished.
+< 2025-03-26 20:21:58.981 Script: Sesión iniciada.
+< 2025-03-26 20:21:58.981 Script: Sesión activa: [1] ftpguellji-TriForFun@ftp.opentiendas.com
+> 2025-03-26 20:21:58.982 Script: cd /
+. 2025-03-26 20:21:58.982 Changing directory to "/".
+> 2025-03-26 20:21:58.982 CWD /
+< 2025-03-26 20:21:59.009 250 OK. Current directory is /
+. 2025-03-26 20:21:59.009 Getting current directory name.
+> 2025-03-26 20:21:59.010 PWD
+< 2025-03-26 20:21:59.047 257 "/" is your current location
+< 2025-03-26 20:21:59.047 Script: /
+> 2025-03-26 20:21:59.061 Script: get /STOCKSSD.CSV "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV"  
+. 2025-03-26 20:21:59.061 Listing file "/STOCKSSD.CSV".
+. 2025-03-26 20:21:59.061 Obteniendo información del archivo...
+> 2025-03-26 20:21:59.061 MLST /STOCKSSD.CSV
+< 2025-03-26 20:21:59.093 250-Begin
+< 2025-03-26 20:21:59.093  type=file;size=7680951;modify=20250326130448;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39ge33944; /STOCKSSD.CSV
+< 2025-03-26 20:21:59.093 250 End.
+. 2025-03-26 20:21:59.093  type=file;size=7680951;modify=20250326130448;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39ge33944; /STOCKSSD.CSV
+. 2025-03-26 20:21:59.093 Información del archivo descargada
+. 2025-03-26 20:21:59.093 STOCKSSD.CSV;-;7680951;2025-03-26T13:04:48.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-03-26 20:21:59.093 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\" - total size: 7.680.951
+. 2025-03-26 20:21:59.093   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: STOCKSSD.CSV
+. 2025-03-26 20:21:59.093   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-03-26 20:21:59.093   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-03-26 20:21:59.093 File: '/STOCKSSD.CSV' [2025-03-26T13:04:48.000Z] [7680951]
+. 2025-03-26 20:21:59.093 Copying "/STOCKSSD.CSV" to local directory started.
+. 2025-03-26 20:21:59.093 Binary transfer mode selected.
+. 2025-03-26 20:21:59.093 Iniciando descarga de /STOCKSSD.CSV
+> 2025-03-26 20:21:59.093 TYPE I
+< 2025-03-26 20:21:59.125 200 TYPE is now 8-bit binary
+> 2025-03-26 20:21:59.125 PASV
+< 2025-03-26 20:21:59.157 227 Entering Passive Mode (91,134,248,208,61,211)
+> 2025-03-26 20:21:59.157 RETR STOCKSSD.CSV
+. 2025-03-26 20:21:59.157 Conectando con 91.134.248.208:15827...
+< 2025-03-26 20:21:59.211 150-Accepted data connection
+< 2025-03-26 20:21:59.211 150 7500.9 kbytes to download
+< 2025-03-26 20:21:59.841 226-File successfully transferred
+< 2025-03-26 20:21:59.841 226 0.588 seconds (measured here), 12.45 Mbytes per second
+. 2025-03-26 20:21:59.962 Data connection closed
+. 2025-03-26 20:21:59.962 Preserving timestamp [2025-03-26T13:04:48.000Z]
+. 2025-03-26 20:21:59.963 Descarga completada
+. 2025-03-26 20:21:59.963 Transfer done: '/STOCKSSD.CSV' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV' [7680951]
+. 2025-03-26 20:21:59.963 Copying finished: Transferred: 7.680.951, Elapsed: 0:00:00, CPS: 8.828.679/s
+> 2025-03-26 20:21:59.963 Script: get /ot4_tots_els_productescatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV"  
+. 2025-03-26 20:21:59.963 Listing file "/ot4_tots_els_productescatalogo.csv".
+. 2025-03-26 20:21:59.963 Obteniendo información del archivo...
+> 2025-03-26 20:21:59.963 MLST /ot4_tots_els_productescatalogo.csv
+< 2025-03-26 20:21:59.991 250-Begin
+< 2025-03-26 20:21:59.991  type=file;size=5357196;modify=20250326191523;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39ga201738; /ot4_tots_els_productescatalogo.csv
+< 2025-03-26 20:21:59.991 250 End.
+. 2025-03-26 20:21:59.991  type=file;size=5357196;modify=20250326191523;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39ga201738; /ot4_tots_els_productescatalogo.csv
+. 2025-03-26 20:21:59.991 Información del archivo descargada
+. 2025-03-26 20:21:59.991 ot4_tots_els_productescatalogo.csv;-;5357196;2025-03-26T19:15:23.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-03-26 20:21:59.991 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\" - total size: 5.357.196
+. 2025-03-26 20:21:59.991   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: OT4_TOTS_ELS_PRODUCTES.CSV
+. 2025-03-26 20:21:59.991   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-03-26 20:21:59.992   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-03-26 20:21:59.992 File: '/ot4_tots_els_productescatalogo.csv' [2025-03-26T19:15:23.000Z] [5357196]
+. 2025-03-26 20:21:59.992 Copying "/ot4_tots_els_productescatalogo.csv" to local directory started.
+. 2025-03-26 20:21:59.992 Binary transfer mode selected.
+. 2025-03-26 20:21:59.994 Iniciando descarga de /ot4_tots_els_productescatalogo.csv
+> 2025-03-26 20:21:59.994 TYPE I
+< 2025-03-26 20:22:00.019 200 TYPE is now 8-bit binary
+> 2025-03-26 20:22:00.019 PASV
+< 2025-03-26 20:22:00.045 227 Entering Passive Mode (91,134,248,208,102,229)
+> 2025-03-26 20:22:00.045 RETR ot4_tots_els_productescatalogo.csv
+. 2025-03-26 20:22:00.045 Conectando con 91.134.248.208:26341...
+< 2025-03-26 20:22:00.090 150-Accepted data connection
+< 2025-03-26 20:22:00.090 150 5231.6 kbytes to download
+< 2025-03-26 20:22:00.563 226-File successfully transferred
+< 2025-03-26 20:22:00.563 226 0.448 seconds (measured here), 11.40 Mbytes per second
+. 2025-03-26 20:22:00.616 Data connection closed
+. 2025-03-26 20:22:00.616 Preserving timestamp [2025-03-26T19:15:23.000Z]
+. 2025-03-26 20:22:00.617 Descarga completada
+. 2025-03-26 20:22:00.617 Transfer done: '/ot4_tots_els_productescatalogo.csv' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV' [5357196]
+. 2025-03-26 20:22:00.617 Copying finished: Transferred: 5.357.196, Elapsed: 0:00:00, CPS: 8.557.821/s
+> 2025-03-26 20:22:00.617 Script: get /productes_orcacatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\productes_orcacatalogo.CSV"
+. 2025-03-26 20:22:00.617 Listing file "/productes_orcacatalogo.csv".
+. 2025-03-26 20:22:00.618 Obteniendo información del archivo...
+> 2025-03-26 20:22:00.618 MLST /productes_orcacatalogo.csv
+< 2025-03-26 20:22:00.645 250-Begin
+< 2025-03-26 20:22:00.645  type=file;size=222216;modify=20250326173158;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39ga0dd073; /productes_orcacatalogo.csv
+< 2025-03-26 20:22:00.645 250 End.
+. 2025-03-26 20:22:00.645  type=file;size=222216;modify=20250326173158;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39ga0dd073; /productes_orcacatalogo.csv
+. 2025-03-26 20:22:00.645 Información del archivo descargada
+. 2025-03-26 20:22:00.645 productes_orcacatalogo.csv;-;222216;2025-03-26T17:31:58.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-03-26 20:22:00.645 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\" - total size: 222.216
+. 2025-03-26 20:22:00.645   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: productes_orcacatalogo.CSV
+. 2025-03-26 20:22:00.645   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-03-26 20:22:00.645   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-03-26 20:22:00.645 File: '/productes_orcacatalogo.csv' [2025-03-26T17:31:58.000Z] [222216]
+. 2025-03-26 20:22:00.646 Copying "/productes_orcacatalogo.csv" to local directory started.
+. 2025-03-26 20:22:00.646 Binary transfer mode selected.
+. 2025-03-26 20:22:00.647 Iniciando descarga de /productes_orcacatalogo.csv
+> 2025-03-26 20:22:00.647 TYPE I
+< 2025-03-26 20:22:00.673 200 TYPE is now 8-bit binary
+> 2025-03-26 20:22:00.673 PASV
+< 2025-03-26 20:22:00.701 227 Entering Passive Mode (91,134,248,208,51,196)
+> 2025-03-26 20:22:00.701 RETR productes_orcacatalogo.csv
+. 2025-03-26 20:22:00.701 Conectando con 91.134.248.208:13252...
+< 2025-03-26 20:22:00.748 150-Accepted data connection
+< 2025-03-26 20:22:00.748 150 217.0 kbytes to download
+< 2025-03-26 20:22:00.827 226-File successfully transferred
+< 2025-03-26 20:22:00.827 226 0.078 seconds (measured here), 2.72 Mbytes per second
+. 2025-03-26 20:22:00.853 Data connection closed
+. 2025-03-26 20:22:00.853 Preserving timestamp [2025-03-26T17:31:58.000Z]
+. 2025-03-26 20:22:00.854 Descarga completada
+. 2025-03-26 20:22:00.854 Transfer done: '/productes_orcacatalogo.csv' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\productes_orcacatalogo.CSV' [222216]
+. 2025-03-26 20:22:00.854 Copying finished: Transferred: 222.216, Elapsed: 0:00:00, CPS: 1.063.234/s
+> 2025-03-26 20:22:00.855 Script: get /productos/productes_hokacatalogo.csv  "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\productes_hokacatalogo.CSV"
+. 2025-03-26 20:22:00.855 Listing file "/productos/productes_hokacatalogo.csv".
+. 2025-03-26 20:22:00.855 Obteniendo información del archivo...
+> 2025-03-26 20:22:00.855 MLST /productos/productes_hokacatalogo.csv
+< 2025-03-26 20:22:00.883 250-Begin
+< 2025-03-26 20:22:00.883  type=file;size=1211900;modify=20250326185858;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39ga1cdfc1; /productos/productes_hokacatalogo.csv
+< 2025-03-26 20:22:00.883 250 End.
+. 2025-03-26 20:22:00.883  type=file;size=1211900;modify=20250326185858;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39ga1cdfc1; /productos/productes_hokacatalogo.csv
+. 2025-03-26 20:22:00.883 Información del archivo descargada
+. 2025-03-26 20:22:00.883 productes_hokacatalogo.csv;-;1211900;2025-03-26T18:58:58.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-03-26 20:22:00.883 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\" - total size: 1.211.900
+. 2025-03-26 20:22:00.883   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: productes_hokacatalogo.CSV
+. 2025-03-26 20:22:00.883   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-03-26 20:22:00.883   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-03-26 20:22:00.884 File: '/productos/productes_hokacatalogo.csv' [2025-03-26T18:58:58.000Z] [1211900]
+. 2025-03-26 20:22:00.884 Copying "/productos/productes_hokacatalogo.csv" to local directory started.
+. 2025-03-26 20:22:00.884 Binary transfer mode selected.
+. 2025-03-26 20:22:00.885 Iniciando descarga de /productos/productes_hokacatalogo.csv
+> 2025-03-26 20:22:00.885 CWD /productos
+< 2025-03-26 20:22:00.911 250 OK. Current directory is /productos
+> 2025-03-26 20:22:00.912 PWD
+< 2025-03-26 20:22:00.940 257 "/productos" is your current location
+> 2025-03-26 20:22:00.941 TYPE I
+< 2025-03-26 20:22:00.968 200 TYPE is now 8-bit binary
+> 2025-03-26 20:22:00.968 PASV
+< 2025-03-26 20:22:00.994 227 Entering Passive Mode (91,134,248,208,62,20)
+> 2025-03-26 20:22:00.994 RETR productes_hokacatalogo.csv
+. 2025-03-26 20:22:00.994 Conectando con 91.134.248.208:15892...
+< 2025-03-26 20:22:01.038 150-Accepted data connection
+< 2025-03-26 20:22:01.038 150 1183.5 kbytes to download
+< 2025-03-26 20:22:01.172 226-File successfully transferred
+< 2025-03-26 20:22:01.172 226 0.123 seconds (measured here), 9.39 Mbytes per second
+. 2025-03-26 20:22:01.215 Data connection closed
+. 2025-03-26 20:22:01.215 Preserving timestamp [2025-03-26T18:58:58.000Z]
+. 2025-03-26 20:22:01.215 Descarga completada
+. 2025-03-26 20:22:01.215 Transfer done: '/productos/productes_hokacatalogo.csv' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\productes_hokacatalogo.CSV' [1211900]
+. 2025-03-26 20:22:01.215 Copying finished: Transferred: 1.211.900, Elapsed: 0:00:00, CPS: 3.650.301/s
+> 2025-03-26 20:22:01.216 Script: close
+. 2025-03-26 20:22:01.218 Desconectado del servidor
+. 2025-03-27 20:17:52.515 --------------------------------------------------------------------------
+. 2025-03-27 20:17:52.515 WinSCP Versión 6.3.6 (Compilación 15073 2024-11-25) (OS 10.0.19045 – Windows 10 Enterprise)
+. 2025-03-27 20:17:52.515 Configuration: nul
+. 2025-03-27 20:17:52.515 Log level: Normal
+. 2025-03-27 20:17:52.515 Local account: DELL-2022\onlin
+. 2025-03-27 20:17:52.515 Working directory: C:\soft_proj\ot4_proj
+. 2025-03-27 20:17:52.515 Process ID: 14352
+. 2025-03-27 20:17:52.531 Ancestor processes: WinSCP, cmd, python, cmd, explorer, ...
+. 2025-03-27 20:17:52.531 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=6.3.6 /consoleinstance=_1864_707 "/script=C:/Program Files (x86)/WinSCP/prova1ot4.txt" "/log=log.txt" "/ini=nul" 
+. 2025-03-27 20:17:52.531 Time zone: Current: GMT+1, Standard: GMT+1 (Hora estándar romance), DST: GMT+2 (Hora de verano romance), DST Start: 30/03/2025, DST End: 26/10/2025
+. 2025-03-27 20:17:52.531 Login time: jueves, 27 de marzo de 2025 20:17:52
+. 2025-03-27 20:17:52.531 --------------------------------------------------------------------------
+. 2025-03-27 20:17:52.531 Script: Retrospectively logging previous script records:
+> 2025-03-27 20:17:52.531 Script: open ftp://ftpguellji-TriForFun:***@ftp.opentiendas.com/
+. 2025-03-27 20:17:52.531 --------------------------------------------------------------------------
+. 2025-03-27 20:17:52.531 Session name: ftpguellji-TriForFun@ftp.opentiendas.com (Ad-Hoc site)
+. 2025-03-27 20:17:52.531 Host name: ftp.opentiendas.com (Port: 21)
+. 2025-03-27 20:17:52.531 User name: ftpguellji-TriForFun (Password: Yes, Key file: No, Passphrase: No)
+. 2025-03-27 20:17:52.531 Transfer Protocol: FTP
+. 2025-03-27 20:17:52.546 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2025-03-27 20:17:52.546 Disable Nagle: No
+. 2025-03-27 20:17:52.546 Proxy: None
+. 2025-03-27 20:17:52.546 Send buffer: 262144
+. 2025-03-27 20:17:52.546 UTF: Auto
+. 2025-03-27 20:17:52.546 FTPS: None [Client certificate: No]
+. 2025-03-27 20:17:52.546 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2025-03-27 20:17:52.546 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2025-03-27 20:17:52.546 Cache directory changes: Yes, Permanent: Yes
+. 2025-03-27 20:17:52.546 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2025-03-27 20:17:52.546 Timezone offset: 0h 0m
+. 2025-03-27 20:17:52.546 --------------------------------------------------------------------------
+< 2025-03-27 20:17:52.562 Script: Conectando con ftp.opentiendas.com...
+. 2025-03-27 20:17:52.562 Conectando con ftp.opentiendas.com...
+. 2025-03-27 20:17:52.671 Conectado con ftp.opentiendas.com. Esperando bienvenida...
+< 2025-03-27 20:17:52.687 220-  ~~~ Welcome to OVH ~~~
+< 2025-03-27 20:17:52.687 220 This is a private system - No anonymous login
+> 2025-03-27 20:17:52.687 USER ftpguellji-TriForFun
+< 2025-03-27 20:17:52.719 331 User ftpguellji-TriForFun OK. Password required
+> 2025-03-27 20:17:52.719 PASS **********
+< 2025-03-27 20:17:52.796 230 OK. Current restricted directory is /
+> 2025-03-27 20:17:52.796 SYST
+< 2025-03-27 20:17:52.812 215 UNIX Type: L8
+> 2025-03-27 20:17:52.812 FEAT
+< 2025-03-27 20:17:52.843 211-Extensions supported:
+< 2025-03-27 20:17:52.843  EPRT
+< 2025-03-27 20:17:52.843  IDLE
+< 2025-03-27 20:17:52.843  MDTM
+< 2025-03-27 20:17:52.843  SIZE
+< 2025-03-27 20:17:52.843  MFMT
+< 2025-03-27 20:17:52.843  REST STREAM
+< 2025-03-27 20:17:52.843  MLST type*;size*;sizd*;modify*;UNIX.mode*;UNIX.uid*;UNIX.gid*;unique*;
+< 2025-03-27 20:17:52.843  MLSD
+< 2025-03-27 20:17:52.843  AUTH TLS
+< 2025-03-27 20:17:52.843  PBSZ
+< 2025-03-27 20:17:52.875  PROT
+< 2025-03-27 20:17:52.875  UTF8
+< 2025-03-27 20:17:52.875  TVFS
+< 2025-03-27 20:17:52.875  ESTA
+< 2025-03-27 20:17:52.875  PASV
+< 2025-03-27 20:17:52.875  EPSV
+< 2025-03-27 20:17:52.875  SPSV
+< 2025-03-27 20:17:52.875  ESTP
+< 2025-03-27 20:17:52.875 211 End.
+> 2025-03-27 20:17:52.875 OPTS UTF8 ON
+< 2025-03-27 20:17:52.890 200 OK, UTF-8 enabled
+< 2025-03-27 20:17:52.890 Script: Conectado
+. 2025-03-27 20:17:52.890 Conectado
+. 2025-03-27 20:17:52.890 --------------------------------------------------------------------------
+. 2025-03-27 20:17:52.890 Using FTP protocol.
+. 2025-03-27 20:17:52.890 Doing startup conversation with host.
+< 2025-03-27 20:17:52.890 Script: Iniciando la sesión...
+> 2025-03-27 20:17:52.906 PWD
+< 2025-03-27 20:17:52.922 257 "/" is your current location
+. 2025-03-27 20:17:52.922 Getting current directory name.
+. 2025-03-27 20:17:52.922 Startup conversation with host finished.
+< 2025-03-27 20:17:52.922 Script: Sesión iniciada.
+< 2025-03-27 20:17:52.922 Script: Sesión activa: [1] ftpguellji-TriForFun@ftp.opentiendas.com
+> 2025-03-27 20:17:52.922 Script: cd /
+. 2025-03-27 20:17:52.922 Changing directory to "/".
+> 2025-03-27 20:17:52.922 CWD /
+< 2025-03-27 20:17:52.953 250 OK. Current directory is /
+. 2025-03-27 20:17:52.953 Getting current directory name.
+> 2025-03-27 20:17:52.953 PWD
+< 2025-03-27 20:17:52.984 257 "/" is your current location
+< 2025-03-27 20:17:52.984 Script: /
+> 2025-03-27 20:17:52.984 Script: get /STOCKSSD.CSV "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV"  
+. 2025-03-27 20:17:52.984 Listing file "/STOCKSSD.CSV".
+. 2025-03-27 20:17:52.984 Obteniendo información del archivo...
+> 2025-03-27 20:17:52.984 MLST /STOCKSSD.CSV
+< 2025-03-27 20:17:53.015 250-Begin
+< 2025-03-27 20:17:53.015  type=file;size=7680963;modify=20250327130444;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39ga2a3284; /STOCKSSD.CSV
+< 2025-03-27 20:17:53.015 250 End.
+. 2025-03-27 20:17:53.015  type=file;size=7680963;modify=20250327130444;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39ga2a3284; /STOCKSSD.CSV
+. 2025-03-27 20:17:53.015 Información del archivo descargada
+. 2025-03-27 20:17:53.015 STOCKSSD.CSV;-;7680963;2025-03-27T13:04:44.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-03-27 20:17:53.031 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\" - total size: 7.680.963
+. 2025-03-27 20:17:53.031   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: STOCKSSD.CSV
+. 2025-03-27 20:17:53.031   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-03-27 20:17:53.031   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-03-27 20:17:53.031 File: '/STOCKSSD.CSV' [2025-03-27T13:04:44.000Z] [7680963]
+. 2025-03-27 20:17:53.031 Copying "/STOCKSSD.CSV" to local directory started.
+. 2025-03-27 20:17:53.031 Binary transfer mode selected.
+. 2025-03-27 20:17:53.031 Iniciando descarga de /STOCKSSD.CSV
+> 2025-03-27 20:17:53.031 TYPE I
+< 2025-03-27 20:17:53.062 200 TYPE is now 8-bit binary
+> 2025-03-27 20:17:53.062 PASV
+< 2025-03-27 20:17:53.078 227 Entering Passive Mode (91,134,248,208,48,43)
+> 2025-03-27 20:17:53.078 RETR STOCKSSD.CSV
+. 2025-03-27 20:17:53.078 Conectando con 91.134.248.208:12331...
+< 2025-03-27 20:17:53.140 150-Accepted data connection
+< 2025-03-27 20:17:53.140 150 7500.9 kbytes to download
+< 2025-03-27 20:17:53.781 226-File successfully transferred
+< 2025-03-27 20:17:53.781 226 0.609 seconds (measured here), 12.03 Mbytes per second
+. 2025-03-27 20:17:53.874 Data connection closed
+. 2025-03-27 20:17:53.874 Preserving timestamp [2025-03-27T13:04:44.000Z]
+. 2025-03-27 20:17:53.874 Descarga completada
+. 2025-03-27 20:17:53.874 Transfer done: '/STOCKSSD.CSV' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV' [7680963]
+. 2025-03-27 20:17:53.874 Copying finished: Transferred: 7.680.963, Elapsed: 0:00:00, CPS: 9.111.462/s
+> 2025-03-27 20:17:53.874 Script: get /ot4_tots_els_productescatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV"  
+. 2025-03-27 20:17:53.874 Listing file "/ot4_tots_els_productescatalogo.csv".
+. 2025-03-27 20:17:53.874 Obteniendo información del archivo...
+> 2025-03-27 20:17:53.874 MLST /ot4_tots_els_productescatalogo.csv
+< 2025-03-27 20:17:53.906 250-Begin
+< 2025-03-27 20:17:53.906  type=file;size=5357196;modify=20250327191338;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39ga2e3f11; /ot4_tots_els_productescatalogo.csv
+< 2025-03-27 20:17:53.906 250 End.
+. 2025-03-27 20:17:53.906  type=file;size=5357196;modify=20250327191338;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39ga2e3f11; /ot4_tots_els_productescatalogo.csv
+. 2025-03-27 20:17:53.906 Información del archivo descargada
+. 2025-03-27 20:17:53.906 ot4_tots_els_productescatalogo.csv;-;5357196;2025-03-27T19:13:38.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-03-27 20:17:53.906 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\" - total size: 5.357.196
+. 2025-03-27 20:17:53.906   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: OT4_TOTS_ELS_PRODUCTES.CSV
+. 2025-03-27 20:17:53.906   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-03-27 20:17:53.906   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-03-27 20:17:53.906 File: '/ot4_tots_els_productescatalogo.csv' [2025-03-27T19:13:38.000Z] [5357196]
+. 2025-03-27 20:17:53.906 Copying "/ot4_tots_els_productescatalogo.csv" to local directory started.
+. 2025-03-27 20:17:53.906 Binary transfer mode selected.
+. 2025-03-27 20:17:53.906 Iniciando descarga de /ot4_tots_els_productescatalogo.csv
+> 2025-03-27 20:17:53.906 TYPE I
+< 2025-03-27 20:17:53.921 200 TYPE is now 8-bit binary
+> 2025-03-27 20:17:53.921 PASV
+< 2025-03-27 20:17:53.953 227 Entering Passive Mode (91,134,248,208,98,159)
+> 2025-03-27 20:17:53.953 RETR ot4_tots_els_productescatalogo.csv
+. 2025-03-27 20:17:53.953 Conectando con 91.134.248.208:25247...
+< 2025-03-27 20:17:54.015 150-Accepted data connection
+< 2025-03-27 20:17:54.015 150 5231.6 kbytes to download
+< 2025-03-27 20:17:54.491 226-File successfully transferred
+< 2025-03-27 20:17:54.491 226 0.460 seconds (measured here), 11.11 Mbytes per second
+. 2025-03-27 20:17:54.554 Data connection closed
+. 2025-03-27 20:17:54.554 Preserving timestamp [2025-03-27T19:13:38.000Z]
+. 2025-03-27 20:17:54.554 Descarga completada
+. 2025-03-27 20:17:54.554 Transfer done: '/ot4_tots_els_productescatalogo.csv' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV' [5357196]
+. 2025-03-27 20:17:54.554 Copying finished: Transferred: 5.357.196, Elapsed: 0:00:00, CPS: 8.267.277/s
+> 2025-03-27 20:17:54.554 Script: get /productes_orcacatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\productes_orcacatalogo.CSV"
+. 2025-03-27 20:17:54.554 Listing file "/productes_orcacatalogo.csv".
+. 2025-03-27 20:17:54.554 Obteniendo información del archivo...
+> 2025-03-27 20:17:54.554 MLST /productes_orcacatalogo.csv
+< 2025-03-27 20:17:54.585 250-Begin
+< 2025-03-27 20:17:54.585  type=file;size=222216;modify=20250327184936;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39ga30a4a2; /productes_orcacatalogo.csv
+< 2025-03-27 20:17:54.585 250 End.
+. 2025-03-27 20:17:54.585  type=file;size=222216;modify=20250327184936;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39ga30a4a2; /productes_orcacatalogo.csv
+. 2025-03-27 20:17:54.585 Información del archivo descargada
+. 2025-03-27 20:17:54.585 productes_orcacatalogo.csv;-;222216;2025-03-27T18:49:36.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-03-27 20:17:54.585 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\" - total size: 222.216
+. 2025-03-27 20:17:54.585   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: productes_orcacatalogo.CSV
+. 2025-03-27 20:17:54.585   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-03-27 20:17:54.585   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-03-27 20:17:54.585 File: '/productes_orcacatalogo.csv' [2025-03-27T18:49:36.000Z] [222216]
+. 2025-03-27 20:17:54.585 Copying "/productes_orcacatalogo.csv" to local directory started.
+. 2025-03-27 20:17:54.585 Binary transfer mode selected.
+. 2025-03-27 20:17:54.585 Iniciando descarga de /productes_orcacatalogo.csv
+> 2025-03-27 20:17:54.585 TYPE I
+< 2025-03-27 20:17:54.617 200 TYPE is now 8-bit binary
+> 2025-03-27 20:17:54.617 PASV
+< 2025-03-27 20:17:54.632 227 Entering Passive Mode (91,134,248,208,90,238)
+> 2025-03-27 20:17:54.632 RETR productes_orcacatalogo.csv
+. 2025-03-27 20:17:54.632 Conectando con 91.134.248.208:23278...
+< 2025-03-27 20:17:54.695 150-Accepted data connection
+< 2025-03-27 20:17:54.695 150 217.0 kbytes to download
+< 2025-03-27 20:17:54.773 226-File successfully transferred
+< 2025-03-27 20:17:54.773 226 0.080 seconds (measured here), 2.65 Mbytes per second
+. 2025-03-27 20:17:54.788 Data connection closed
+. 2025-03-27 20:17:54.804 Preserving timestamp [2025-03-27T18:49:36.000Z]
+. 2025-03-27 20:17:54.804 Descarga completada
+. 2025-03-27 20:17:54.804 Transfer done: '/productes_orcacatalogo.csv' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\productes_orcacatalogo.CSV' [222216]
+. 2025-03-27 20:17:54.804 Copying finished: Transferred: 222.216, Elapsed: 0:00:00, CPS: 1.014.684/s
+> 2025-03-27 20:17:54.804 Script: get /productos/productes_hokacatalogo.csv  "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\productes_hokacatalogo.CSV"
+. 2025-03-27 20:17:54.804 Listing file "/productos/productes_hokacatalogo.csv".
+. 2025-03-27 20:17:54.804 Obteniendo información del archivo...
+> 2025-03-27 20:17:54.804 MLST /productos/productes_hokacatalogo.csv
+< 2025-03-27 20:17:54.820 250-Begin
+< 2025-03-27 20:17:54.820  type=file;size=1211900;modify=20250327185348;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39ga30d503; /productos/productes_hokacatalogo.csv
+< 2025-03-27 20:17:54.820 250 End.
+. 2025-03-27 20:17:54.820  type=file;size=1211900;modify=20250327185348;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39ga30d503; /productos/productes_hokacatalogo.csv
+. 2025-03-27 20:17:54.835 Información del archivo descargada
+. 2025-03-27 20:17:54.835 productes_hokacatalogo.csv;-;1211900;2025-03-27T18:53:48.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-03-27 20:17:54.835 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\" - total size: 1.211.900
+. 2025-03-27 20:17:54.835   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: productes_hokacatalogo.CSV
+. 2025-03-27 20:17:54.835   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-03-27 20:17:54.835   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-03-27 20:17:54.835 File: '/productos/productes_hokacatalogo.csv' [2025-03-27T18:53:48.000Z] [1211900]
+. 2025-03-27 20:17:54.835 Copying "/productos/productes_hokacatalogo.csv" to local directory started.
+. 2025-03-27 20:17:54.835 Binary transfer mode selected.
+. 2025-03-27 20:17:54.835 Iniciando descarga de /productos/productes_hokacatalogo.csv
+> 2025-03-27 20:17:54.835 CWD /productos
+< 2025-03-27 20:17:54.851 250 OK. Current directory is /productos
+> 2025-03-27 20:17:54.851 PWD
+< 2025-03-27 20:17:54.882 257 "/productos" is your current location
+> 2025-03-27 20:17:54.882 TYPE I
+< 2025-03-27 20:17:54.913 200 TYPE is now 8-bit binary
+> 2025-03-27 20:17:54.913 PASV
+< 2025-03-27 20:17:54.945 227 Entering Passive Mode (91,134,248,208,84,84)
+> 2025-03-27 20:17:54.945 RETR productes_hokacatalogo.csv
+. 2025-03-27 20:17:54.945 Conectando con 91.134.248.208:21588...
+< 2025-03-27 20:17:54.976 150-Accepted data connection
+< 2025-03-27 20:17:54.976 150 1183.5 kbytes to download
+< 2025-03-27 20:17:55.116 226-File successfully transferred
+< 2025-03-27 20:17:55.116 226 0.129 seconds (measured here), 8.96 Mbytes per second
+. 2025-03-27 20:17:55.163 Data connection closed
+. 2025-03-27 20:17:55.163 Preserving timestamp [2025-03-27T18:53:48.000Z]
+. 2025-03-27 20:17:55.163 Descarga completada
+. 2025-03-27 20:17:55.163 Transfer done: '/productos/productes_hokacatalogo.csv' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\productes_hokacatalogo.CSV' [1211900]
+. 2025-03-27 20:17:55.163 Copying finished: Transferred: 1.211.900, Elapsed: 0:00:00, CPS: 3.694.817/s
+> 2025-03-27 20:17:55.163 Script: close
+. 2025-03-27 20:17:55.163 Desconectado del servidor
+. 2025-03-28 20:11:59.208 --------------------------------------------------------------------------
+. 2025-03-28 20:11:59.209 WinSCP Versión 6.3.6 (Compilación 15073 2024-11-25) (OS 10.0.19045 – Windows 10 Enterprise)
+. 2025-03-28 20:11:59.209 Configuration: nul
+. 2025-03-28 20:11:59.209 Log level: Normal
+. 2025-03-28 20:11:59.209 Local account: DELL-2022\onlin
+. 2025-03-28 20:11:59.209 Working directory: C:\soft_proj\ot4_proj
+. 2025-03-28 20:11:59.209 Process ID: 12384
+. 2025-03-28 20:11:59.234 Ancestor processes: WinSCP, cmd, python, cmd, explorer, ...
+. 2025-03-28 20:11:59.234 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=6.3.6 /consoleinstance=_20852_54 "/script=C:/Program Files (x86)/WinSCP/prova1ot4.txt" "/log=log.txt" "/ini=nul" 
+. 2025-03-28 20:11:59.234 Time zone: Current: GMT+1, Standard: GMT+1 (Hora estándar romance), DST: GMT+2 (Hora de verano romance), DST Start: 30/03/2025, DST End: 26/10/2025
+. 2025-03-28 20:11:59.234 Login time: viernes, 28 de marzo de 2025 20:11:59
+. 2025-03-28 20:11:59.234 --------------------------------------------------------------------------
+. 2025-03-28 20:11:59.234 Script: Retrospectively logging previous script records:
+> 2025-03-28 20:11:59.234 Script: open ftp://ftpguellji-TriForFun:***@ftp.opentiendas.com/
+. 2025-03-28 20:11:59.234 --------------------------------------------------------------------------
+. 2025-03-28 20:11:59.234 Session name: ftpguellji-TriForFun@ftp.opentiendas.com (Ad-Hoc site)
+. 2025-03-28 20:11:59.234 Host name: ftp.opentiendas.com (Port: 21)
+. 2025-03-28 20:11:59.234 User name: ftpguellji-TriForFun (Password: Yes, Key file: No, Passphrase: No)
+. 2025-03-28 20:11:59.234 Transfer Protocol: FTP
+. 2025-03-28 20:11:59.234 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2025-03-28 20:11:59.234 Disable Nagle: No
+. 2025-03-28 20:11:59.234 Proxy: None
+. 2025-03-28 20:11:59.235 Send buffer: 262144
+. 2025-03-28 20:11:59.235 UTF: Auto
+. 2025-03-28 20:11:59.235 FTPS: None [Client certificate: No]
+. 2025-03-28 20:11:59.235 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2025-03-28 20:11:59.235 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2025-03-28 20:11:59.235 Cache directory changes: Yes, Permanent: Yes
+. 2025-03-28 20:11:59.235 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2025-03-28 20:11:59.235 Timezone offset: 0h 0m
+. 2025-03-28 20:11:59.235 --------------------------------------------------------------------------
+< 2025-03-28 20:11:59.267 Script: Conectando con ftp.opentiendas.com...
+. 2025-03-28 20:11:59.267 Conectando con ftp.opentiendas.com...
+. 2025-03-28 20:11:59.362 Conectado con ftp.opentiendas.com. Esperando bienvenida...
+< 2025-03-28 20:11:59.389 220-  ~~~ Welcome to OVH ~~~
+< 2025-03-28 20:11:59.389 220 This is a private system - No anonymous login
+> 2025-03-28 20:11:59.389 USER ftpguellji-TriForFun
+< 2025-03-28 20:11:59.415 331 User ftpguellji-TriForFun OK. Password required
+> 2025-03-28 20:11:59.415 PASS **********
+< 2025-03-28 20:11:59.478 230 OK. Current restricted directory is /
+> 2025-03-28 20:11:59.478 SYST
+< 2025-03-28 20:11:59.504 215 UNIX Type: L8
+> 2025-03-28 20:11:59.504 FEAT
+< 2025-03-28 20:11:59.530 211-Extensions supported:
+< 2025-03-28 20:11:59.530  EPRT
+< 2025-03-28 20:11:59.530  IDLE
+< 2025-03-28 20:11:59.530  MDTM
+< 2025-03-28 20:11:59.530  SIZE
+< 2025-03-28 20:11:59.530  MFMT
+< 2025-03-28 20:11:59.530  REST STREAM
+< 2025-03-28 20:11:59.530  MLST type*;size*;sizd*;modify*;UNIX.mode*;UNIX.uid*;UNIX.gid*;unique*;
+< 2025-03-28 20:11:59.531  MLSD
+< 2025-03-28 20:11:59.531  AUTH TLS
+< 2025-03-28 20:11:59.531  PBSZ
+< 2025-03-28 20:11:59.531  PROT
+< 2025-03-28 20:11:59.531  UTF8
+< 2025-03-28 20:11:59.531  TVFS
+< 2025-03-28 20:11:59.531  ESTA
+< 2025-03-28 20:11:59.531  PASV
+< 2025-03-28 20:11:59.531  EPSV
+< 2025-03-28 20:11:59.531  SPSV
+< 2025-03-28 20:11:59.531  ESTP
+< 2025-03-28 20:11:59.531 211 End.
+> 2025-03-28 20:11:59.531 OPTS UTF8 ON
+< 2025-03-28 20:11:59.557 200 OK, UTF-8 enabled
+< 2025-03-28 20:11:59.557 Script: Conectado
+. 2025-03-28 20:11:59.557 Conectado
+. 2025-03-28 20:11:59.558 --------------------------------------------------------------------------
+. 2025-03-28 20:11:59.558 Using FTP protocol.
+. 2025-03-28 20:11:59.558 Doing startup conversation with host.
+< 2025-03-28 20:11:59.558 Script: Iniciando la sesión...
+> 2025-03-28 20:11:59.560 PWD
+< 2025-03-28 20:11:59.586 257 "/" is your current location
+. 2025-03-28 20:11:59.586 Getting current directory name.
+. 2025-03-28 20:11:59.587 Startup conversation with host finished.
+< 2025-03-28 20:11:59.587 Script: Sesión iniciada.
+< 2025-03-28 20:11:59.588 Script: Sesión activa: [1] ftpguellji-TriForFun@ftp.opentiendas.com
+> 2025-03-28 20:11:59.589 Script: cd /
+. 2025-03-28 20:11:59.590 Changing directory to "/".
+> 2025-03-28 20:11:59.591 CWD /
+< 2025-03-28 20:11:59.618 250 OK. Current directory is /
+. 2025-03-28 20:11:59.618 Getting current directory name.
+> 2025-03-28 20:11:59.618 PWD
+< 2025-03-28 20:11:59.645 257 "/" is your current location
+< 2025-03-28 20:11:59.645 Script: /
+> 2025-03-28 20:11:59.647 Script: get /STOCKSSD.CSV "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV"  
+. 2025-03-28 20:11:59.647 Listing file "/STOCKSSD.CSV".
+. 2025-03-28 20:11:59.648 Obteniendo información del archivo...
+> 2025-03-28 20:11:59.648 MLST /STOCKSSD.CSV
+< 2025-03-28 20:11:59.674 250-Begin
+< 2025-03-28 20:11:59.675  type=file;size=7680964;modify=20250328130445;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g8453ee2; /STOCKSSD.CSV
+< 2025-03-28 20:11:59.675 250 End.
+. 2025-03-28 20:11:59.681  type=file;size=7680964;modify=20250328130445;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g8453ee2; /STOCKSSD.CSV
+. 2025-03-28 20:11:59.681 Información del archivo descargada
+. 2025-03-28 20:11:59.682 STOCKSSD.CSV;-;7680964;2025-03-28T13:04:45.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-03-28 20:11:59.685 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\" - total size: 7.680.964
+. 2025-03-28 20:11:59.685   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: STOCKSSD.CSV
+. 2025-03-28 20:11:59.685   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-03-28 20:11:59.685   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-03-28 20:11:59.686 File: '/STOCKSSD.CSV' [2025-03-28T13:04:45.000Z] [7680964]
+. 2025-03-28 20:11:59.686 Copying "/STOCKSSD.CSV" to local directory started.
+. 2025-03-28 20:11:59.686 Binary transfer mode selected.
+. 2025-03-28 20:11:59.688 Iniciando descarga de /STOCKSSD.CSV
+> 2025-03-28 20:11:59.688 TYPE I
+< 2025-03-28 20:11:59.714 200 TYPE is now 8-bit binary
+> 2025-03-28 20:11:59.714 PASV
+< 2025-03-28 20:11:59.740 227 Entering Passive Mode (91,134,248,208,70,12)
+> 2025-03-28 20:11:59.740 RETR STOCKSSD.CSV
+. 2025-03-28 20:11:59.740 Conectando con 91.134.248.208:17932...
+< 2025-03-28 20:11:59.793 150-Accepted data connection
+< 2025-03-28 20:11:59.793 150 7500.9 kbytes to download
+< 2025-03-28 20:12:00.444 226-File successfully transferred
+< 2025-03-28 20:12:00.444 226 0.596 seconds (measured here), 12.29 Mbytes per second
+. 2025-03-28 20:12:00.549 Data connection closed
+. 2025-03-28 20:12:00.549 Preserving timestamp [2025-03-28T13:04:45.000Z]
+. 2025-03-28 20:12:00.550 Descarga completada
+. 2025-03-28 20:12:00.551 Transfer done: '/STOCKSSD.CSV' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV' [7680964]
+. 2025-03-28 20:12:00.551 Copying finished: Transferred: 7.680.964, Elapsed: 0:00:00, CPS: 8.869.473/s
+> 2025-03-28 20:12:00.551 Script: get /ot4_tots_els_productescatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV"  
+. 2025-03-28 20:12:00.551 Listing file "/ot4_tots_els_productescatalogo.csv".
+. 2025-03-28 20:12:00.551 Obteniendo información del archivo...
+> 2025-03-28 20:12:00.551 MLST /ot4_tots_els_productescatalogo.csv
+< 2025-03-28 20:12:00.577 250-Begin
+< 2025-03-28 20:12:00.577  type=file;size=5357196;modify=20250328190905;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g1bdb22d; /ot4_tots_els_productescatalogo.csv
+< 2025-03-28 20:12:00.577 250 End.
+. 2025-03-28 20:12:00.577  type=file;size=5357196;modify=20250328190905;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g1bdb22d; /ot4_tots_els_productescatalogo.csv
+. 2025-03-28 20:12:00.577 Información del archivo descargada
+. 2025-03-28 20:12:00.577 ot4_tots_els_productescatalogo.csv;-;5357196;2025-03-28T19:09:05.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-03-28 20:12:00.577 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\" - total size: 5.357.196
+. 2025-03-28 20:12:00.577   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: OT4_TOTS_ELS_PRODUCTES.CSV
+. 2025-03-28 20:12:00.577   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-03-28 20:12:00.577   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-03-28 20:12:00.577 File: '/ot4_tots_els_productescatalogo.csv' [2025-03-28T19:09:05.000Z] [5357196]
+. 2025-03-28 20:12:00.578 Copying "/ot4_tots_els_productescatalogo.csv" to local directory started.
+. 2025-03-28 20:12:00.578 Binary transfer mode selected.
+. 2025-03-28 20:12:00.578 Iniciando descarga de /ot4_tots_els_productescatalogo.csv
+> 2025-03-28 20:12:00.578 TYPE I
+< 2025-03-28 20:12:00.604 200 TYPE is now 8-bit binary
+> 2025-03-28 20:12:00.604 PASV
+< 2025-03-28 20:12:00.630 227 Entering Passive Mode (91,134,248,208,79,130)
+> 2025-03-28 20:12:00.631 RETR ot4_tots_els_productescatalogo.csv
+. 2025-03-28 20:12:00.631 Conectando con 91.134.248.208:20354...
+< 2025-03-28 20:12:00.684 150-Accepted data connection
+< 2025-03-28 20:12:00.684 150 5231.6 kbytes to download
+< 2025-03-28 20:12:01.142 226-File successfully transferred
+< 2025-03-28 20:12:01.142 226 0.435 seconds (measured here), 11.74 Mbytes per second
+. 2025-03-28 20:12:01.230 Data connection closed
+. 2025-03-28 20:12:01.230 Preserving timestamp [2025-03-28T19:09:05.000Z]
+. 2025-03-28 20:12:01.230 Descarga completada
+. 2025-03-28 20:12:01.231 Transfer done: '/ot4_tots_els_productescatalogo.csv' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV' [5357196]
+. 2025-03-28 20:12:01.231 Copying finished: Transferred: 5.357.196, Elapsed: 0:00:00, CPS: 8.191.431/s
+> 2025-03-28 20:12:01.232 Script: get /productes_orcacatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\productes_orcacatalogo.CSV"
+. 2025-03-28 20:12:01.232 Listing file "/productes_orcacatalogo.csv".
+. 2025-03-28 20:12:01.233 Obteniendo información del archivo...
+> 2025-03-28 20:12:01.233 MLST /productes_orcacatalogo.csv
+< 2025-03-28 20:12:01.260 250-Begin
+< 2025-03-28 20:12:01.260  type=file;size=222216;modify=20250328180615;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g153b15f; /productes_orcacatalogo.csv
+< 2025-03-28 20:12:01.260 250 End.
+. 2025-03-28 20:12:01.260  type=file;size=222216;modify=20250328180615;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g153b15f; /productes_orcacatalogo.csv
+. 2025-03-28 20:12:01.260 Información del archivo descargada
+. 2025-03-28 20:12:01.260 productes_orcacatalogo.csv;-;222216;2025-03-28T18:06:15.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-03-28 20:12:01.260 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\" - total size: 222.216
+. 2025-03-28 20:12:01.260   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: productes_orcacatalogo.CSV
+. 2025-03-28 20:12:01.260   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-03-28 20:12:01.260   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-03-28 20:12:01.260 File: '/productes_orcacatalogo.csv' [2025-03-28T18:06:15.000Z] [222216]
+. 2025-03-28 20:12:01.261 Copying "/productes_orcacatalogo.csv" to local directory started.
+. 2025-03-28 20:12:01.261 Binary transfer mode selected.
+. 2025-03-28 20:12:01.262 Iniciando descarga de /productes_orcacatalogo.csv
+> 2025-03-28 20:12:01.262 TYPE I
+< 2025-03-28 20:12:01.287 200 TYPE is now 8-bit binary
+> 2025-03-28 20:12:01.287 PASV
+< 2025-03-28 20:12:01.314 227 Entering Passive Mode (91,134,248,208,64,50)
+> 2025-03-28 20:12:01.314 RETR productes_orcacatalogo.csv
+. 2025-03-28 20:12:01.314 Conectando con 91.134.248.208:16434...
+< 2025-03-28 20:12:01.367 150-Accepted data connection
+< 2025-03-28 20:12:01.367 150 217.0 kbytes to download
+< 2025-03-28 20:12:01.450 226-File successfully transferred
+< 2025-03-28 20:12:01.450 226 0.080 seconds (measured here), 2.65 Mbytes per second
+. 2025-03-28 20:12:01.472 Data connection closed
+. 2025-03-28 20:12:01.473 Preserving timestamp [2025-03-28T18:06:15.000Z]
+. 2025-03-28 20:12:01.474 Descarga completada
+. 2025-03-28 20:12:01.474 Transfer done: '/productes_orcacatalogo.csv' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\productes_orcacatalogo.CSV' [222216]
+. 2025-03-28 20:12:01.474 Copying finished: Transferred: 222.216, Elapsed: 0:00:00, CPS: 1.038.392/s
+> 2025-03-28 20:12:01.475 Script: get /productos/productes_hokacatalogo.csv  "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\productes_hokacatalogo.CSV"
+. 2025-03-28 20:12:01.476 Listing file "/productos/productes_hokacatalogo.csv".
+. 2025-03-28 20:12:01.476 Obteniendo información del archivo...
+> 2025-03-28 20:12:01.476 MLST /productos/productes_hokacatalogo.csv
+< 2025-03-28 20:12:01.502 250-Begin
+< 2025-03-28 20:12:01.502  type=file;size=1211900;modify=20250328180522;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g153a556; /productos/productes_hokacatalogo.csv
+< 2025-03-28 20:12:01.502 250 End.
+. 2025-03-28 20:12:01.502  type=file;size=1211900;modify=20250328180522;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g153a556; /productos/productes_hokacatalogo.csv
+. 2025-03-28 20:12:01.502 Información del archivo descargada
+. 2025-03-28 20:12:01.502 productes_hokacatalogo.csv;-;1211900;2025-03-28T18:05:22.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-03-28 20:12:01.502 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\" - total size: 1.211.900
+. 2025-03-28 20:12:01.502   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: productes_hokacatalogo.CSV
+. 2025-03-28 20:12:01.502   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-03-28 20:12:01.502   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-03-28 20:12:01.502 File: '/productos/productes_hokacatalogo.csv' [2025-03-28T18:05:22.000Z] [1211900]
+. 2025-03-28 20:12:01.503 Copying "/productos/productes_hokacatalogo.csv" to local directory started.
+. 2025-03-28 20:12:01.503 Binary transfer mode selected.
+. 2025-03-28 20:12:01.504 Iniciando descarga de /productos/productes_hokacatalogo.csv
+> 2025-03-28 20:12:01.504 CWD /productos
+< 2025-03-28 20:12:01.530 250 OK. Current directory is /productos
+> 2025-03-28 20:12:01.530 PWD
+< 2025-03-28 20:12:01.557 257 "/productos" is your current location
+> 2025-03-28 20:12:01.558 TYPE I
+< 2025-03-28 20:12:01.584 200 TYPE is now 8-bit binary
+> 2025-03-28 20:12:01.584 PASV
+< 2025-03-28 20:12:01.611 227 Entering Passive Mode (91,134,248,208,61,77)
+> 2025-03-28 20:12:01.611 RETR productes_hokacatalogo.csv
+. 2025-03-28 20:12:01.611 Conectando con 91.134.248.208:15693...
+< 2025-03-28 20:12:01.664 150-Accepted data connection
+< 2025-03-28 20:12:01.664 150 1183.5 kbytes to download
+< 2025-03-28 20:12:01.820 226-File successfully transferred
+< 2025-03-28 20:12:01.820 226 0.149 seconds (measured here), 7.76 Mbytes per second
+. 2025-03-28 20:12:01.861 Data connection closed
+. 2025-03-28 20:12:01.862 Preserving timestamp [2025-03-28T18:05:22.000Z]
+. 2025-03-28 20:12:01.862 Descarga completada
+. 2025-03-28 20:12:01.862 Transfer done: '/productos/productes_hokacatalogo.csv' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\productes_hokacatalogo.CSV' [1211900]
+. 2025-03-28 20:12:01.862 Copying finished: Transferred: 1.211.900, Elapsed: 0:00:00, CPS: 3.366.388/s
+> 2025-03-28 20:12:01.863 Script: close
+. 2025-03-28 20:12:01.866 Desconectado del servidor
+. 2025-04-02 18:18:46.204 --------------------------------------------------------------------------
+. 2025-04-02 18:18:46.204 WinSCP Versión 6.3.6 (Compilación 15073 2024-11-25) (OS 10.0.19045 – Windows 10 Enterprise)
+. 2025-04-02 18:18:46.204 Configuration: nul
+. 2025-04-02 18:18:46.204 Log level: Normal
+. 2025-04-02 18:18:46.204 Local account: DELL-2022\onlin
+. 2025-04-02 18:18:46.204 Working directory: C:\soft_proj\ot4_proj
+. 2025-04-02 18:18:46.204 Process ID: 9264
+. 2025-04-02 18:18:46.236 Ancestor processes: WinSCP, cmd, python, cmd, explorer, ...
+. 2025-04-02 18:18:46.236 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=6.3.6 /consoleinstance=_20352_328 "/script=C:/Program Files (x86)/WinSCP/prova1ot4.txt" "/log=log.txt" "/ini=nul" 
+. 2025-04-02 18:18:46.236 Time zone: Current: GMT+2, Standard: GMT+1 (Hora estándar romance), DST: GMT+2 (Hora de verano romance), DST Start: 30/03/2025, DST End: 26/10/2025
+. 2025-04-02 18:18:46.236 Login time: miércoles, 2 de abril de 2025 18:18:46
+. 2025-04-02 18:18:46.236 --------------------------------------------------------------------------
+. 2025-04-02 18:18:46.236 Script: Retrospectively logging previous script records:
+> 2025-04-02 18:18:46.236 Script: open ftp://ftpguellji-TriForFun:***@ftp.opentiendas.com/
+. 2025-04-02 18:18:46.236 --------------------------------------------------------------------------
+. 2025-04-02 18:18:46.236 Session name: ftpguellji-TriForFun@ftp.opentiendas.com (Ad-Hoc site)
+. 2025-04-02 18:18:46.236 Host name: ftp.opentiendas.com (Port: 21)
+. 2025-04-02 18:18:46.236 User name: ftpguellji-TriForFun (Password: Yes, Key file: No, Passphrase: No)
+. 2025-04-02 18:18:46.236 Transfer Protocol: FTP
+. 2025-04-02 18:18:46.236 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2025-04-02 18:18:46.236 Disable Nagle: No
+. 2025-04-02 18:18:46.236 Proxy: None
+. 2025-04-02 18:18:46.236 Send buffer: 262144
+. 2025-04-02 18:18:46.236 UTF: Auto
+. 2025-04-02 18:18:46.236 FTPS: None [Client certificate: No]
+. 2025-04-02 18:18:46.236 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2025-04-02 18:18:46.236 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2025-04-02 18:18:46.236 Cache directory changes: Yes, Permanent: Yes
+. 2025-04-02 18:18:46.236 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2025-04-02 18:18:46.236 Timezone offset: 0h 0m
+. 2025-04-02 18:18:46.236 --------------------------------------------------------------------------
+< 2025-04-02 18:18:46.258 Script: Conectando con ftp.opentiendas.com...
+. 2025-04-02 18:18:46.258 Conectando con ftp.opentiendas.com...
+. 2025-04-02 18:18:46.358 Conectado con ftp.opentiendas.com. Esperando bienvenida...
+< 2025-04-02 18:18:46.389 220-  ~~~ Welcome to OVH ~~~
+< 2025-04-02 18:18:46.389 220 This is a private system - No anonymous login
+> 2025-04-02 18:18:46.389 USER ftpguellji-TriForFun
+< 2025-04-02 18:18:46.405 331 User ftpguellji-TriForFun OK. Password required
+> 2025-04-02 18:18:46.405 PASS **********
+< 2025-04-02 18:18:46.474 230 OK. Current restricted directory is /
+> 2025-04-02 18:18:46.474 SYST
+< 2025-04-02 18:18:46.505 215 UNIX Type: L8
+> 2025-04-02 18:18:46.505 FEAT
+< 2025-04-02 18:18:46.537 211-Extensions supported:
+< 2025-04-02 18:18:46.537  EPRT
+< 2025-04-02 18:18:46.537  IDLE
+< 2025-04-02 18:18:46.537  MDTM
+< 2025-04-02 18:18:46.537  SIZE
+< 2025-04-02 18:18:46.537  MFMT
+< 2025-04-02 18:18:46.537  REST STREAM
+< 2025-04-02 18:18:46.537  MLST type*;size*;sizd*;modify*;UNIX.mode*;UNIX.uid*;UNIX.gid*;unique*;
+< 2025-04-02 18:18:46.537  MLSD
+< 2025-04-02 18:18:46.537  AUTH TLS
+< 2025-04-02 18:18:46.537  PBSZ
+< 2025-04-02 18:18:46.537  PROT
+< 2025-04-02 18:18:46.537  UTF8
+< 2025-04-02 18:18:46.537  TVFS
+< 2025-04-02 18:18:46.537  ESTA
+< 2025-04-02 18:18:46.537  PASV
+< 2025-04-02 18:18:46.537  EPSV
+< 2025-04-02 18:18:46.537  SPSV
+< 2025-04-02 18:18:46.537  ESTP
+< 2025-04-02 18:18:46.559 211 End.
+> 2025-04-02 18:18:46.559 OPTS UTF8 ON
+< 2025-04-02 18:18:46.574 200 OK, UTF-8 enabled
+< 2025-04-02 18:18:46.574 Script: Conectado
+. 2025-04-02 18:18:46.574 Conectado
+. 2025-04-02 18:18:46.574 --------------------------------------------------------------------------
+. 2025-04-02 18:18:46.574 Using FTP protocol.
+. 2025-04-02 18:18:46.574 Doing startup conversation with host.
+< 2025-04-02 18:18:46.574 Script: Iniciando la sesión...
+> 2025-04-02 18:18:46.574 PWD
+< 2025-04-02 18:18:46.606 257 "/" is your current location
+. 2025-04-02 18:18:46.606 Getting current directory name.
+. 2025-04-02 18:18:46.606 Startup conversation with host finished.
+< 2025-04-02 18:18:46.606 Script: Sesión iniciada.
+< 2025-04-02 18:18:46.606 Script: Sesión activa: [1] ftpguellji-TriForFun@ftp.opentiendas.com
+> 2025-04-02 18:18:46.606 Script: cd /
+. 2025-04-02 18:18:46.606 Changing directory to "/".
+> 2025-04-02 18:18:46.606 CWD /
+< 2025-04-02 18:18:46.643 250 OK. Current directory is /
+. 2025-04-02 18:18:46.643 Getting current directory name.
+> 2025-04-02 18:18:46.643 PWD
+< 2025-04-02 18:18:46.659 257 "/" is your current location
+< 2025-04-02 18:18:46.659 Script: /
+> 2025-04-02 18:18:46.659 Script: get /STOCKSSD.CSV "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV"  
+. 2025-04-02 18:18:46.659 Listing file "/STOCKSSD.CSV".
+. 2025-04-02 18:18:46.659 Obteniendo información del archivo...
+> 2025-04-02 18:18:46.659 MLST /STOCKSSD.CSV
+< 2025-04-02 18:18:46.690 250-Begin
+< 2025-04-02 18:18:46.690  type=file;size=7681905;modify=20250402120451;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g7d26e9; /STOCKSSD.CSV
+< 2025-04-02 18:18:46.690 250 End.
+. 2025-04-02 18:18:46.706  type=file;size=7681905;modify=20250402120451;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g7d26e9; /STOCKSSD.CSV
+. 2025-04-02 18:18:46.706 Información del archivo descargada
+. 2025-04-02 18:18:46.706 STOCKSSD.CSV;-;7681905;2025-04-02T12:04:51.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-04-02 18:18:46.706 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\" - total size: 7.681.905
+. 2025-04-02 18:18:46.706   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: STOCKSSD.CSV
+. 2025-04-02 18:18:46.706   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-04-02 18:18:46.706   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-04-02 18:18:46.706 File: '/STOCKSSD.CSV' [2025-04-02T12:04:51.000Z] [7681905]
+. 2025-04-02 18:18:46.706 Copying "/STOCKSSD.CSV" to local directory started.
+. 2025-04-02 18:18:46.706 Binary transfer mode selected.
+. 2025-04-02 18:18:46.706 Iniciando descarga de /STOCKSSD.CSV
+> 2025-04-02 18:18:46.706 TYPE I
+< 2025-04-02 18:18:46.737 200 TYPE is now 8-bit binary
+> 2025-04-02 18:18:46.737 PASV
+< 2025-04-02 18:18:46.759 227 Entering Passive Mode (91,134,248,208,83,91)
+> 2025-04-02 18:18:46.759 RETR STOCKSSD.CSV
+. 2025-04-02 18:18:46.759 Conectando con 91.134.248.208:21339...
+< 2025-04-02 18:18:46.806 150-Accepted data connection
+< 2025-04-02 18:18:46.806 150 7501.9 kbytes to download
+< 2025-04-02 18:18:47.392 226-File successfully transferred
+< 2025-04-02 18:18:47.392 226 0.510 seconds (measured here), 14.36 Mbytes per second
+. 2025-04-02 18:18:47.562 Data connection closed
+. 2025-04-02 18:18:47.562 Preserving timestamp [2025-04-02T12:04:51.000Z]
+. 2025-04-02 18:18:47.562 Descarga completada
+. 2025-04-02 18:18:47.562 Transfer done: '/STOCKSSD.CSV' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV' [7681905]
+. 2025-04-02 18:18:47.562 Copying finished: Transferred: 7.681.905, Elapsed: 0:00:00, CPS: 8.974.188/s
+> 2025-04-02 18:18:47.562 Script: get /ot4_tots_els_productescatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV"  
+. 2025-04-02 18:18:47.562 Listing file "/ot4_tots_els_productescatalogo.csv".
+. 2025-04-02 18:18:47.562 Obteniendo información del archivo...
+> 2025-04-02 18:18:47.562 MLST /ot4_tots_els_productescatalogo.csv
+< 2025-04-02 18:18:47.593 250-Begin
+< 2025-04-02 18:18:47.593  type=file;size=5357188;modify=20250402155023;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g1acebf5; /ot4_tots_els_productescatalogo.csv
+< 2025-04-02 18:18:47.593 250 End.
+. 2025-04-02 18:18:47.593  type=file;size=5357188;modify=20250402155023;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g1acebf5; /ot4_tots_els_productescatalogo.csv
+. 2025-04-02 18:18:47.593 Información del archivo descargada
+. 2025-04-02 18:18:47.593 ot4_tots_els_productescatalogo.csv;-;5357188;2025-04-02T15:50:23.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-04-02 18:18:47.593 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\" - total size: 5.357.188
+. 2025-04-02 18:18:47.593   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: OT4_TOTS_ELS_PRODUCTES.CSV
+. 2025-04-02 18:18:47.593   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-04-02 18:18:47.593   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-04-02 18:18:47.593 File: '/ot4_tots_els_productescatalogo.csv' [2025-04-02T15:50:23.000Z] [5357188]
+. 2025-04-02 18:18:47.593 Copying "/ot4_tots_els_productescatalogo.csv" to local directory started.
+. 2025-04-02 18:18:47.593 Binary transfer mode selected.
+. 2025-04-02 18:18:47.593 Iniciando descarga de /ot4_tots_els_productescatalogo.csv
+> 2025-04-02 18:18:47.593 TYPE I
+< 2025-04-02 18:18:47.624 200 TYPE is now 8-bit binary
+> 2025-04-02 18:18:47.624 PASV
+< 2025-04-02 18:18:47.646 227 Entering Passive Mode (91,134,248,208,72,29)
+> 2025-04-02 18:18:47.646 RETR ot4_tots_els_productescatalogo.csv
+. 2025-04-02 18:18:47.646 Conectando con 91.134.248.208:18461...
+< 2025-04-02 18:18:47.693 150-Accepted data connection
+< 2025-04-02 18:18:47.693 150 5231.6 kbytes to download
+< 2025-04-02 18:18:48.147 226-File successfully transferred
+< 2025-04-02 18:18:48.147 226 0.430 seconds (measured here), 11.88 Mbytes per second
+. 2025-04-02 18:18:48.226 Data connection closed
+. 2025-04-02 18:18:48.226 Preserving timestamp [2025-04-02T15:50:23.000Z]
+. 2025-04-02 18:18:48.226 Descarga completada
+. 2025-04-02 18:18:48.226 Transfer done: '/ot4_tots_els_productescatalogo.csv' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV' [5357188]
+. 2025-04-02 18:18:48.226 Copying finished: Transferred: 5.357.188, Elapsed: 0:00:00, CPS: 8.463.172/s
+> 2025-04-02 18:18:48.226 Script: get /productes_orcacatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\productes_orcacatalogo.CSV"
+. 2025-04-02 18:18:48.226 Listing file "/productes_orcacatalogo.csv".
+. 2025-04-02 18:18:48.226 Obteniendo información del archivo...
+> 2025-04-02 18:18:48.226 MLST /productes_orcacatalogo.csv
+< 2025-04-02 18:18:48.263 250-Begin
+< 2025-04-02 18:18:48.263  type=file;size=222208;modify=20250402151347;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g1a43762; /productes_orcacatalogo.csv
+< 2025-04-02 18:18:48.263 250 End.
+. 2025-04-02 18:18:48.263  type=file;size=222208;modify=20250402151347;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g1a43762; /productes_orcacatalogo.csv
+. 2025-04-02 18:18:48.263 Información del archivo descargada
+. 2025-04-02 18:18:48.263 productes_orcacatalogo.csv;-;222208;2025-04-02T15:13:47.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-04-02 18:18:48.263 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\" - total size: 222.208
+. 2025-04-02 18:18:48.263   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: productes_orcacatalogo.CSV
+. 2025-04-02 18:18:48.263   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-04-02 18:18:48.263   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-04-02 18:18:48.263 File: '/productes_orcacatalogo.csv' [2025-04-02T15:13:47.000Z] [222208]
+. 2025-04-02 18:18:48.263 Copying "/productes_orcacatalogo.csv" to local directory started.
+. 2025-04-02 18:18:48.263 Binary transfer mode selected.
+. 2025-04-02 18:18:48.263 Iniciando descarga de /productes_orcacatalogo.csv
+> 2025-04-02 18:18:48.263 TYPE I
+< 2025-04-02 18:18:48.279 200 TYPE is now 8-bit binary
+> 2025-04-02 18:18:48.279 PASV
+< 2025-04-02 18:18:48.310 227 Entering Passive Mode (91,134,248,208,113,130)
+> 2025-04-02 18:18:48.310 RETR productes_orcacatalogo.csv
+. 2025-04-02 18:18:48.310 Conectando con 91.134.248.208:29058...
+< 2025-04-02 18:18:48.364 150-Accepted data connection
+< 2025-04-02 18:18:48.364 150 217.0 kbytes to download
+< 2025-04-02 18:18:48.426 226-File successfully transferred
+< 2025-04-02 18:18:48.426 226 0.070 seconds (measured here), 3.03 Mbytes per second
+. 2025-04-02 18:18:48.448 Data connection closed
+. 2025-04-02 18:18:48.448 Preserving timestamp [2025-04-02T15:13:47.000Z]
+. 2025-04-02 18:18:48.448 Descarga completada
+. 2025-04-02 18:18:48.448 Transfer done: '/productes_orcacatalogo.csv' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\productes_orcacatalogo.CSV' [222208]
+. 2025-04-02 18:18:48.448 Copying finished: Transferred: 222.208, Elapsed: 0:00:00, CPS: 1.201.124/s
+> 2025-04-02 18:18:48.448 Script: get /productos/productes_hokacatalogo.csv  "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\productes_hokacatalogo.CSV"
+. 2025-04-02 18:18:48.448 Listing file "/productos/productes_hokacatalogo.csv".
+. 2025-04-02 18:18:48.448 Obteniendo información del archivo...
+> 2025-04-02 18:18:48.448 MLST /productos/productes_hokacatalogo.csv
+< 2025-04-02 18:18:48.480 250-Begin
+< 2025-04-02 18:18:48.480  type=file;size=1211900;modify=20250402160759;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g247781a; /productos/productes_hokacatalogo.csv
+< 2025-04-02 18:18:48.480 250 End.
+. 2025-04-02 18:18:48.480  type=file;size=1211900;modify=20250402160759;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g247781a; /productos/productes_hokacatalogo.csv
+. 2025-04-02 18:18:48.480 Información del archivo descargada
+. 2025-04-02 18:18:48.480 productes_hokacatalogo.csv;-;1211900;2025-04-02T16:07:59.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-04-02 18:18:48.480 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\" - total size: 1.211.900
+. 2025-04-02 18:18:48.480   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: productes_hokacatalogo.CSV
+. 2025-04-02 18:18:48.480   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-04-02 18:18:48.480   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-04-02 18:18:48.480 File: '/productos/productes_hokacatalogo.csv' [2025-04-02T16:07:59.000Z] [1211900]
+. 2025-04-02 18:18:48.480 Copying "/productos/productes_hokacatalogo.csv" to local directory started.
+. 2025-04-02 18:18:48.480 Binary transfer mode selected.
+. 2025-04-02 18:18:48.480 Iniciando descarga de /productos/productes_hokacatalogo.csv
+> 2025-04-02 18:18:48.480 CWD /productos
+< 2025-04-02 18:18:48.511 250 OK. Current directory is /productos
+> 2025-04-02 18:18:48.511 PWD
+< 2025-04-02 18:18:48.542 257 "/productos" is your current location
+> 2025-04-02 18:18:48.542 TYPE I
+< 2025-04-02 18:18:48.565 200 TYPE is now 8-bit binary
+> 2025-04-02 18:18:48.565 PASV
+< 2025-04-02 18:18:48.596 227 Entering Passive Mode (91,134,248,208,74,221)
+> 2025-04-02 18:18:48.596 RETR productes_hokacatalogo.csv
+. 2025-04-02 18:18:48.596 Conectando con 91.134.248.208:19165...
+< 2025-04-02 18:18:48.642 150-Accepted data connection
+< 2025-04-02 18:18:48.642 150 1183.5 kbytes to download
+< 2025-04-02 18:18:48.780 226-File successfully transferred
+< 2025-04-02 18:18:48.780 226 0.126 seconds (measured here), 9.17 Mbytes per second
+. 2025-04-02 18:18:48.812 Data connection closed
+. 2025-04-02 18:18:48.812 Preserving timestamp [2025-04-02T16:07:59.000Z]
+. 2025-04-02 18:18:48.812 Descarga completada
+. 2025-04-02 18:18:48.812 Transfer done: '/productos/productes_hokacatalogo.csv' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\productes_hokacatalogo.CSV' [1211900]
+. 2025-04-02 18:18:48.812 Copying finished: Transferred: 1.211.900, Elapsed: 0:00:00, CPS: 3.650.301/s
+> 2025-04-02 18:18:48.812 Script: close
+. 2025-04-02 18:18:48.812 Desconectado del servidor
+. 2025-04-02 20:21:41.423 --------------------------------------------------------------------------
+. 2025-04-02 20:21:41.423 WinSCP Versión 6.3.6 (Compilación 15073 2024-11-25) (OS 10.0.19045 – Windows 10 Enterprise)
+. 2025-04-02 20:21:41.423 Configuration: nul
+. 2025-04-02 20:21:41.423 Log level: Normal
+. 2025-04-02 20:21:41.423 Local account: DELL-2022\onlin
+. 2025-04-02 20:21:41.423 Working directory: C:\soft_proj\ot4_proj
+. 2025-04-02 20:21:41.423 Process ID: 17784
+. 2025-04-02 20:21:41.454 Ancestor processes: WinSCP, cmd, python, cmd, explorer, ...
+. 2025-04-02 20:21:41.454 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=6.3.6 /consoleinstance=_2768_941 "/script=C:/Program Files (x86)/WinSCP/prova1ot4.txt" "/log=log.txt" "/ini=nul" 
+. 2025-04-02 20:21:41.454 Time zone: Current: GMT+2, Standard: GMT+1 (Hora estándar romance), DST: GMT+2 (Hora de verano romance), DST Start: 30/03/2025, DST End: 26/10/2025
+. 2025-04-02 20:21:41.454 Login time: miércoles, 2 de abril de 2025 20:21:41
+. 2025-04-02 20:21:41.454 --------------------------------------------------------------------------
+. 2025-04-02 20:21:41.454 Script: Retrospectively logging previous script records:
+> 2025-04-02 20:21:41.454 Script: open ftp://ftpguellji-TriForFun:***@ftp.opentiendas.com/
+. 2025-04-02 20:21:41.454 --------------------------------------------------------------------------
+. 2025-04-02 20:21:41.454 Session name: ftpguellji-TriForFun@ftp.opentiendas.com (Ad-Hoc site)
+. 2025-04-02 20:21:41.454 Host name: ftp.opentiendas.com (Port: 21)
+. 2025-04-02 20:21:41.454 User name: ftpguellji-TriForFun (Password: Yes, Key file: No, Passphrase: No)
+. 2025-04-02 20:21:41.454 Transfer Protocol: FTP
+. 2025-04-02 20:21:41.454 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2025-04-02 20:21:41.454 Disable Nagle: No
+. 2025-04-02 20:21:41.454 Proxy: None
+. 2025-04-02 20:21:41.454 Send buffer: 262144
+. 2025-04-02 20:21:41.454 UTF: Auto
+. 2025-04-02 20:21:41.454 FTPS: None [Client certificate: No]
+. 2025-04-02 20:21:41.454 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2025-04-02 20:21:41.454 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2025-04-02 20:21:41.454 Cache directory changes: Yes, Permanent: Yes
+. 2025-04-02 20:21:41.454 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2025-04-02 20:21:41.454 Timezone offset: 0h 0m
+. 2025-04-02 20:21:41.454 --------------------------------------------------------------------------
+< 2025-04-02 20:21:41.500 Script: Conectando con ftp.opentiendas.com...
+. 2025-04-02 20:21:41.501 Conectando con ftp.opentiendas.com...
+. 2025-04-02 20:21:41.642 Conectado con ftp.opentiendas.com. Esperando bienvenida...
+< 2025-04-02 20:21:41.673 220-  ~~~ Welcome to OVH ~~~
+< 2025-04-02 20:21:41.673 220 This is a private system - No anonymous login
+> 2025-04-02 20:21:41.673 USER ftpguellji-TriForFun
+< 2025-04-02 20:21:41.704 331 User ftpguellji-TriForFun OK. Password required
+> 2025-04-02 20:21:41.704 PASS **********
+< 2025-04-02 20:21:41.767 230 OK. Current restricted directory is /
+> 2025-04-02 20:21:41.767 SYST
+< 2025-04-02 20:21:41.798 215 UNIX Type: L8
+> 2025-04-02 20:21:41.798 FEAT
+< 2025-04-02 20:21:41.828 211-Extensions supported:
+< 2025-04-02 20:21:41.828  EPRT
+< 2025-04-02 20:21:41.828  IDLE
+< 2025-04-02 20:21:41.828  MDTM
+< 2025-04-02 20:21:41.828  SIZE
+< 2025-04-02 20:21:41.828  MFMT
+< 2025-04-02 20:21:41.828  REST STREAM
+< 2025-04-02 20:21:41.828  MLST type*;size*;sizd*;modify*;UNIX.mode*;UNIX.uid*;UNIX.gid*;unique*;
+< 2025-04-02 20:21:41.828  MLSD
+< 2025-04-02 20:21:41.828  AUTH TLS
+< 2025-04-02 20:21:41.828  PBSZ
+< 2025-04-02 20:21:41.829  PROT
+< 2025-04-02 20:21:41.829  UTF8
+< 2025-04-02 20:21:41.829  TVFS
+< 2025-04-02 20:21:41.829  ESTA
+< 2025-04-02 20:21:41.829  PASV
+< 2025-04-02 20:21:41.829  EPSV
+< 2025-04-02 20:21:41.829  SPSV
+< 2025-04-02 20:21:41.829  ESTP
+< 2025-04-02 20:21:41.829 211 End.
+> 2025-04-02 20:21:41.829 OPTS UTF8 ON
+< 2025-04-02 20:21:41.846 200 OK, UTF-8 enabled
+< 2025-04-02 20:21:41.846 Script: Conectado
+. 2025-04-02 20:21:41.846 Conectado
+. 2025-04-02 20:21:41.846 --------------------------------------------------------------------------
+. 2025-04-02 20:21:41.846 Using FTP protocol.
+. 2025-04-02 20:21:41.846 Doing startup conversation with host.
+< 2025-04-02 20:21:41.846 Script: Iniciando la sesión...
+> 2025-04-02 20:21:41.846 PWD
+< 2025-04-02 20:21:41.877 257 "/" is your current location
+. 2025-04-02 20:21:41.877 Getting current directory name.
+. 2025-04-02 20:21:41.877 Startup conversation with host finished.
+< 2025-04-02 20:21:41.877 Script: Sesión iniciada.
+< 2025-04-02 20:21:41.877 Script: Sesión activa: [1] ftpguellji-TriForFun@ftp.opentiendas.com
+> 2025-04-02 20:21:41.877 Script: cd /
+. 2025-04-02 20:21:41.877 Changing directory to "/".
+> 2025-04-02 20:21:41.877 CWD /
+< 2025-04-02 20:21:41.916 250 OK. Current directory is /
+. 2025-04-02 20:21:41.916 Getting current directory name.
+> 2025-04-02 20:21:41.916 PWD
+< 2025-04-02 20:21:41.939 257 "/" is your current location
+< 2025-04-02 20:21:41.939 Script: /
+> 2025-04-02 20:21:41.939 Script: get /STOCKSSD.CSV "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV"  
+. 2025-04-02 20:21:41.939 Listing file "/STOCKSSD.CSV".
+. 2025-04-02 20:21:41.939 Obteniendo información del archivo...
+> 2025-04-02 20:21:41.939 MLST /STOCKSSD.CSV
+< 2025-04-02 20:21:41.970 250-Begin
+< 2025-04-02 20:21:41.970  type=file;size=7681905;modify=20250402120451;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g7d26e9; /STOCKSSD.CSV
+< 2025-04-02 20:21:41.970 250 End.
+. 2025-04-02 20:21:41.970  type=file;size=7681905;modify=20250402120451;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g7d26e9; /STOCKSSD.CSV
+. 2025-04-02 20:21:41.970 Información del archivo descargada
+. 2025-04-02 20:21:41.970 STOCKSSD.CSV;-;7681905;2025-04-02T12:04:51.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-04-02 20:21:41.970 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\" - total size: 7.681.905
+. 2025-04-02 20:21:41.970   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: STOCKSSD.CSV
+. 2025-04-02 20:21:41.970   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-04-02 20:21:41.970   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-04-02 20:21:41.970 File: '/STOCKSSD.CSV' [2025-04-02T12:04:51.000Z] [7681905]
+. 2025-04-02 20:21:41.970 Copying "/STOCKSSD.CSV" to local directory started.
+. 2025-04-02 20:21:41.970 Binary transfer mode selected.
+. 2025-04-02 20:21:41.970 Iniciando descarga de /STOCKSSD.CSV
+> 2025-04-02 20:21:41.970 TYPE I
+< 2025-04-02 20:21:42.002 200 TYPE is now 8-bit binary
+> 2025-04-02 20:21:42.002 PASV
+< 2025-04-02 20:21:42.034 227 Entering Passive Mode (91,134,248,208,56,166)
+> 2025-04-02 20:21:42.034 RETR STOCKSSD.CSV
+. 2025-04-02 20:21:42.034 Conectando con 91.134.248.208:14502...
+< 2025-04-02 20:21:42.079 150-Accepted data connection
+< 2025-04-02 20:21:42.079 150 7501.9 kbytes to download
+< 2025-04-02 20:21:42.735 226-File successfully transferred
+< 2025-04-02 20:21:42.735 226 0.622 seconds (measured here), 11.77 Mbytes per second
+. 2025-04-02 20:21:42.845 Data connection closed
+. 2025-04-02 20:21:42.845 Preserving timestamp [2025-04-02T12:04:51.000Z]
+. 2025-04-02 20:21:42.845 Descarga completada
+. 2025-04-02 20:21:42.845 Transfer done: '/STOCKSSD.CSV' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV' [7681905]
+. 2025-04-02 20:21:42.845 Copying finished: Transferred: 7.681.905, Elapsed: 0:00:00, CPS: 8.779.320/s
+> 2025-04-02 20:21:42.845 Script: get /ot4_tots_els_productescatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV"  
+. 2025-04-02 20:21:42.845 Listing file "/ot4_tots_els_productescatalogo.csv".
+. 2025-04-02 20:21:42.845 Obteniendo información del archivo...
+> 2025-04-02 20:21:42.845 MLST /ot4_tots_els_productescatalogo.csv
+< 2025-04-02 20:21:42.876 250-Begin
+< 2025-04-02 20:21:42.876  type=file;size=5375369;modify=20250402181418;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g778ba8; /ot4_tots_els_productescatalogo.csv
+< 2025-04-02 20:21:42.876 250 End.
+. 2025-04-02 20:21:42.876  type=file;size=5375369;modify=20250402181418;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g778ba8; /ot4_tots_els_productescatalogo.csv
+. 2025-04-02 20:21:42.876 Información del archivo descargada
+. 2025-04-02 20:21:42.876 ot4_tots_els_productescatalogo.csv;-;5375369;2025-04-02T18:14:18.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-04-02 20:21:42.876 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\" - total size: 5.375.369
+. 2025-04-02 20:21:42.876   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: OT4_TOTS_ELS_PRODUCTES.CSV
+. 2025-04-02 20:21:42.876   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-04-02 20:21:42.876   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-04-02 20:21:42.876 File: '/ot4_tots_els_productescatalogo.csv' [2025-04-02T18:14:18.000Z] [5375369]
+. 2025-04-02 20:21:42.876 Copying "/ot4_tots_els_productescatalogo.csv" to local directory started.
+. 2025-04-02 20:21:42.876 Binary transfer mode selected.
+. 2025-04-02 20:21:42.876 Iniciando descarga de /ot4_tots_els_productescatalogo.csv
+> 2025-04-02 20:21:42.876 TYPE I
+< 2025-04-02 20:21:42.910 200 TYPE is now 8-bit binary
+> 2025-04-02 20:21:42.910 PASV
+< 2025-04-02 20:21:42.938 227 Entering Passive Mode (91,134,248,208,71,231)
+> 2025-04-02 20:21:42.938 RETR ot4_tots_els_productescatalogo.csv
+. 2025-04-02 20:21:42.938 Conectando con 91.134.248.208:18407...
+< 2025-04-02 20:21:42.985 150-Accepted data connection
+< 2025-04-02 20:21:42.985 150 5249.4 kbytes to download
+< 2025-04-02 20:21:43.485 226-File successfully transferred
+< 2025-04-02 20:21:43.485 226 0.477 seconds (measured here), 10.75 Mbytes per second
+. 2025-04-02 20:21:43.539 Data connection closed
+. 2025-04-02 20:21:43.540 Preserving timestamp [2025-04-02T18:14:18.000Z]
+. 2025-04-02 20:21:43.540 Descarga completada
+. 2025-04-02 20:21:43.541 Transfer done: '/ot4_tots_els_productescatalogo.csv' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV' [5375369]
+. 2025-04-02 20:21:43.541 Copying finished: Transferred: 5.375.369, Elapsed: 0:00:00, CPS: 8.083.261/s
+> 2025-04-02 20:21:43.542 Script: get /productes_orcacatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\productes_orcacatalogo.CSV"
+. 2025-04-02 20:21:43.542 Listing file "/productes_orcacatalogo.csv".
+. 2025-04-02 20:21:43.542 Obteniendo información del archivo...
+> 2025-04-02 20:21:43.542 MLST /productes_orcacatalogo.csv
+< 2025-04-02 20:21:43.570 250-Begin
+< 2025-04-02 20:21:43.570  type=file;size=222208;modify=20250402171624;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g2bc59ac; /productes_orcacatalogo.csv
+< 2025-04-02 20:21:43.570 250 End.
+. 2025-04-02 20:21:43.570  type=file;size=222208;modify=20250402171624;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g2bc59ac; /productes_orcacatalogo.csv
+. 2025-04-02 20:21:43.570 Información del archivo descargada
+. 2025-04-02 20:21:43.570 productes_orcacatalogo.csv;-;222208;2025-04-02T17:16:24.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-04-02 20:21:43.570 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\" - total size: 222.208
+. 2025-04-02 20:21:43.570   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: productes_orcacatalogo.CSV
+. 2025-04-02 20:21:43.570   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-04-02 20:21:43.570   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-04-02 20:21:43.570 File: '/productes_orcacatalogo.csv' [2025-04-02T17:16:24.000Z] [222208]
+. 2025-04-02 20:21:43.571 Copying "/productes_orcacatalogo.csv" to local directory started.
+. 2025-04-02 20:21:43.571 Binary transfer mode selected.
+. 2025-04-02 20:21:43.571 Iniciando descarga de /productes_orcacatalogo.csv
+> 2025-04-02 20:21:43.571 TYPE I
+< 2025-04-02 20:21:43.595 200 TYPE is now 8-bit binary
+> 2025-04-02 20:21:43.595 PASV
+< 2025-04-02 20:21:43.626 227 Entering Passive Mode (91,134,248,208,116,177)
+> 2025-04-02 20:21:43.626 RETR productes_orcacatalogo.csv
+. 2025-04-02 20:21:43.626 Conectando con 91.134.248.208:29873...
+< 2025-04-02 20:21:43.657 150-Accepted data connection
+< 2025-04-02 20:21:43.657 150 217.0 kbytes to download
+< 2025-04-02 20:21:43.735 226-File successfully transferred
+< 2025-04-02 20:21:43.735 226 0.071 seconds (measured here), 2.98 Mbytes per second
+. 2025-04-02 20:21:43.751 Data connection closed
+. 2025-04-02 20:21:43.751 Preserving timestamp [2025-04-02T17:16:24.000Z]
+. 2025-04-02 20:21:43.751 Descarga completada
+. 2025-04-02 20:21:43.751 Transfer done: '/productes_orcacatalogo.csv' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\productes_orcacatalogo.CSV' [222208]
+. 2025-04-02 20:21:43.751 Copying finished: Transferred: 222.208, Elapsed: 0:00:00, CPS: 1.227.668/s
+> 2025-04-02 20:21:43.766 Script: get /productos/productes_hokacatalogo.csv  "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\productes_hokacatalogo.CSV"
+. 2025-04-02 20:21:43.766 Listing file "/productos/productes_hokacatalogo.csv".
+. 2025-04-02 20:21:43.766 Obteniendo información del archivo...
+> 2025-04-02 20:21:43.766 MLST /productos/productes_hokacatalogo.csv
+< 2025-04-02 20:21:43.793 250-Begin
+< 2025-04-02 20:21:43.793  type=file;size=1216461;modify=20250402181828;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g77b436; /productos/productes_hokacatalogo.csv
+< 2025-04-02 20:21:43.793 250 End.
+. 2025-04-02 20:21:43.794  type=file;size=1216461;modify=20250402181828;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g77b436; /productos/productes_hokacatalogo.csv
+. 2025-04-02 20:21:43.794 Información del archivo descargada
+. 2025-04-02 20:21:43.794 productes_hokacatalogo.csv;-;1216461;2025-04-02T18:18:28.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-04-02 20:21:43.794 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\" - total size: 1.216.461
+. 2025-04-02 20:21:43.794   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: productes_hokacatalogo.CSV
+. 2025-04-02 20:21:43.794   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-04-02 20:21:43.794   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-04-02 20:21:43.794 File: '/productos/productes_hokacatalogo.csv' [2025-04-02T18:18:28.000Z] [1216461]
+. 2025-04-02 20:21:43.795 Copying "/productos/productes_hokacatalogo.csv" to local directory started.
+. 2025-04-02 20:21:43.795 Binary transfer mode selected.
+. 2025-04-02 20:21:43.795 Iniciando descarga de /productos/productes_hokacatalogo.csv
+> 2025-04-02 20:21:43.795 CWD /productos
+< 2025-04-02 20:21:43.813 250 OK. Current directory is /productos
+> 2025-04-02 20:21:43.813 PWD
+< 2025-04-02 20:21:43.845 257 "/productos" is your current location
+> 2025-04-02 20:21:43.845 TYPE I
+< 2025-04-02 20:21:43.876 200 TYPE is now 8-bit binary
+> 2025-04-02 20:21:43.876 PASV
+< 2025-04-02 20:21:43.903 227 Entering Passive Mode (91,134,248,208,40,142)
+> 2025-04-02 20:21:43.903 RETR productes_hokacatalogo.csv
+. 2025-04-02 20:21:43.903 Conectando con 91.134.248.208:10382...
+< 2025-04-02 20:21:43.954 150-Accepted data connection
+< 2025-04-02 20:21:43.954 150 1188.0 kbytes to download
+< 2025-04-02 20:21:44.104 226-File successfully transferred
+< 2025-04-02 20:21:44.104 226 0.140 seconds (measured here), 8.28 Mbytes per second
+. 2025-04-02 20:21:44.141 Data connection closed
+. 2025-04-02 20:21:44.141 Preserving timestamp [2025-04-02T18:18:28.000Z]
+. 2025-04-02 20:21:44.141 Descarga completada
+. 2025-04-02 20:21:44.157 Transfer done: '/productos/productes_hokacatalogo.csv' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\productes_hokacatalogo.CSV' [1216461]
+. 2025-04-02 20:21:44.157 Copying finished: Transferred: 1.216.461, Elapsed: 0:00:00, CPS: 3.351.132/s
+> 2025-04-02 20:21:44.157 Script: close
+. 2025-04-02 20:21:44.157 Desconectado del servidor
+. 2025-04-03 20:18:12.975 --------------------------------------------------------------------------
+. 2025-04-03 20:18:12.975 WinSCP Versión 6.3.6 (Compilación 15073 2024-11-25) (OS 10.0.19045 – Windows 10 Enterprise)
+. 2025-04-03 20:18:12.975 Configuration: nul
+. 2025-04-03 20:18:12.975 Log level: Normal
+. 2025-04-03 20:18:12.975 Local account: DELL-2022\onlin
+. 2025-04-03 20:18:12.975 Working directory: C:\soft_proj\ot4_proj
+. 2025-04-03 20:18:12.975 Process ID: 2060
+. 2025-04-03 20:18:13.007 Ancestor processes: WinSCP, cmd, python, cmd, explorer, ...
+. 2025-04-03 20:18:13.007 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=6.3.6 /consoleinstance=_11220_775 "/script=C:/Program Files (x86)/WinSCP/prova1ot4.txt" "/log=log.txt" "/ini=nul" 
+. 2025-04-03 20:18:13.007 Time zone: Current: GMT+2, Standard: GMT+1 (Hora estándar romance), DST: GMT+2 (Hora de verano romance), DST Start: 30/03/2025, DST End: 26/10/2025
+. 2025-04-03 20:18:13.007 Login time: jueves, 3 de abril de 2025 20:18:13
+. 2025-04-03 20:18:13.007 --------------------------------------------------------------------------
+. 2025-04-03 20:18:13.007 Script: Retrospectively logging previous script records:
+> 2025-04-03 20:18:13.007 Script: open ftp://ftpguellji-TriForFun:***@ftp.opentiendas.com/
+. 2025-04-03 20:18:13.007 --------------------------------------------------------------------------
+. 2025-04-03 20:18:13.007 Session name: ftpguellji-TriForFun@ftp.opentiendas.com (Ad-Hoc site)
+. 2025-04-03 20:18:13.007 Host name: ftp.opentiendas.com (Port: 21)
+. 2025-04-03 20:18:13.007 User name: ftpguellji-TriForFun (Password: Yes, Key file: No, Passphrase: No)
+. 2025-04-03 20:18:13.007 Transfer Protocol: FTP
+. 2025-04-03 20:18:13.007 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2025-04-03 20:18:13.007 Disable Nagle: No
+. 2025-04-03 20:18:13.007 Proxy: None
+. 2025-04-03 20:18:13.007 Send buffer: 262144
+. 2025-04-03 20:18:13.007 UTF: Auto
+. 2025-04-03 20:18:13.007 FTPS: None [Client certificate: No]
+. 2025-04-03 20:18:13.007 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2025-04-03 20:18:13.007 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2025-04-03 20:18:13.007 Cache directory changes: Yes, Permanent: Yes
+. 2025-04-03 20:18:13.007 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2025-04-03 20:18:13.007 Timezone offset: 0h 0m
+. 2025-04-03 20:18:13.007 --------------------------------------------------------------------------
+< 2025-04-03 20:18:13.022 Script: Conectando con ftp.opentiendas.com...
+. 2025-04-03 20:18:13.022 Conectando con ftp.opentiendas.com...
+. 2025-04-03 20:18:13.131 Conectado con ftp.opentiendas.com. Esperando bienvenida...
+< 2025-04-03 20:18:13.147 220-  ~~~ Welcome to OVH ~~~
+< 2025-04-03 20:18:13.147 220 This is a private system - No anonymous login
+> 2025-04-03 20:18:13.147 USER ftpguellji-TriForFun
+< 2025-04-03 20:18:13.179 331 User ftpguellji-TriForFun OK. Password required
+> 2025-04-03 20:18:13.179 PASS **********
+< 2025-04-03 20:18:13.241 230 OK. Current restricted directory is /
+> 2025-04-03 20:18:13.241 SYST
+< 2025-04-03 20:18:13.257 215 UNIX Type: L8
+> 2025-04-03 20:18:13.257 FEAT
+< 2025-04-03 20:18:13.288 211-Extensions supported:
+< 2025-04-03 20:18:13.288  EPRT
+< 2025-04-03 20:18:13.288  IDLE
+< 2025-04-03 20:18:13.288  MDTM
+< 2025-04-03 20:18:13.288  SIZE
+< 2025-04-03 20:18:13.288  MFMT
+< 2025-04-03 20:18:13.288  REST STREAM
+< 2025-04-03 20:18:13.288  MLST type*;size*;sizd*;modify*;UNIX.mode*;UNIX.uid*;UNIX.gid*;unique*;
+< 2025-04-03 20:18:13.288  MLSD
+< 2025-04-03 20:18:13.288  AUTH TLS
+< 2025-04-03 20:18:13.288  PBSZ
+< 2025-04-03 20:18:13.288  PROT
+< 2025-04-03 20:18:13.288  UTF8
+< 2025-04-03 20:18:13.288  TVFS
+< 2025-04-03 20:18:13.319  ESTA
+< 2025-04-03 20:18:13.319  PASV
+< 2025-04-03 20:18:13.319  EPSV
+< 2025-04-03 20:18:13.319  SPSV
+< 2025-04-03 20:18:13.319  ESTP
+< 2025-04-03 20:18:13.319 211 End.
+> 2025-04-03 20:18:13.319 OPTS UTF8 ON
+< 2025-04-03 20:18:13.335 200 OK, UTF-8 enabled
+< 2025-04-03 20:18:13.335 Script: Conectado
+. 2025-04-03 20:18:13.335 Conectado
+. 2025-04-03 20:18:13.335 --------------------------------------------------------------------------
+. 2025-04-03 20:18:13.335 Using FTP protocol.
+. 2025-04-03 20:18:13.335 Doing startup conversation with host.
+< 2025-04-03 20:18:13.335 Script: Iniciando la sesión...
+> 2025-04-03 20:18:13.335 PWD
+< 2025-04-03 20:18:13.366 257 "/" is your current location
+. 2025-04-03 20:18:13.366 Getting current directory name.
+. 2025-04-03 20:18:13.366 Startup conversation with host finished.
+< 2025-04-03 20:18:13.366 Script: Sesión iniciada.
+< 2025-04-03 20:18:13.366 Script: Sesión activa: [1] ftpguellji-TriForFun@ftp.opentiendas.com
+> 2025-04-03 20:18:13.366 Script: cd /
+. 2025-04-03 20:18:13.366 Changing directory to "/".
+> 2025-04-03 20:18:13.366 CWD /
+< 2025-04-03 20:18:13.381 250 OK. Current directory is /
+. 2025-04-03 20:18:13.381 Getting current directory name.
+> 2025-04-03 20:18:13.397 PWD
+< 2025-04-03 20:18:13.413 257 "/" is your current location
+< 2025-04-03 20:18:13.413 Script: /
+> 2025-04-03 20:18:13.413 Script: get /STOCKSSD.CSV "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV"  
+. 2025-04-03 20:18:13.413 Listing file "/STOCKSSD.CSV".
+. 2025-04-03 20:18:13.413 Obteniendo información del archivo...
+> 2025-04-03 20:18:13.413 MLST /STOCKSSD.CSV
+< 2025-04-03 20:18:13.444 250-Begin
+< 2025-04-03 20:18:13.444  type=file;size=7682345;modify=20250403120441;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g834e04b; /STOCKSSD.CSV
+< 2025-04-03 20:18:13.444 250 End.
+. 2025-04-03 20:18:13.444  type=file;size=7682345;modify=20250403120441;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g834e04b; /STOCKSSD.CSV
+. 2025-04-03 20:18:13.444 Información del archivo descargada
+. 2025-04-03 20:18:13.444 STOCKSSD.CSV;-;7682345;2025-04-03T12:04:41.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-04-03 20:18:13.444 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\" - total size: 7.682.345
+. 2025-04-03 20:18:13.444   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: STOCKSSD.CSV
+. 2025-04-03 20:18:13.444   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-04-03 20:18:13.444   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-04-03 20:18:13.444 File: '/STOCKSSD.CSV' [2025-04-03T12:04:41.000Z] [7682345]
+. 2025-04-03 20:18:13.444 Copying "/STOCKSSD.CSV" to local directory started.
+. 2025-04-03 20:18:13.444 Binary transfer mode selected.
+. 2025-04-03 20:18:13.444 Iniciando descarga de /STOCKSSD.CSV
+> 2025-04-03 20:18:13.444 TYPE I
+< 2025-04-03 20:18:13.475 200 TYPE is now 8-bit binary
+> 2025-04-03 20:18:13.475 PASV
+< 2025-04-03 20:18:13.491 227 Entering Passive Mode (91,134,248,208,65,106)
+> 2025-04-03 20:18:13.491 RETR STOCKSSD.CSV
+. 2025-04-03 20:18:13.491 Conectando con 91.134.248.208:16746...
+< 2025-04-03 20:18:13.553 150-Accepted data connection
+< 2025-04-03 20:18:13.553 150 7502.3 kbytes to download
+< 2025-04-03 20:18:14.147 226-File successfully transferred
+< 2025-04-03 20:18:14.147 226 0.538 seconds (measured here), 13.62 Mbytes per second
+. 2025-04-03 20:18:14.288 Data connection closed
+. 2025-04-03 20:18:14.288 Preserving timestamp [2025-04-03T12:04:41.000Z]
+. 2025-04-03 20:18:14.288 Descarga completada
+. 2025-04-03 20:18:14.288 Transfer done: '/STOCKSSD.CSV' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV' [7682345]
+. 2025-04-03 20:18:14.288 Copying finished: Transferred: 7.682.345, Elapsed: 0:00:00, CPS: 9.102.304/s
+> 2025-04-03 20:18:14.303 Script: get /ot4_tots_els_productescatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV"  
+. 2025-04-03 20:18:14.303 Listing file "/ot4_tots_els_productescatalogo.csv".
+. 2025-04-03 20:18:14.303 Obteniendo información del archivo...
+> 2025-04-03 20:18:14.303 MLST /ot4_tots_els_productescatalogo.csv
+< 2025-04-03 20:18:14.319 250-Begin
+< 2025-04-03 20:18:14.319  type=file;size=5375369;modify=20250403160743;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g8b3c4ff; /ot4_tots_els_productescatalogo.csv
+< 2025-04-03 20:18:14.319 250 End.
+. 2025-04-03 20:18:14.319  type=file;size=5375369;modify=20250403160743;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g8b3c4ff; /ot4_tots_els_productescatalogo.csv
+. 2025-04-03 20:18:14.319 Información del archivo descargada
+. 2025-04-03 20:18:14.319 ot4_tots_els_productescatalogo.csv;-;5375369;2025-04-03T16:07:43.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-04-03 20:18:14.319 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\" - total size: 5.375.369
+. 2025-04-03 20:18:14.319   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: OT4_TOTS_ELS_PRODUCTES.CSV
+. 2025-04-03 20:18:14.319   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-04-03 20:18:14.319   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-04-03 20:18:14.319 File: '/ot4_tots_els_productescatalogo.csv' [2025-04-03T16:07:43.000Z] [5375369]
+. 2025-04-03 20:18:14.319 Copying "/ot4_tots_els_productescatalogo.csv" to local directory started.
+. 2025-04-03 20:18:14.319 Binary transfer mode selected.
+. 2025-04-03 20:18:14.319 Iniciando descarga de /ot4_tots_els_productescatalogo.csv
+> 2025-04-03 20:18:14.319 TYPE I
+< 2025-04-03 20:18:14.350 200 TYPE is now 8-bit binary
+> 2025-04-03 20:18:14.350 PASV
+< 2025-04-03 20:18:14.366 227 Entering Passive Mode (91,134,248,208,83,108)
+> 2025-04-03 20:18:14.366 RETR ot4_tots_els_productescatalogo.csv
+. 2025-04-03 20:18:14.366 Conectando con 91.134.248.208:21356...
+< 2025-04-03 20:18:14.413 150-Accepted data connection
+< 2025-04-03 20:18:14.413 150 5249.4 kbytes to download
+< 2025-04-03 20:18:14.897 226-File successfully transferred
+< 2025-04-03 20:18:14.897 226 0.452 seconds (measured here), 11.33 Mbytes per second
+. 2025-04-03 20:18:14.944 Data connection closed
+. 2025-04-03 20:18:14.944 Preserving timestamp [2025-04-03T16:07:43.000Z]
+. 2025-04-03 20:18:14.944 Descarga completada
+. 2025-04-03 20:18:14.944 Transfer done: '/ot4_tots_els_productescatalogo.csv' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV' [5375369]
+. 2025-04-03 20:18:14.944 Copying finished: Transferred: 5.375.369, Elapsed: 0:00:00, CPS: 8.600.590/s
+> 2025-04-03 20:18:14.944 Script: get /productes_orcacatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\productes_orcacatalogo.CSV"
+. 2025-04-03 20:18:14.944 Listing file "/productes_orcacatalogo.csv".
+. 2025-04-03 20:18:14.944 Obteniendo información del archivo...
+> 2025-04-03 20:18:14.944 MLST /productes_orcacatalogo.csv
+< 2025-04-03 20:18:14.975 250-Begin
+< 2025-04-03 20:18:14.975  type=file;size=222208;modify=20250403175009;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g8c9342f; /productes_orcacatalogo.csv
+< 2025-04-03 20:18:14.975 250 End.
+. 2025-04-03 20:18:14.975  type=file;size=222208;modify=20250403175009;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g8c9342f; /productes_orcacatalogo.csv
+. 2025-04-03 20:18:14.975 Información del archivo descargada
+. 2025-04-03 20:18:14.975 productes_orcacatalogo.csv;-;222208;2025-04-03T17:50:09.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-04-03 20:18:14.975 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\" - total size: 222.208
+. 2025-04-03 20:18:14.975   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: productes_orcacatalogo.CSV
+. 2025-04-03 20:18:14.975   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-04-03 20:18:14.975   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-04-03 20:18:14.975 File: '/productes_orcacatalogo.csv' [2025-04-03T17:50:09.000Z] [222208]
+. 2025-04-03 20:18:14.975 Copying "/productes_orcacatalogo.csv" to local directory started.
+. 2025-04-03 20:18:14.975 Binary transfer mode selected.
+. 2025-04-03 20:18:14.975 Iniciando descarga de /productes_orcacatalogo.csv
+> 2025-04-03 20:18:14.975 TYPE I
+< 2025-04-03 20:18:15.006 200 TYPE is now 8-bit binary
+> 2025-04-03 20:18:15.006 PASV
+< 2025-04-03 20:18:15.022 227 Entering Passive Mode (91,134,248,208,89,173)
+> 2025-04-03 20:18:15.022 RETR productes_orcacatalogo.csv
+. 2025-04-03 20:18:15.022 Conectando con 91.134.248.208:22957...
+< 2025-04-03 20:18:15.069 150-Accepted data connection
+< 2025-04-03 20:18:15.084 150 217.0 kbytes to download
+< 2025-04-03 20:18:15.162 226-File successfully transferred
+< 2025-04-03 20:18:15.162 226 0.083 seconds (measured here), 2.55 Mbytes per second
+. 2025-04-03 20:18:15.178 Data connection closed
+. 2025-04-03 20:18:15.178 Preserving timestamp [2025-04-03T17:50:09.000Z]
+. 2025-04-03 20:18:15.178 Descarga completada
+. 2025-04-03 20:18:15.178 Transfer done: '/productes_orcacatalogo.csv' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\productes_orcacatalogo.CSV' [222208]
+. 2025-04-03 20:18:15.178 Copying finished: Transferred: 222.208, Elapsed: 0:00:00, CPS: 1.094.620/s
+> 2025-04-03 20:18:15.194 Script: get /productos/productes_hokacatalogo.csv  "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\productes_hokacatalogo.CSV"
+. 2025-04-03 20:18:15.194 Listing file "/productos/productes_hokacatalogo.csv".
+. 2025-04-03 20:18:15.194 Obteniendo información del archivo...
+> 2025-04-03 20:18:15.194 MLST /productos/productes_hokacatalogo.csv
+< 2025-04-03 20:18:15.209 250-Begin
+< 2025-04-03 20:18:15.209  type=file;size=1216461;modify=20250403165210;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g8c7f81c; /productos/productes_hokacatalogo.csv
+< 2025-04-03 20:18:15.209 250 End.
+. 2025-04-03 20:18:15.209  type=file;size=1216461;modify=20250403165210;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=39g8c7f81c; /productos/productes_hokacatalogo.csv
+. 2025-04-03 20:18:15.209 Información del archivo descargada
+. 2025-04-03 20:18:15.209 productes_hokacatalogo.csv;-;1216461;2025-04-03T16:52:10.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-04-03 20:18:15.209 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\" - total size: 1.216.461
+. 2025-04-03 20:18:15.209   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: productes_hokacatalogo.CSV
+. 2025-04-03 20:18:15.209   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-04-03 20:18:15.209   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-04-03 20:18:15.209 File: '/productos/productes_hokacatalogo.csv' [2025-04-03T16:52:10.000Z] [1216461]
+. 2025-04-03 20:18:15.209 Copying "/productos/productes_hokacatalogo.csv" to local directory started.
+. 2025-04-03 20:18:15.209 Binary transfer mode selected.
+. 2025-04-03 20:18:15.209 Iniciando descarga de /productos/productes_hokacatalogo.csv
+> 2025-04-03 20:18:15.209 CWD /productos
+< 2025-04-03 20:18:15.241 250 OK. Current directory is /productos
+> 2025-04-03 20:18:15.241 PWD
+< 2025-04-03 20:18:15.256 257 "/productos" is your current location
+> 2025-04-03 20:18:15.256 TYPE I
+< 2025-04-03 20:18:15.287 200 TYPE is now 8-bit binary
+> 2025-04-03 20:18:15.287 PASV
+< 2025-04-03 20:18:15.303 227 Entering Passive Mode (91,134,248,208,92,205)
+> 2025-04-03 20:18:15.303 RETR productes_hokacatalogo.csv
+. 2025-04-03 20:18:15.303 Conectando con 91.134.248.208:23757...
+< 2025-04-03 20:18:15.366 150-Accepted data connection
+< 2025-04-03 20:18:15.366 150 1188.0 kbytes to download
+< 2025-04-03 20:18:15.522 226-File successfully transferred
+< 2025-04-03 20:18:15.522 226 0.146 seconds (measured here), 7.95 Mbytes per second
+. 2025-04-03 20:18:15.568 Data connection closed
+. 2025-04-03 20:18:15.568 Preserving timestamp [2025-04-03T16:52:10.000Z]
+. 2025-04-03 20:18:15.568 Descarga completada
+. 2025-04-03 20:18:15.568 Transfer done: '/productos/productes_hokacatalogo.csv' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\productes_hokacatalogo.CSV' [1216461]
+. 2025-04-03 20:18:15.568 Copying finished: Transferred: 1.216.461, Elapsed: 0:00:00, CPS: 3.388.470/s
+> 2025-04-03 20:18:15.568 Script: close
+. 2025-04-03 20:18:15.568 Desconectado del servidor
+. 2025-04-23 20:13:54.242 --------------------------------------------------------------------------
+. 2025-04-23 20:13:54.243 WinSCP Versión 6.3.6 (Compilación 15073 2024-11-25) (OS 10.0.19045 – Windows 10 Enterprise)
+. 2025-04-23 20:13:54.244 Configuration: nul
+. 2025-04-23 20:13:54.244 Log level: Normal
+. 2025-04-23 20:13:54.244 Local account: DELL-2022\onlin
+. 2025-04-23 20:13:54.244 Working directory: C:\soft_proj\ot4_proj
+. 2025-04-23 20:13:54.244 Process ID: 12376
+. 2025-04-23 20:13:54.277 Ancestor processes: WinSCP, cmd, python, cmd, explorer, ...
+. 2025-04-23 20:13:54.277 Command-line: "C:\Program Files (x86)\WinSCP\WinSCP.exe" /console=6.3.6 /consoleinstance=_8268_857 "/script=C:/Program Files (x86)/WinSCP/prova1ot4.txt" "/log=log.txt" "/ini=nul" 
+. 2025-04-23 20:13:54.278 Time zone: Current: GMT+2, Standard: GMT+1 (Hora estándar romance), DST: GMT+2 (Hora de verano romance), DST Start: 30/03/2025, DST End: 26/10/2025
+. 2025-04-23 20:13:54.278 Login time: miércoles, 23 de abril de 2025 20:13:54
+. 2025-04-23 20:13:54.278 --------------------------------------------------------------------------
+. 2025-04-23 20:13:54.278 Script: Retrospectively logging previous script records:
+> 2025-04-23 20:13:54.278 Script: open ftp://ftpguellji-TriForFun:***@ftp.opentiendas.com/
+. 2025-04-23 20:13:54.278 --------------------------------------------------------------------------
+. 2025-04-23 20:13:54.278 Session name: ftpguellji-TriForFun@ftp.opentiendas.com (Ad-Hoc site)
+. 2025-04-23 20:13:54.278 Host name: ftp.opentiendas.com (Port: 21)
+. 2025-04-23 20:13:54.278 User name: ftpguellji-TriForFun (Password: Yes, Key file: No, Passphrase: No)
+. 2025-04-23 20:13:54.278 Transfer Protocol: FTP
+. 2025-04-23 20:13:54.278 Ping type: Dummy, Ping interval: 30 sec; Timeout: 15 sec
+. 2025-04-23 20:13:54.278 Disable Nagle: No
+. 2025-04-23 20:13:54.278 Proxy: None
+. 2025-04-23 20:13:54.278 Send buffer: 262144
+. 2025-04-23 20:13:54.278 UTF: Auto
+. 2025-04-23 20:13:54.278 FTPS: None [Client certificate: No]
+. 2025-04-23 20:13:54.278 FTP: Passive: Yes [Force IP: Auto]; MLSD: Auto [List all: Auto]; HOST: Auto
+. 2025-04-23 20:13:54.278 Local directory: default, Remote directory: home, Update: Yes, Cache: Yes
+. 2025-04-23 20:13:54.278 Cache directory changes: Yes, Permanent: Yes
+. 2025-04-23 20:13:54.278 Recycle bin: Delete to: No, Overwritten to: No, Bin path: 
+. 2025-04-23 20:13:54.278 Timezone offset: 0h 0m
+. 2025-04-23 20:13:54.278 --------------------------------------------------------------------------
+< 2025-04-23 20:13:54.304 Script: Conectando con ftp.opentiendas.com...
+. 2025-04-23 20:13:54.304 Conectando con ftp.opentiendas.com...
+. 2025-04-23 20:13:54.414 Conectado con ftp.opentiendas.com. Esperando bienvenida...
+< 2025-04-23 20:13:54.440 220-  ~~~ Welcome to OVH ~~~
+< 2025-04-23 20:13:54.440 220 This is a private system - No anonymous login
+> 2025-04-23 20:13:54.440 USER ftpguellji-TriForFun
+< 2025-04-23 20:13:54.468 331 User ftpguellji-TriForFun OK. Password required
+> 2025-04-23 20:13:54.468 PASS **********
+< 2025-04-23 20:13:54.542 230 OK. Current restricted directory is /
+> 2025-04-23 20:13:54.542 SYST
+< 2025-04-23 20:13:54.569 215 UNIX Type: L8
+> 2025-04-23 20:13:54.569 FEAT
+< 2025-04-23 20:13:54.596 211-Extensions supported:
+< 2025-04-23 20:13:54.596  EPRT
+< 2025-04-23 20:13:54.596  IDLE
+< 2025-04-23 20:13:54.596  MDTM
+< 2025-04-23 20:13:54.596  SIZE
+< 2025-04-23 20:13:54.596  MFMT
+< 2025-04-23 20:13:54.596  REST STREAM
+< 2025-04-23 20:13:54.596  MLST type*;size*;sizd*;modify*;UNIX.mode*;UNIX.uid*;UNIX.gid*;unique*;
+< 2025-04-23 20:13:54.596  MLSD
+< 2025-04-23 20:13:54.596  AUTH TLS
+< 2025-04-23 20:13:54.596  PBSZ
+< 2025-04-23 20:13:54.597  PROT
+< 2025-04-23 20:13:54.597  UTF8
+< 2025-04-23 20:13:54.597  TVFS
+< 2025-04-23 20:13:54.597  ESTA
+< 2025-04-23 20:13:54.597  PASV
+< 2025-04-23 20:13:54.597  EPSV
+< 2025-04-23 20:13:54.597  SPSV
+< 2025-04-23 20:13:54.597  ESTP
+< 2025-04-23 20:13:54.597 211 End.
+> 2025-04-23 20:13:54.597 OPTS UTF8 ON
+< 2025-04-23 20:13:54.623 200 OK, UTF-8 enabled
+< 2025-04-23 20:13:54.623 Script: Conectado
+. 2025-04-23 20:13:54.623 Conectado
+. 2025-04-23 20:13:54.623 --------------------------------------------------------------------------
+. 2025-04-23 20:13:54.623 Using FTP protocol.
+. 2025-04-23 20:13:54.623 Doing startup conversation with host.
+< 2025-04-23 20:13:54.623 Script: Iniciando la sesión...
+> 2025-04-23 20:13:54.624 PWD
+< 2025-04-23 20:13:54.651 257 "/" is your current location
+. 2025-04-23 20:13:54.651 Getting current directory name.
+. 2025-04-23 20:13:54.651 Startup conversation with host finished.
+< 2025-04-23 20:13:54.651 Script: Sesión iniciada.
+< 2025-04-23 20:13:54.651 Script: Sesión activa: [1] ftpguellji-TriForFun@ftp.opentiendas.com
+> 2025-04-23 20:13:54.653 Script: cd /
+. 2025-04-23 20:13:54.654 Changing directory to "/".
+> 2025-04-23 20:13:54.655 CWD /
+< 2025-04-23 20:13:54.682 250 OK. Current directory is /
+. 2025-04-23 20:13:54.682 Getting current directory name.
+> 2025-04-23 20:13:54.682 PWD
+< 2025-04-23 20:13:54.709 257 "/" is your current location
+< 2025-04-23 20:13:54.709 Script: /
+> 2025-04-23 20:13:54.710 Script: get /STOCKSSD.CSV "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV"  
+. 2025-04-23 20:13:54.710 Listing file "/STOCKSSD.CSV".
+. 2025-04-23 20:13:54.710 Obteniendo información del archivo...
+> 2025-04-23 20:13:54.710 MLST /STOCKSSD.CSV
+< 2025-04-23 20:13:54.738 250-Begin
+< 2025-04-23 20:13:54.738  type=file;size=7505921;modify=20250423120442;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=20g17721cc; /STOCKSSD.CSV
+< 2025-04-23 20:13:54.738 250 End.
+. 2025-04-23 20:13:54.742  type=file;size=7505921;modify=20250423120442;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=20g17721cc; /STOCKSSD.CSV
+. 2025-04-23 20:13:54.742 Información del archivo descargada
+. 2025-04-23 20:13:54.744 STOCKSSD.CSV;-;7505921;2025-04-23T12:04:42.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-04-23 20:13:54.746 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\" - total size: 7.505.921
+. 2025-04-23 20:13:54.748   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: STOCKSSD.CSV
+. 2025-04-23 20:13:54.748   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-04-23 20:13:54.748   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-04-23 20:13:54.748 File: '/STOCKSSD.CSV' [2025-04-23T12:04:42.000Z] [7505921]
+. 2025-04-23 20:13:54.749 Copying "/STOCKSSD.CSV" to local directory started.
+. 2025-04-23 20:13:54.749 Binary transfer mode selected.
+. 2025-04-23 20:13:54.750 Iniciando descarga de /STOCKSSD.CSV
+> 2025-04-23 20:13:54.750 TYPE I
+< 2025-04-23 20:13:54.778 200 TYPE is now 8-bit binary
+> 2025-04-23 20:13:54.778 PASV
+< 2025-04-23 20:13:54.804 227 Entering Passive Mode (91,134,248,208,42,206)
+> 2025-04-23 20:13:54.804 RETR STOCKSSD.CSV
+. 2025-04-23 20:13:54.804 Conectando con 91.134.248.208:10958...
+< 2025-04-23 20:13:54.857 150-Accepted data connection
+< 2025-04-23 20:13:54.857 150 7330.0 kbytes to download
+< 2025-04-23 20:13:55.491 226-File successfully transferred
+< 2025-04-23 20:13:55.491 226 0.606 seconds (measured here), 11.81 Mbytes per second
+. 2025-04-23 20:13:55.581 Data connection closed
+. 2025-04-23 20:13:55.582 Preserving timestamp [2025-04-23T12:04:42.000Z]
+. 2025-04-23 20:13:55.583 Descarga completada
+. 2025-04-23 20:13:55.584 Transfer done: '/STOCKSSD.CSV' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\STOCKSSD.CSV' [7505921]
+. 2025-04-23 20:13:55.584 Copying finished: Transferred: 7.505.921, Elapsed: 0:00:00, CPS: 8.956.946/s
+> 2025-04-23 20:13:55.585 Script: get /ot4_tots_els_productescatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV"  
+. 2025-04-23 20:13:55.585 Listing file "/ot4_tots_els_productescatalogo.csv".
+. 2025-04-23 20:13:55.585 Obteniendo información del archivo...
+> 2025-04-23 20:13:55.585 MLST /ot4_tots_els_productescatalogo.csv
+< 2025-04-23 20:13:55.612 250-Begin
+< 2025-04-23 20:13:55.612  type=file;size=5683410;modify=20250423170928;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=20g8274254; /ot4_tots_els_productescatalogo.csv
+< 2025-04-23 20:13:55.612 250 End.
+. 2025-04-23 20:13:55.613  type=file;size=5683410;modify=20250423170928;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=20g8274254; /ot4_tots_els_productescatalogo.csv
+. 2025-04-23 20:13:55.613 Información del archivo descargada
+. 2025-04-23 20:13:55.613 ot4_tots_els_productescatalogo.csv;-;5683410;2025-04-23T17:09:28.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-04-23 20:13:55.613 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\" - total size: 5.683.410
+. 2025-04-23 20:13:55.613   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: OT4_TOTS_ELS_PRODUCTES.CSV
+. 2025-04-23 20:13:55.613   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-04-23 20:13:55.613   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-04-23 20:13:55.613 File: '/ot4_tots_els_productescatalogo.csv' [2025-04-23T17:09:28.000Z] [5683410]
+. 2025-04-23 20:13:55.614 Copying "/ot4_tots_els_productescatalogo.csv" to local directory started.
+. 2025-04-23 20:13:55.614 Binary transfer mode selected.
+. 2025-04-23 20:13:55.614 Iniciando descarga de /ot4_tots_els_productescatalogo.csv
+> 2025-04-23 20:13:55.614 TYPE I
+< 2025-04-23 20:13:55.640 200 TYPE is now 8-bit binary
+> 2025-04-23 20:13:55.640 PASV
+< 2025-04-23 20:13:55.666 227 Entering Passive Mode (91,134,248,208,57,225)
+> 2025-04-23 20:13:55.666 RETR ot4_tots_els_productescatalogo.csv
+. 2025-04-23 20:13:55.666 Conectando con 91.134.248.208:14817...
+< 2025-04-23 20:13:55.720 150-Accepted data connection
+< 2025-04-23 20:13:55.720 150 5550.2 kbytes to download
+< 2025-04-23 20:13:56.204 226-File successfully transferred
+< 2025-04-23 20:13:56.204 226 0.460 seconds (measured here), 11.78 Mbytes per second
+. 2025-04-23 20:13:56.309 Data connection closed
+. 2025-04-23 20:13:56.311 Preserving timestamp [2025-04-23T17:09:28.000Z]
+. 2025-04-23 20:13:56.312 Descarga completada
+. 2025-04-23 20:13:56.312 Transfer done: '/ot4_tots_els_productescatalogo.csv' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\OT4_TOTS_ELS_PRODUCTES.CSV' [5683410]
+. 2025-04-23 20:13:56.312 Copying finished: Transferred: 5.683.410, Elapsed: 0:00:00, CPS: 8.130.772/s
+> 2025-04-23 20:13:56.313 Script: get /productes_orcacatalogo.csv "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\productes_orcacatalogo.CSV"
+. 2025-04-23 20:13:56.314 Listing file "/productes_orcacatalogo.csv".
+. 2025-04-23 20:13:56.314 Obteniendo información del archivo...
+> 2025-04-23 20:13:56.314 MLST /productes_orcacatalogo.csv
+< 2025-04-23 20:13:56.340 250-Begin
+< 2025-04-23 20:13:56.340  type=file;size=235100;modify=20250423164454;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=20g82594ff; /productes_orcacatalogo.csv
+< 2025-04-23 20:13:56.340 250 End.
+. 2025-04-23 20:13:56.340  type=file;size=235100;modify=20250423164454;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=20g82594ff; /productes_orcacatalogo.csv
+. 2025-04-23 20:13:56.340 Información del archivo descargada
+. 2025-04-23 20:13:56.340 productes_orcacatalogo.csv;-;235100;2025-04-23T16:44:54.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-04-23 20:13:56.340 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\" - total size: 235.100
+. 2025-04-23 20:13:56.340   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: productes_orcacatalogo.CSV
+. 2025-04-23 20:13:56.340   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-04-23 20:13:56.340   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-04-23 20:13:56.340 File: '/productes_orcacatalogo.csv' [2025-04-23T16:44:54.000Z] [235100]
+. 2025-04-23 20:13:56.341 Copying "/productes_orcacatalogo.csv" to local directory started.
+. 2025-04-23 20:13:56.341 Binary transfer mode selected.
+. 2025-04-23 20:13:56.341 Iniciando descarga de /productes_orcacatalogo.csv
+> 2025-04-23 20:13:56.341 TYPE I
+< 2025-04-23 20:13:56.368 200 TYPE is now 8-bit binary
+> 2025-04-23 20:13:56.368 PASV
+< 2025-04-23 20:13:56.395 227 Entering Passive Mode (91,134,248,208,51,95)
+> 2025-04-23 20:13:56.395 RETR productes_orcacatalogo.csv
+. 2025-04-23 20:13:56.395 Conectando con 91.134.248.208:13151...
+< 2025-04-23 20:13:56.448 150-Accepted data connection
+< 2025-04-23 20:13:56.448 150 229.6 kbytes to download
+< 2025-04-23 20:13:56.531 226-File successfully transferred
+< 2025-04-23 20:13:56.531 226 0.081 seconds (measured here), 2.77 Mbytes per second
+. 2025-04-23 20:13:56.555 Data connection closed
+. 2025-04-23 20:13:56.556 Preserving timestamp [2025-04-23T16:44:54.000Z]
+. 2025-04-23 20:13:56.557 Descarga completada
+. 2025-04-23 20:13:56.557 Transfer done: '/productes_orcacatalogo.csv' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\productes_orcacatalogo.CSV' [235100]
+. 2025-04-23 20:13:56.557 Copying finished: Transferred: 235.100, Elapsed: 0:00:00, CPS: 1.083.410/s
+> 2025-04-23 20:13:56.558 Script: get /productos/productes_hokacatalogo.csv  "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\productes_hokacatalogo.CSV"
+. 2025-04-23 20:13:56.559 Listing file "/productos/productes_hokacatalogo.csv".
+. 2025-04-23 20:13:56.559 Obteniendo información del archivo...
+> 2025-04-23 20:13:56.559 MLST /productos/productes_hokacatalogo.csv
+< 2025-04-23 20:13:56.586 250-Begin
+< 2025-04-23 20:13:56.586  type=file;size=1305312;modify=20250423163743;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=20g4235f7b; /productos/productes_hokacatalogo.csv
+< 2025-04-23 20:13:56.586 250 End.
+. 2025-04-23 20:13:56.586  type=file;size=1305312;modify=20250423163743;UNIX.mode=0604;UNIX.uid=23875;UNIX.gid=100;unique=20g4235f7b; /productos/productes_hokacatalogo.csv
+. 2025-04-23 20:13:56.586 Información del archivo descargada
+. 2025-04-23 20:13:56.586 productes_hokacatalogo.csv;-;1305312;2025-04-23T16:37:43.000Z;4;"23875" [0];"100" [0];rw----r--;0
+. 2025-04-23 20:13:56.586 Copying 1 files/directories to local directory "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\" - total size: 1.305.312
+. 2025-04-23 20:13:56.586   PrTime: Yes; PrRO: No; Rght: rw-r--r--; PrR: No (No); FnCs: N; RIC: 0100; Resume: S (102400); CalcS: No; Mask: productes_hokacatalogo.CSV
+. 2025-04-23 20:13:56.586   TM: B; ClAr: No; RemEOF: No; RemBOM: No; CPS: 0; NewerOnly: No; EncryptNewFiles: Yes; ExcludeHiddenFiles: No; ExcludeEmptyDirectories: No; InclM: ; ResumeL: 0
+. 2025-04-23 20:13:56.586   AscM: *.*html; *.htm; *.txt; *.php; *.php3; *.cgi; *.c; *.cpp; *.h; *.pas; *.bas; *.tex; *.pl; *.js; .htaccess; *.xtml; *.css; *.cfg; *.ini; *.sh; *.xml
+. 2025-04-23 20:13:56.586 File: '/productos/productes_hokacatalogo.csv' [2025-04-23T16:37:43.000Z] [1305312]
+. 2025-04-23 20:13:56.587 Copying "/productos/productes_hokacatalogo.csv" to local directory started.
+. 2025-04-23 20:13:56.587 Binary transfer mode selected.
+. 2025-04-23 20:13:56.588 Iniciando descarga de /productos/productes_hokacatalogo.csv
+> 2025-04-23 20:13:56.588 CWD /productos
+< 2025-04-23 20:13:56.614 250 OK. Current directory is /productos
+> 2025-04-23 20:13:56.614 PWD
+< 2025-04-23 20:13:56.641 257 "/productos" is your current location
+> 2025-04-23 20:13:56.642 TYPE I
+< 2025-04-23 20:13:56.668 200 TYPE is now 8-bit binary
+> 2025-04-23 20:13:56.668 PASV
+< 2025-04-23 20:13:56.697 227 Entering Passive Mode (91,134,248,208,79,215)
+> 2025-04-23 20:13:56.697 RETR productes_hokacatalogo.csv
+. 2025-04-23 20:13:56.697 Conectando con 91.134.248.208:20439...
+< 2025-04-23 20:13:56.743 150-Accepted data connection
+< 2025-04-23 20:13:56.743 150 1274.7 kbytes to download
+< 2025-04-23 20:13:56.881 226-File successfully transferred
+< 2025-04-23 20:13:56.881 226 0.124 seconds (measured here), 10.06 Mbytes per second
+. 2025-04-23 20:13:56.928 Data connection closed
+. 2025-04-23 20:13:56.929 Preserving timestamp [2025-04-23T16:37:43.000Z]
+. 2025-04-23 20:13:56.929 Descarga completada
+. 2025-04-23 20:13:56.930 Transfer done: '/productos/productes_hokacatalogo.csv' => 'C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\productes_hokacatalogo.CSV' [1305312]
+. 2025-04-23 20:13:56.930 Copying finished: Transferred: 1.305.312, Elapsed: 0:00:00, CPS: 3.794.511/s
+> 2025-04-23 20:13:56.931 Script: close
+. 2025-04-23 20:13:56.936 Desconectado del servidor
