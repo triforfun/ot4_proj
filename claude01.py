@@ -1,4 +1,4 @@
-# !/usr/bin/env python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Sistema de Actualización de Stocks
@@ -20,14 +20,16 @@ class StockUpdater:
         self.carpeta_archivos = carpeta_archivos
         self.setup_logging()
         self.proveedores_config = {
-            'availability.csv': {'proveedor': 'sailfish', 'encoding': 'utf-8', 'sep': ';', 'campos': {'ean': 'ean', 'stock': 'cantidad'}},
-            'ean_hanker.xlsx': {'proveedor': 'hanker', 'campos': {'ean': 'ean', 'stock': 'stock'}},
-            'extract_produit_tailles.csv': {'proveedor': 'local', 'encoding': 'utf-8', 'sep': ';', 'campos': {'ean': 'codigo_barras', 'stock': 'stock'}},
-            'infostock.txt.csv.csv': {'proveedor': 'mares', 'encoding': 'utf-8', 'sep': ',', 'campos': {'ean': 'ean', 'stock': 'stock'}},
-            'informe-maesarti.csv': {'proveedor': 'blunae', 'encoding': 'utf-8', 'sep': ';', 'campos': {'ean': 'ean', 'stock': 'disponibles'}},
-            'stock myrco-sport.xlsx': {'proveedor': 'myrco', 'campos': {'ean': 'ean', 'stock': 'stock'}},
-            'stockssd.csv': {'proveedor': 'somos_deportistas', 'encoding': 'utf-8', 'sep': ';', 'campos': {'ean': 'ean', 'stock': 'stock'}},
-            'stocks-spiuk.csv': {'proveedor': 'spiuk', 'encoding': 'utf-8', 'sep': ',', 'campos': {'ean': 'ean', 'stock': 'stock'}}
+            # 'Availability.csv': {'proveedor': 'sailfish', 'encoding': 'auto', 'sep': ',', 'campos': {'ean': 'Variant Id', 'stock': 'Instock'}},
+            'Availability.csv': {'proveedor': 'sailfish', 'encoding': 'auto', 'sep': ',', 'campos': {'Variant Id', 'Instock'}},
+
+            'CODIS EAN HANKER.xlsx': {'proveedor': 'hanker', 'campos': {'ean': 'ean', 'stock': 'stock'}},
+            'extract_produits_tailles.csv': {'proveedor': 'local', 'encoding': 'auto', 'sep': ';', 'campos': {'ean': 'codigo_barras', 'stock': 'stock'}},
+            'head_Swimming_infostock.txt-1.csv': {'proveedor': 'mares', 'encoding': 'auto', 'sep': ',', 'campos': {'ean': 'ean', 'stock': 'stock'}},
+            'informe-maesarti.csv': {'proveedor': 'blunae', 'encoding': 'auto', 'sep': ';', 'campos': {'ean': 'ean', 'stock': 'disponibles'}},
+            'Stock Myrco Sport.xlsx': {'proveedor': 'myrco', 'campos': {'ean': 'ean', 'stock': 'stock'}},
+            'STOCKSSD.CSV': {'proveedor': 'somos_deportistas', 'encoding': 'auto', 'sep': ';', 'campos': {'ean': 'ean', 'stock': 'stock'}},
+            'stocks-spiuk.csv': {'proveedor': 'spiuk', 'encoding': 'auto', 'sep': ',', 'campos': {'ean': 'ean', 'stock': 'stock'}}
         }
 
     def setup_logging(self):
@@ -152,7 +154,7 @@ class StockUpdater:
     def cargar_archivo_principal(self):
         """Carga el archivo principal de productos"""
         try:
-            archivo_principal = os.path.join(self.carpeta_archivos, 'ot4_tots_els_productes.csv')
+            archivo_principal = os.path.join(self.carpeta_archivos, 'OT4_TOTS_ELS_PRODUCTES.csv')
 
             # Detectar encoding automáticamente
             encoding = self.detectar_encoding(archivo_principal)
