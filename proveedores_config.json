@@ -1,0 +1,46 @@
+{
+    "Availability.csv": {
+        "proveedor": "sailfish",
+        "encoding": "auto",
+        "sep": ",",
+        "campos": {"ean": "Variant Id", "stock": "Instock"}
+    },
+    "CODIS EAN HANKER.xlsx": {
+        "proveedor": "hanker",
+        "campos": {"ean": "CÓDIGO DE BARRAS", "stock": "STOCKPR"}
+    },
+    "extract_produits_tailles.csv": {
+        "proveedor": "local",
+        "encoding": "auto",
+        "sep": ";",
+        "campos": {"ean": "Código de barras", "stock": "TRI FOR FUN, S.L."}
+    },
+    "head_Swimming_infostock.txt.csv.csv": {
+        "proveedor": "mares",
+        "encoding": "auto",
+        "sep": ";",
+        "campos": {"ean": "EAN ", "stock": "QTY"}
+    },
+    "informe-maesarti.csv": {
+        "proveedor": "blunae",
+        "encoding": "auto",
+        "sep": ";",
+        "campos": {"ean": "Código barras", "stock": "Stock físico"}
+    },
+    "Stock Myrco Sport.xlsx": {
+        "proveedor": "myrco",
+        "campos": {"ean": "Ean", "stock": "Stock"}
+    },
+    "STOCKSSD.CSV": {
+        "proveedor": "somos_deportistas",
+        "encoding": "auto",
+        "sep": ";",
+        "campos": {"ean": "Código barras", "stock": "Stock almacén ALM"}
+    },
+    "stocks-spiuk.csv": {
+        "proveedor": "spiuk",
+        "encoding": "auto",
+        "sep": ",",
+        "campos": {"ean": "--- EAN ---", "stock": "--- STOCK ---"}
+    }
+}
