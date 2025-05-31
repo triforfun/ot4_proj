@@ -86,4 +86,4 @@ set /a TOTAL_SECONDS=(%END_HOURS%*3600+%END_MINUTES%*60+%END_SECONDS%)-(%START_H
 :: Mostrar el tiempo transcurrido
 echo Tiempo total de ejecución: %TOTAL_SECONDS% segundos
 
-PAUSE
+REM PAUSE
