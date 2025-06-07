@@ -9,6 +9,7 @@ Fecha: 2025
 
 import pandas as pd
 import logging
+import sys
 from datetime import datetime
 import glob
 import re
@@ -30,7 +31,7 @@ class StockUpdater:
         self.carpeta_entrada = Path(carpeta_entrada)
         self.carpeta_salida = Path(carpeta_salida)
         self.carpeta_backup = Path(carpeta_backup)
-        self.setup_logging()
+        self.log_file = self.setup_logging()
 
         # Configuración de los proveedores
         self.proveedores_config = {
@@ -42,8 +43,8 @@ class StockUpdater:
             'Stock Myrco Sport.xlsx': {'proveedor': 'myrco', 'campos': {'ean': 'Ean', 'stock': 'Stock'}},
             'STOCKSSD.CSV': {'proveedor': 'somos_deportistas', 'encoding': 'auto', 'sep': ';', 'campos': {'ean': 'Código barras', 'stock': 'Stock almacén ALM'}},
             'stocks-spiuk.csv': {'proveedor': 'spiuk', 'encoding': 'auto', 'sep': ';', 'quotechar': '"', 'campos': {'ean': '--- EAN ---', 'stock': '--- STOCK ---'}},
-            'HOKA_FW24_Especialista.xlsx': {'proveedor': 'running_king', 'campos': {'ean': 'UPC', 'stock': 'Quantity Available'}},
-            'HOKA_SS25_Especialista.xlsx': {'proveedor': 'running_king', 'campos': {'ean': 'UPC', 'stock': 'Quantity Available'}},
+            'HOKA FW24 Especialista.xlsx': {'proveedor': 'running_king', 'campos': {'ean': 'UPC', 'stock': 'Quantity Available'}},
+            'HOKA SS25 Especialista.xlsx': {'proveedor': 'running_king', 'campos': {'ean': 'UPC', 'stock': 'Quantity Available'}},
             'STOCK_ORCA.CSV': {'proveedor': 'orbea', 'encoding': 'auto', 'sep': ';', 'campos': {'indexbusca': 'indexbusca', 'stock': 'Unidades disponibles'}},
             'orca_creuat.csv': {'proveedor': 'orbea', 'encoding': 'auto', 'sep': ';', 'campos': {'indexbusca': 'indexbusca', 'ean': 'ean'}}
         }
@@ -59,19 +60,23 @@ class StockUpdater:
 
     def setup_logging(self):
         """Configura el sistema de logging para registrar la actividad del script."""
+        log_dir = Path("C:/TFF/DOCS/ONLINE/STOCKS_PROCESADOS/LOGS")
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         log_filename = f"stock_update_{timestamp}.log"
-        log_filepath = self.carpeta_salida / log_filename
+        log_filepath = log_dir / log_filename
 
+        # Configurar el logging para escribir en el archivo
         logging.basicConfig(
             level=logging.INFO,
             format='%(asctime)s - %(levelname)s - %(message)s',
             handlers=[
-                logging.FileHandler(log_filepath, encoding='utf-8'),
-                logging.StreamHandler()
+                logging.FileHandler(log_filepath, encoding='utf-8')
             ]
         )
+
         self.logger = logging.getLogger(__name__)
+
+        return log_filepath
 
     def detectar_encoding(self, archivo):
         """
@@ -170,7 +175,7 @@ class StockUpdater:
         self.logger.info(f"Intentando leer archivo: {archivo_nombre}")
 
         # Determinar la ruta completa del archivo
-        if archivo_nombre in ['HOKA_FW24_Especialista.xlsx', 'HOKA_SS25_Especialista.xlsx']:
+        if archivo_nombre in ['HOKA FW24 Especialista.xlsx', 'HOKA SS25 Especialista.xlsx']:
             ruta_completa = self.carpeta_hoka / archivo_nombre
         elif archivo_nombre in ['STOCK_ORCA.CSV', 'orca_creuat.csv']:
             ruta_completa = self.carpeta_orca / archivo_nombre
@@ -482,39 +487,39 @@ class StockUpdater:
     def generar_reporte_final(self, actualizados_count, sin_actualizar_proveedores, sin_actualizar_local, errores_archivos, archivo_salida_path, proveedores_info):
         """Genera el reporte final de la operación tanto en el log como en consola."""
         self.logger.info("\n" + "="*60)
-        self.logger.info("🎯 REPORTE FINAL DE ACTUALIZACIÓN DE STOCKS")
+        self.logger.info("REPORTE FINAL DE ACTUALIZACIÓN DE STOCKS")
         self.logger.info("="*60)
-        self.logger.info(f"✅ Productos con stock actualizado: {actualizados_count}")
-        self.logger.info(f"⚠️ Productos del archivo principal sin match en proveedores: {sin_actualizar_proveedores}")
-        self.logger.info(f"⚠️ Productos del archivo principal sin match en local: {sin_actualizar_local}")
-        self.logger.info(f"❌ Archivos de proveedor con errores de lectura: {len(errores_archivos)}")
-        self.logger.info(f"📄 Archivo de salida generado en: {archivo_salida_path}")
+        self.logger.info(f"Productos con stock actualizado: {actualizados_count}")
+        self.logger.info(f"Productos del archivo principal sin match en proveedores: {sin_actualizar_proveedores}")
+        self.logger.info(f"Productos del archivo principal sin match en local: {sin_actualizar_local}")
+        self.logger.info(f"Archivos de proveedor con errores de lectura: {len(errores_archivos)}")
+        self.logger.info(f"Archivo de salida generado en: {archivo_salida_path}")
 
         if errores_archivos:
             self.logger.warning(f"Detalles de archivos con errores: {', '.join(errores_archivos)}")
 
-        self.logger.info("\n📊 DETALLE POR PROVEEDOR:")
+        self.logger.info("\nDETALLE POR PROVEEDOR:")
         for proveedor, info in proveedores_info.items():
             self.logger.info(f"Proveedor: {proveedor}")
-            self.logger.info(f"  ✅ Actualizados: {info['actualizados']}")
-            self.logger.info(f"  ❌ Sin match: {info['sin_match']}")
+            self.logger.info(f"Actualizados: {info['actualizados']}")
+            self.logger.info(f"Sin match: {info['sin_match']}")
 
         print("\n" + "="*60)
-        print("🎯 ACTUALIZACIÓN DE STOCKS COMPLETADA")
+        print("ACTUALIZACIÓN DE STOCKS COMPLETADA")
         print("="*60)
-        print(f"✅ Productos con stock actualizado: {actualizados_count}")
-        print(f"⚠️ Productos del archivo principal sin match en proveedores: {sin_actualizar_proveedores}")
-        print(f"⚠️ Productos del archivo principal sin match en local: {sin_actualizar_local}")
-        print(f"❌ Archivos de proveedor con errores de lectura: {len(errores_archivos)}")
-        print(f"📄 Archivo de salida generado en: {archivo_salida_path}")
+        print(f"Productos con stock actualizado: {actualizados_count}")
+        print(f"Productos del archivo principal sin match en proveedores: {sin_actualizar_proveedores}")
+        print(f"Productos del archivo principal sin match en local: {sin_actualizar_local}")
+        print(f"Archivos de proveedor con errores de lectura: {len(errores_archivos)}")
+        print(f"Archivo de salida generado en: {archivo_salida_path}")
         if errores_archivos:
-            print(f"⚠️ ATENCIÓN: Se encontraron errores en los siguientes archivos de proveedor: {', '.join(errores_archivos)}")
+            print(f"ATENCIÓN: Se encontraron errores en los siguientes archivos de proveedor: {', '.join(errores_archivos)}")
 
-        print("\n📊 DETALLE POR PROVEEDOR:")
+        print("\nDETALLE POR PROVEEDOR:")
         for proveedor, info in proveedores_info.items():
             print(f"Proveedor: {proveedor}")
-            print(f"  ✅ Actualizados: {info['actualizados']}")
-            print(f"  ❌ Sin match: {info['sin_match']}")
+            print(f"Actualizados: {info['actualizados']}")
+            print(f"Sin match: {info['sin_match']}")
 
         print("="*60)
 
@@ -525,7 +530,7 @@ def main():
     CARPETA_BACKUP = "C:/TFF/DOCS/ONLINE/STOCKS_BACKUP"
 
     if not Path(CARPETA_ENTRADA).exists():
-        print(f"❌ Error: La carpeta de entrada '{CARPETA_ENTRADA}' no existe. Por favor, créala o verifica la ruta.")
+        print(f"Error: La carpeta de entrada '{CARPETA_ENTRADA}' no existe. Por favor, créala o verifica la ruta.")
         return
 
     Path(CARPETA_SALIDA).mkdir(parents=True, exist_ok=True)
@@ -535,9 +540,9 @@ def main():
     exito = updater.procesar_actualizacion()
 
     if exito:
-        updater.logger.info("🎉 Proceso completado exitosamente.")
+        print("Proceso completado exitosamente.")
     else:
-        updater.logger.critical("💥 El proceso terminó con errores críticos.")
+        print("El proceso terminó con errores críticos.")
 
 if __name__ == "__main__":
     main()

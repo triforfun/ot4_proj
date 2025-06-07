@@ -18,10 +18,6 @@ if exist c:\users\onlin\downloads\arena*.xlsx (
 	del /f c:\users\onlin\downloads\arena*.xlsx
 )
 
-if exist c:\users\onlin\downloads\hokafetures*.xlsx (
-	del /f c:\users\onlin\downloads\hokafeetures*.xlsx
-)
-
 if exist c:\users\onlin\downloads\stocks-spiuk*.csv (
 	del /f c:\users\onlin\downloads\stocks-spiuk*.csv
 )
@@ -46,15 +42,7 @@ if exist "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ARENA\ARENA ss25.XLSX" (
 	del /F "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ARENA\ARENA ss25.XLSX"
 )
 
-if exist "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\HOKA FW24 Especialista.xlsx" (
-	del /F "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\HOKA FW24 Especialista.xlsx"
-)
-
-if exist "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\HOKA ss25 Especialista.xlsx" (
-	del /F "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\HOKA\HOKA ss25 Especialista.xlsx"
-)
-
-python C:\soft_proj\ot4_proj\descarrega_season_act_hoka.py
+python c:\soft_proj\ot4_proj\hoka_descarrega_playwright.py
 python c:\soft_proj\ot4_proj\descarregaSPIUK.py
 python c:\soft_proj\ot4_proj\exportaHBcsv.py
 python c:\soft_proj\ot4_proj\descarrega_orca.py
@@ -68,7 +56,7 @@ move /Y c:\users\onlin\downloads\custom.csv c:\TFF\DOCS\ONLINE\STOCKS_EXTERNS
 move /Y c:\users\onlin\downloads\list.csv C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\STOCK_ORCA.CSV
 
 python c:\soft_proj\ot4_proj\mover_ficheros.py
-python c:\soft_proj\ot4_proj\actua_stock_hoka_2_seasons_con_fechas.py
+rem python c:\soft_proj\ot4_proj\actua_stock_hoka_2_seasons_con_fechas.py
 
 :: Calcular el tiempo transcurrido
 set END_TIME=%TIME%
