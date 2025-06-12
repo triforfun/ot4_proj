@@ -5,7 +5,7 @@ def download_spiuk_stock():
 
     with sync_playwright() as p:
         # Configurar el navegador (Chromium en este caso)
-        browser = p.chromium.launch(headless=False)  # Cambia a True para modo headless
+        browser = p.chromium.launch(headless=True)  # Cambia a True para modo headless
         page = browser.new_page()
 
         print("Comienza la descarga de SPIUK")

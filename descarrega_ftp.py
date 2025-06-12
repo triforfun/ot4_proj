@@ -1,34 +1,50 @@
 """
-baixa el fitxer d'stock de blunae i cdc per ftp
+Descarga el archivo de stock de Blunae por FTP.
 """
 import os
 import subprocess
+from pathlib import Path
 
 # Definir rutas de archivos y comandos
-WINSCP_PATH = 'C:/Program Files (x86)/WinSCP/WinSCP.com'
-SCRIPT_FN1 = 'C:/Program Files (x86)/WinSCP/prova1ot4.txt'
-SCRIPT_FN2 = 'C:/Program Files (x86)/WinSCP/stockcdc.txt'
-LOG_FN = 'log.txt'
-FICH1_PATH = "c:/users/onlin/downloads/informe-maesarti.csv"
+WINSCP_PATH = Path('C:/Program Files (x86)/WinSCP/WinSCP.com')
+SCRIPT_FN1 = Path('C:/Program Files (x86)/WinSCP/prova1ot4.txt')
+LOG_FN = Path('log.txt')
+FICH1_PATH = Path("c:/users/onlin/downloads/informe-maesarti.csv")
 
 def run_winscp_script(script_fn, log_fn):
     try:
-        subprocess.run([
-            WINSCP_PATH,
-            '/script=' + script_fn,
-            '/log=' + log_fn,
-            '/ini=nul'
-        ], shell=True, check=True)
+        subprocess.run(
+            [
+                str(WINSCP_PATH),
+                f'/script={script_fn}',
+                f'/log={log_fn}',
+                '/ini=nul'
+            ],
+            check=True,
+            text=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE
+        )
+        print(f"Script {script_fn} ejecutado con éxito.")
     except subprocess.CalledProcessError as e:
-        print(f"Error al ejecutar el script {script_fn}: {e}")
+        print(f"Error al ejecutar el script {script_fn}: {e.stderr}")
 
-# Ejecutar scripts
-run_winscp_script(SCRIPT_FN1, LOG_FN)
-# run_winscp_script(SCRIPT_FN2, LOG_FN) aquest era per baixar el stock de cdc peroò ja no ho fem servir
+def main():
+    # Ejecutar script
+    run_winscp_script(SCRIPT_FN1, LOG_FN)
 
-# Verificar y eliminar archivo si existe
-if not os.path.exists(FICH1_PATH):
-    print("NO EXISTEn los ficheros", FICH1_PATH)
-else:
-    os.remove(FICH1_PATH)
-    print("borrados los ficheros", FICH1_PATH)
+    # Verificar y eliminar archivo si existe
+    if FICH1_PATH.exists():
+        try:
+            FICH1_PATH.unlink()
+            print(f"Archivo {FICH1_PATH} ha sido eliminado.")
+        except Exception as e:
+            print(f"Error al eliminar el archivo {FICH1_PATH}: {e}")
+    else:
+        print(f"El archivo {FICH1_PATH} no existe.")
+
+    # Mensaje de finalización
+    print("Todas las operaciones se han completado con éxito.")
+
+if __name__ == "__main__":
+    main()
