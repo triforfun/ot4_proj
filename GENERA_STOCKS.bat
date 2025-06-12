@@ -43,15 +43,18 @@ if exist "C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ARENA\ARENA ss25.XLSX" (
 )
 
 python c:\soft_proj\ot4_proj\hoka_descarrega_playwright.py
-python c:\soft_proj\ot4_proj\descarregaSPIUK.py
-python c:\soft_proj\ot4_proj\exportaHBcsv.py
-python c:\soft_proj\ot4_proj\descarrega_orca.py
+rem python c:\soft_proj\ot4_proj\descarregaSPIUK.py
+python c:\soft_proj\ot4_proj\descarrega_spiuk_playwright.py
+python C:\soft_proj\ot4_proj\exporta_hb_csv_playwright.py
+rem python c:\soft_proj\ot4_proj\exportaHBcsv.py
+rem python c:\soft_proj\ot4_proj\descarrega_orca.py
+python C:\soft_proj\ot4_proj\descarrega_orca_playwright.py
 python c:\soft_proj\ot4_proj\descarregaSF_BL.py
 
 move /Y c:\users\onlin\downloads\informe-maesarti.csv c:\TFF\DOCS\ONLINE\STOCKS_EXTERNS
 move /Y c:\users\onlin\downloads\stocks-spiuk.csv c:\TFF\DOCS\ONLINE\STOCKS_EXTERNS
-move /Y c:\users\onlin\downloads\extract_produits.csv c:\TFF\DOCS\ONLINE\STOCKS_EXTERNS
-move /Y c:\users\onlin\downloads\extract_produits_tailles.csv c:\TFF\DOCS\ONLINE\STOCKS_EXTERNS
+rem move /Y c:\users\onlin\downloads\extract_produits.csv c:\TFF\DOCS\ONLINE\STOCKS_EXTERNS
+rem move /Y c:\users\onlin\downloads\extract_produits_tailles.csv c:\TFF\DOCS\ONLINE\STOCKS_EXTERNS
 move /Y c:\users\onlin\downloads\custom.csv c:\TFF\DOCS\ONLINE\STOCKS_EXTERNS
 move /Y c:\users\onlin\downloads\list.csv C:\TFF\DOCS\ONLINE\STOCKS_EXTERNS\ORCA\STOCK_ORCA.CSV
 
